@@ -194,10 +194,10 @@ EVENING_WATCHLIST_SYMBOLS: list[str] = []
 # below (rsm_swing / combined_swing / manual_*_deploy).
 STRATEGY_WATCHLISTS: dict[str, list[str]] = {
     "Institutional Probability": ["consensus"],
-    "Relative Strength Momentum": ["full_universe"],
-    "Combined Swing": ["full_universe"],
+    "Relative Strength Momentum": ["full_nse_500"],
+    "Combined Swing": ["full_nse_500"],
     "Manual Institutional (time-gated)": ["manual_morning_deploy_500", "manual_evening_deploy_500"],
-    "ML Standalone": ["full_universe"],
+    "ML Standalone": ["full_nse_500"],
     # Phase D: ML Opening Breakout — 5m opening-minutes strategy (09:15-10:30).
     # Scans the full 500-symbol NSE universe; the model selects entries via its
     # own thr-0.70 gate. Uses full_nse_500 (the Phase 35 universe) so every

@@ -10,7 +10,7 @@ Strategies & tiers:
   Relative Strength Momentum  rs_momentum_swing_tuned (rsm_swing, 8)     15m
   Combined Swing              combined_swing (combined_swing, 17)         15m
   Manual Inst. (time-gated)   manual_morning_deploy (9) / evening. (5)   15m
-  ML Standalone               ml_standalone (full_universe, 153)          15m
+  ML Standalone               ml_standalone (full_nse_500, 500)           15m
   Daily Trend Breakout        daily_trend (daily_trend_breakout, 108)     1d
   ML Opening Breakout         orb_scan (full_universe, 500)               5m
 
@@ -74,7 +74,7 @@ SCAN_TIERS = [
     ("manual_evening_deploy", "manual_evening_deploy", "intraday",
      {"tf": "15m", "sl": 0.5, "tp": 5.0, "intraday": True,
       "strategy": "Manual Institutional (time-gated)"}),
-    ("ml_standalone", "full_universe", "swing",
+    ("ml_standalone", "full_nse_500", "swing",
      {"tf": "15m", "sl": 0.5, "tp": 5.0, "intraday": False,
       "strategy": "ML Standalone", "multi_tf_filter": False}),
     ("daily_trend", "daily_trend_breakout", "swing",
