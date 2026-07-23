@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Institutional Probability — Live Dashboard</title>
+<style>
+  :root {
+    --bg: #0f0f1a;
+    --panel: #16162a;
+    --panel-2: #1d1d36;
+    --border: #2a2a44;
+    --text: #e4e4f0;
+    --muted: #8a8aa8;
+    --green: #28d18f;
+    --green-dim: #163b2e;
+    --amber: #f0a83c;
+    --amber-dim: #3d2f15;
+    --red: #e85a6b;
+    --red-dim: #3d1a22;
+    --blue: #5b8def;
+    --blue-dim: #1a2a50;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+  }
+  .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 12px 22px;
+    background: linear-gradient(180deg, #15152a, #0f0f1a);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    gap: 8px 16px;
+  }
+  header .title { font-size: 17px; font-weight: 600; letter-spacing: .3px; white-space: nowrap; }
+  header .title .dot {
+    display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+    background: var(--green); margin-right: 9px; vertical-align: middle;
+    box-shadow: 0 0 8px var(--green);
+    animation: pulse 2.4s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+
+  .header-strip {
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  }
+  .header-item {
+    display: flex; align-items: baseline; gap: 5px;
+    font-size: 12px; color: var(--muted);
+  }
+  .header-item b { color: var(--text); font-weight: 600; font-size: 13px; }
+  .header-item .up { color: var(--green); }
+  .header-item .dn { color: var(--red); }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    padding: 16px 22px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  @media (max-width: 1100px) { .layout { grid-template-columns: 1fr; } }
+
+  .col h2 {
+    font-size: 13px; text-transform: uppercase; letter-spacing: 1.2px;
+    margin: 0 0 10px; display: flex; align-items: center; gap: 8px;
+  }
+  .col.intraday h2 { color: var(--green); }
+  .col.swing h2 { color: var(--amber); }
+  .col h2 .count {
+    font-size: 11px; background: var(--panel-2); color: var(--muted);
+    padding: 2px 8px; border-radius: 10px; letter-spacing: 0;
+  }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 13px;
+    margin-bottom: 9px;
+    transition: box-shadow .3s, border-color .3s;
+  }
+  .col.intraday .card { border-left-color: var(--green); }
+  .col.swing .card { border-left-color: var(--amber); }
+  .card.flash { animation: flash .9s ease-out; }
+  @keyframes flash {
+    0% { box-shadow: 0 0 0 2px rgba(91,141,239,.6); }
+    100% { box-shadow: 0 0 0 0 transparent; }
+  }
+
+  .card .top { display: flex; justify-content: space-between; align-items: baseline; }
+  .card .sym { font-size: 15px; font-weight: 700; letter-spacing: .4px; }
+  .card .dir {
+    font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px;
+    text-transform: uppercase; letter-spacing: .5px;
+  }
+  .dir.LONG { background: var(--green-dim); color: var(--green); }
+  .dir.SHORT { background: var(--amber-dim); color: var(--amber); }
+
+  .card .grid {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 4px 10px; margin-top: 8px;
+  }
+  .cell .k { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .5px; }
+  .cell .v { font-size: 13px; margin-top: 1px; }
+  .cell .v.entry { color: var(--blue); }
+  .cell .v.sl { color: var(--red); }
+  .cell .v.tp { color: var(--green); }
+  .cell .v.r { color: var(--text); font-weight: 600; }
+
+  .card .foot {
+    margin-top: 7px; font-size: 11px; color: var(--muted);
+    display: flex; gap: 10px; flex-wrap: wrap;
+  }
+  .card .foot .tier { color: var(--text); }
+
+  .empty {
+    border: 1px dashed var(--border); border-radius: 8px;
+    padding: 22px; text-align: center; color: var(--muted); font-size: 13px;
+  }
+  .err {
+    background: var(--amber-dim); border: 1px solid var(--amber);
+    color: var(--amber); padding: 10px 14px; border-radius: 8px;
+    margin: 0 22px; font-size: 13px;
+  }
+
+  /* ── Portfolio section ── */
+  .portfolio-wrap {
+    padding: 0 22px; margin-bottom: 14px;
+  }
+  .portfolio-wrap h2 {
+    font-size: 13px; text-transform: uppercase; letter-spacing: 1.2px;
+    margin: 0 0 10px; color: var(--blue);
+  }
+  .portfolio-wrap h2 .count {
+    font-size: 11px; background: var(--panel-2); color: var(--muted);
+    padding: 2px 8px; border-radius: 10px; letter-spacing: 0;
+  }
+  .portfolio-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+  }
+  .pcard {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--blue);
+    border-radius: 8px; padding: 10px 13px;
+  }
+  .pcard .ptop { display: flex; justify-content: space-between; align-items: baseline; }
+  .pcard .psym { font-size: 15px; font-weight: 700; }
+  .pcard .pmeta { font-size: 11px; color: var(--muted); margin-top: 5px; }
+  .pcard .pmeta span { display: inline-block; margin-right: 12px; }
+  .pcard .pmeta b { color: var(--text); }
+  .pcard .pmeta b.sl { color: var(--red); }
+  .pcard .pmeta b.tp { color: var(--green); }
+  .pcard .pheader { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
+  .pcard .pempty { color: var(--muted); font-size: 12px; padding: 6px 0; }
+  .psummary {
+    background: var(--panel-2); border-radius: 6px; padding: 8px 12px;
+    display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px;
+    margin-top: 0;
+  }
+  .psummary span { color: var(--muted); }
+  .psummary b { color: var(--text); }
+
+  .sbadge {
+    font-size: 9px; font-weight: 700; padding: 1px 5px; border-radius: 3px;
+    letter-spacing: .5px; margin-right: 5px;
+  }
+  .sbadge.ip { background: var(--green); color: #000; }
+  .sbadge.rsm { background: var(--blue); color: #fff; }
+
+  .strategy-cards {
+    display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px;
+  }
+  .scard {
+    flex: 1; min-width: 200px;
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 8px; padding: 8px 12px;
+  }
+  .scard-header { font-size: 11px; margin-bottom: 5px; }
+  .scard-meta {
+    display: flex; gap: 10px; flex-wrap: wrap; font-size: 11px; color: var(--muted);
+  }
+  .scard-meta b { color: var(--text); }
+
+  footer {
+    text-align: center; color: var(--muted); font-size: 11px;
+    padding: 14px; border-top: 1px solid var(--border); margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="title"><span class="dot"></span>Institutional Probability — Live Dashboard</div>
+  <div class="header-strip">
+    <span class="header-item">NIFTY: <b id="h-nifty">—</b> <span id="h-nifty-chg"></span></span>
+    <span class="header-item">Day: <b id="h-day">—</b></span>
+    <span class="header-item">Source: <b id="h-source">—</b></span>
+    <span class="header-item">Avg hold: <b id="h-avg-hold">—</b></span>
+    <span class="header-item">Status: <b id="h-status">—</b> <span id="h-scanning"></span></span>
+  </div>
+</header>
+
+<div id="error"></div>
+
+<!-- Portfolio section -->
+<div class="portfolio-wrap" id="portfolio-section">
+  <h2>Paper Portfolio <span class="count" id="cnt-pos">0</span></h2>
+  <div id="portfolio"><div class="empty">No paper trader running.</div></div>
+</div>
+
+<div class="layout">
+  <section class="col intraday">
+    <h2>Intraday <span class="count" id="cnt-intraday">0</span></h2>
+    <div id="intraday"><div class="empty">Waiting for first scan…</div></div>
+  </section>
+  <section class="col swing">
+    <h2>Swing <span class="count" id="cnt-swing">0</span></h2>
+    <div id="swing"><div class="empty">Waiting for first scan…</div></div>
+  </section>
+</div>
+
+<!-- Past Trades section -->
+<div class="portfolio-wrap" id="history-section">
+  <h2>Past Trades <span class="count" id="cnt-history">0</span></h2>
+  <div id="history"><div class="empty">No completed trades yet.</div></div>
+</div>
+
+<footer>
+  Auto-refreshing every 15s · Silent updates · Scan runs every <span id="interval">5</span> min during NSE hours
+  · Uptime: <span id="uptime">—</span>
+</footer>
+
+<script>
+const REFRESH_MS = 15000;
+let known = new Set();
+
+function fmt(n) { return (n === null || n === undefined) ? "—" : Number(n).toLocaleString("en-IN", {minimumFractionDigits: 2, maximumFractionDigits: 2}); }
+function inr(n) { return "₹" + fmt(n); }
+
+function strategyBadge(name) {
+  if (!name || name === "Institutional Probability") return '<span class="sbadge ip">IP</span>';
+  if (name === "Relative Strength Momentum") return '<span class="sbadge rsm">RSM</span>';
+  return `<span class="sbadge">${name}</span>`;
+}
+
+function card(sig, flash) {
+  const el = document.createElement("div");
+  el.className = "card" + (flash ? " flash" : "");
+  el.innerHTML = `
+    <div class="top">
+      ${strategyBadge(sig.strategy)}
+      <span class="sym mono">${sig.symbol}</span>
+      <span class="dir ${sig.direction}">${sig.direction}</span>
+    </div>
+    <div class="grid">
+      <div class="cell"><div class="k">Score</div><div class="v mono">${sig.score}</div></div>
+      <div class="cell"><div class="k">Entry</div><div class="v entry mono">${inr(sig.entry)}</div></div>
+      <div class="cell"><div class="k">Stop</div><div class="v sl mono">${inr(sig.stop_loss)}</div></div>
+      <div class="cell"><div class="k">Target</div><div class="v tp mono">${inr(sig.take_profit)}</div></div>
+    </div>
+    <div class="foot">
+      <span>R <b class="mono">${sig.r_multiple}</b></span>
+      <span>TF <b class="mono">${sig.tf}</b></span>
+      <span>Last <b class="mono">${inr(sig.price)}</b></span>
+      <span class="tier">${sig.strategy === "Relative Strength Momentum" ? "RSM" : "IP"} Tier: ${sig.tier}</span>
+    </div>`;
+  return el;
+}
+
+function render(list, containerId) {
+  const container = document.getElementById(containerId);
+  if (!list.length) {
+    container.innerHTML = '<div class="empty">No active signals right now.</div>';
+    return;
+  }
+  container.innerHTML = "";
+  for (const sig of list) {
+    const id = sig.tier + "|" + sig.symbol + "|" + sig.tf + "|" + sig.direction;
+    const isNew = !known.has(id);
+    known.add(id);
+    container.appendChild(card(sig, isNew));
+  }
+}
+
+function portfolioCard(p) {
+  const el = document.createElement("div");
+  el.className = "pcard";
+  const now = new Date();
+  const opened = new Date(p.opened_at);
+  const heldDays = Math.round((now - opened) / (1000*60*60*24));
+  el.innerHTML = `
+    <div class="ptop">
+      <span class="psym mono">${p.symbol}</span>
+      <span class="dir ${p.direction}">${p.direction}</span>
+    </div>
+    <div class="pmeta">
+      <span>Qty: <b>${p.shares}</b></span>
+      <span>Entry: <b>${inr(p.entry_price)}</b></span>
+      <span>Live: <b class="mono">${p.price != null ? inr(p.price) : "—"}</b></span>
+      <span>SL: <b class="sl">${inr(p.stop_loss)}</b></span>
+      <span>Target: <b class="tp">${inr(p.take_profit)}</b></span>
+      <span>M2M: <b class="${(p.unrealized_pnl || 0) >= 0 ? 'tp' : 'sl'}">${inr(p.unrealized_pnl)}</b></span>
+    </div>
+    <div class="pmeta">
+      <span>Opened: <b>${p.opened_at || "—"}</b></span>
+      <span>Held: <b>${heldDays}d</b></span>
+    </div>`;
+  return el;
+}
+
+function strategyLabel(name) {
+  if (!name || name === "Institutional Probability") return '<span class="sbadge ip">IP</span>';
+  if (name === "Relative Strength Momentum") return '<span class="sbadge rsm">RSM</span>';
+  return `<span class="sbadge">${name.replace(/ /g,'&nbsp;')}</span>`;
+}
+
+function renderPortfolio(data) {
+  const container = document.getElementById("portfolio");
+  const posSection = document.getElementById("portfolio-section");
+  if (!data) {
+    container.innerHTML = '<div class="empty">No paper trader running.</div>';
+    posSection.style.display = "none";
+    return;
+  }
+  posSection.style.display = "";
+  document.getElementById("cnt-pos").textContent = data.positions.length;
+
+  let html = "";
+
+  // Per-strategy cards
+  if (data.strategies) {
+    const strategies = data.strategies;
+    const stratNames = Object.keys(strategies);
+    if (stratNames.length > 1) {
+      html += '<div class="strategy-cards">';
+      for (const [sname, sdata] of Object.entries(strategies)) {
+        html += `<div class="scard">
+          <div class="scard-header">${strategyLabel(sname)} <span style="font-weight:600">${sname}</span></div>
+          <div class="scard-meta">
+            <span>Cash: <b>${inr(sdata.cash)}</b></span>
+            <span>Peak: <b>${inr(sdata.peak_equity)}</b></span>
+            <span>Day: <b>${sdata.day_entries}</b></span>
+            <span>Positions: <b>${sdata.positions}</b></span>
+          </div>
+        </div>`;
+      }
+      html += '</div>';
+    }
+  }
+
+  // Position cards
+  if (data.positions.length) {
+    const cards = data.positions.map(p => {
+      const now = new Date();
+      const opened = new Date(p.opened_at);
+      const heldDays = Math.round((now - opened) / (1000*60*60*24));
+      return `<div class="pcard">
+        <div class="ptop">
+          ${strategyLabel(p.strategy)}
+          <span class="psym mono">${p.symbol}</span>
+          <span class="dir ${p.direction}">${p.direction}</span>
+        </div>
+        <div class="pmeta">
+          <span>Qty: <b>${p.shares}</b></span>
+          <span>Entry: <b>${inr(p.entry_price)}</b></span>
+          <span>Live: <b class="mono">${p.price != null ? inr(p.price) : "—"}</b></span>
+          <span>SL: <b class="sl">${inr(p.stop_loss)}</b></span>
+          <span>Target: <b class="tp">${inr(p.take_profit)}</b></span>
+          <span>M2M: <b class="${(p.unrealized_pnl || 0) >= 0 ? 'tp' : 'sl'}">${inr(p.unrealized_pnl || 0)}</b></span>
+        </div>
+        <div class="pmeta">
+          <span>Opened: <b>${p.opened_at || "—"}</b></span>
+        </div>
+      </div>`;
+    }).join("");
+    html += cards;
+  } else {
+    html += '<div class="pempty">No open positions.</div>';
+  }
+
+  html += `<div class="psummary">
+    <span>Cash: <b>${inr(data.cash)}</b></span>
+    <span>Peak: <b>${inr(data.peak_equity)}</b></span>
+    <span>Day entries: <b>${data.day_entries}</b></span>
+    <span>Total trades: <b>${data.trades || 0}</b></span>
+  </div>`;
+
+  container.innerHTML = html;
+}
+
+function renderHistory(data) {
+  const container = document.getElementById("history");
+  const section = document.getElementById("history-section");
+  const closed = data.recent_trades || [];
+  const open = data.open_trades || [];
+  const all = [...open, ...closed];
+  document.getElementById("cnt-history").textContent = all.length;
+
+  if (!all.length) {
+    container.innerHTML = '<div class="empty">No completed trades yet.</div>';
+    return;
+  }
+  section.style.display = "";
+
+  const rows = all.map(t => {
+    const status = t.status === "OPEN" ? "OPEN" : (t.pnl >= 0 ? "WIN" : "LOSS");
+    const statusCls = status === "OPEN" ? "dir LONG" : (status === "WIN" ? "dir LONG" : "dir SHORT");
+    const pnlStr = t.pnl !== null && t.pnl !== undefined ? inr(t.pnl) : "—";
+    const exitStr = t.exit ? inr(t.exit) : "—";
+    return `<tr>
+      <td class="mono">${t.symbol || "—"}</td>
+      <td><span class="dir ${t.direction}">${t.direction || "—"}</span></td>
+      <td>${strategyBadge(t.strategy)}</td>
+      <td>${inr(t.entry)}</td>
+      <td>${exitStr}</td>
+      <td>${t.shares || "—"}</td>
+      <td style="font-size:10px;color:var(--muted)">${tradeDuration(t.opened_at, t.closed_at)}</td>
+      <td>${pnlStr}</td>
+      <td>${t.reason || "—"}</td>
+      <td><span class="${statusCls}" style="padding:1px 5px;font-size:10px">${status}</span></td>
+    </tr>`;
+  }).join("");
+
+  container.innerHTML = `<table style="width:100%;border-collapse:collapse;font-size:12px">
+    <thead><tr style="color:var(--muted);text-align:left">
+      <th style="padding:4px 6px">Sym</th>
+      <th style="padding:4px 6px">Dir</th>
+      <th style="padding:4px 6px">Strat</th>
+      <th style="padding:4px 6px">Entry</th>
+      <th style="padding:4px 6px">Exit</th>
+      <th style="padding:4px 6px">Qty</th>
+      <th style="padding:4px 6px">Held</th>
+      <th style="padding:4px 6px">PnL</th>
+      <th style="padding:4px 6px">Reason</th>
+      <th style="padding:4px 6px">Status</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+function uptimeStr(seconds) {
+  if (!seconds) return "—";
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.floor(seconds % 60);
+  if (h) return `${h}h ${m}m`;
+  if (m) return `${m}m ${s}s`;
+  return `${s}s`;
+}
+
+function tradeDuration(openTs, closeTs) {
+  const parse = s => {
+    if (!s) return null;
+    return new Date(s.replace(' IST', '').replace(' ', 'T') + '+05:30');
+  };
+  const start = parse(openTs);
+  if (!start) return "—";
+  const end = closeTs ? parse(closeTs) : new Date();
+  const ms = end - start;
+  if (ms < 0) return "—";
+  const mins = Math.round(ms / 60000);
+  if (mins < 60) return `${mins}m`;
+  const hours = Math.floor(mins / 60);
+  const rem = mins % 60;
+  if (hours < 24) return rem ? `${hours}h ${rem}m` : `${hours}h`;
+  const days = Math.floor(hours / 24);
+  const remH = hours % 24;
+  return `${days}d ${remH}h`;
+}
+
+function formatHolding(hours) {
+  if (hours === null || hours === undefined) return "—";
+  const h = Math.floor(hours);
+  const m = Math.round((hours - h) * 60);
+  if (h > 0) return `${h}h ${m}m`;
+  return `${m}m`;
+}
+
+async function refresh() {
+  try {
+    const res = await fetch("/api/latest");
+    const data = await res.json();
+
+    // header
+    document.getElementById("h-status").textContent = data.status || "—";
+    const scanEl = document.getElementById("h-scanning");
+    if (data.scanning) {
+      scanEl.innerHTML = '<span style="color:var(--amber);font-size:11px;margin-left:4px">⟳ scanning…</span>';
+    } else {
+      scanEl.innerHTML = '';
+    }
+
+    if (data.nifty !== null && data.nifty !== undefined) {
+      document.getElementById("h-nifty").textContent = fmt(data.nifty);
+      const chgEl = document.getElementById("h-nifty-chg");
+      const chg = data.nifty_change_pct || 0;
+      const cls = chg >= 0 ? "up" : "dn";
+      const sign = chg >= 0 ? "+" : "";
+      chgEl.innerHTML = `<span class="${cls}">${sign}${chg}%</span>`;
+    }
+    document.getElementById("h-day").textContent = data.day_type || "—";
+    document.getElementById("h-source").textContent = data.source || "—";
+
+    // meta stats
+    document.getElementById("uptime").textContent = uptimeStr(data.uptime);
+
+    // average holding time (overall, with per-mode breakdown on hover)
+    const hs = data.holding_stats;
+    const holdEl = document.getElementById("h-avg-hold");
+    if (hs && hs.avg_hours !== null && hs.avg_hours !== undefined) {
+      let title = `Intraday: ${hs.avg_hours_intraday != null ? formatHolding(hs.avg_hours_intraday) : "—"} · `
+                + `Swing: ${hs.avg_hours_swing != null ? formatHolding(hs.avg_hours_swing) : "—"} · `
+                + `Trades: ${hs.trade_count}`;
+      holdEl.textContent = formatHolding(hs.avg_hours);
+      holdEl.title = title;
+    } else {
+      holdEl.textContent = "—";
+      holdEl.title = "";
+    }
+
+    // signals
+    const intraday = (data.signals || []).filter(s => s.category === "intraday");
+    const swing = (data.signals || []).filter(s => s.category === "swing");
+    document.getElementById("cnt-intraday").textContent = intraday.length;
+    document.getElementById("cnt-swing").textContent = swing.length;
+    render(intraday, "intraday");
+    render(swing, "swing");
+
+    // portfolio
+    renderPortfolio(data.portfolio);
+
+    // trade history
+    renderHistory(data);
+
+    document.getElementById("error").innerHTML = "";
+  } catch (e) {
+    document.getElementById("error").innerHTML =
+      '<div class="err">Could not reach scan server: ' + e + '</div>';
+  }
+}
+
+refresh();
+setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>

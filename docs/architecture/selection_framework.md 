@@ -1,0 +1,97 @@
+# Selection Framework
+
+## Purpose
+
+Selection is an architectural concept, not a trading concept.
+
+It provides a reusable framework for choosing one object from a set of eligible candidates.
+
+---
+
+# Mathematical Model
+
+R = P(G(O))
+
+where
+
+O = Observations
+
+G = Candidate Generator
+
+P = Selection Policy
+
+R = Selected Result
+
+---
+
+# Definitions
+
+## Candidate
+
+A Candidate is an object satisfying the eligibility predicate for a particular selection problem.
+
+---
+
+## Candidate Generator
+
+A deterministic function producing the complete and sound candidate set.
+
+Properties:
+
+- Complete
+- Sound
+- Deterministic
+
+---
+
+## Selection Policy
+
+A deterministic policy selecting one candidate from a candidate set.
+
+---
+
+# Selection Axiom
+
+Every deterministic selection problem is decomposed into
+
+Observations
+
+↓
+
+Candidate Generator
+
+↓
+
+Candidate Set
+
+↓
+
+Selection Policy
+
+↓
+
+Selected Result
+
+---
+
+# Selection Uniqueness Theorem
+
+If
+
+- Candidate Set ≠ ∅
+
+and
+
+- Selection Policy induces a total order
+
+then exactly one candidate is selected.
+
+---
+
+# Architectural Properties
+
+- Deterministic
+- Sound
+- Complete
+- Explainable
+- Total

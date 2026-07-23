@@ -1,0 +1,44 @@
+services:
+  refresher:
+    build: .
+    image: trading-engine:latest
+    command: python scripts/refresh_data_cache.py --loop
+    volumes:
+      - trading_data:/app/data
+    env_file: .env
+    restart: unless-stopped
+
+  paper-trader:
+    build: .
+    image: trading-engine:latest
+    command: >
+      python scripts/paper_trade.py
+      --strategies "Relative Strength Momentum,Combined Swing,Manual Institutional (time-gated),ML Standalone,Daily Trend Breakout,ML Opening Breakout"
+      --alloc 18,22,18,14,18,10
+      --sl 1.0,2.0,0.5,0.5,4.0,0.5
+      --tp 2.5,4.0,5.0,5.0,5.0,5.0
+      --mode both
+      --ml-filter --ml-filter-thr 0.60
+      --upstox --loop --interval 5
+    volumes:
+      - trading_data:/app/data
+    env_file: .env
+    restart: unless-stopped
+    depends_on:
+      - refresher
+
+  scanner:
+    build: .
+    image: trading-engine:latest
+    command: python scripts/market_scan.py --upstox --serve --port 8080
+    ports:
+      - "8080:8080"
+    volumes:
+      - trading_data:/app/data
+    env_file: .env
+    restart: unless-stopped
+    depends_on:
+      - refresher
+
+volumes:
+  trading_data:
