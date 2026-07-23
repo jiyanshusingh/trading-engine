@@ -20,6 +20,10 @@ data/pending_orders.jsonl
 data/*.log
 data/*.bak
 data/*.parquet
+data/*.csv
+data/backtest_*.json
+data/orb_*.json
+data/manual_score_sweep_trades.json
 data/exports/
 
 # Logs
