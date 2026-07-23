@@ -1,0 +1,151 @@
+{
+  "test": "8 undeployed strategies benchmark",
+  "date": "2026-07-17",
+  "config": {
+    "symbols": [
+      "WIPRO",
+      "ONGC",
+      "RELIANCE",
+      "BSE",
+      "ADANIENT"
+    ],
+    "timeframe": "15m",
+    "mode": "intraday",
+    "days": 200,
+    "provider": "upstox",
+    "slippage": "default (realistic costs on)",
+    "sl_tp": "each strategy's own default"
+  },
+  "overall": {
+    "VWAP Pullback": {
+      "trades": 83,
+      "net_wr_pct": 50.6,
+      "net_pnl_rs": 2288,
+      "net_pct_cap": 4.58,
+      "net_pf": 1.23,
+      "avg_rs_per_trade": 27.6,
+      "deployable": true
+    },
+    "Mean Reversion": {
+      "trades": 12,
+      "net_wr_pct": 66.7,
+      "net_pnl_rs": 1473,
+      "net_pct_cap": 2.95,
+      "net_pf": 2.1,
+      "avg_rs_per_trade": 122.7,
+      "deployable": true
+    },
+    "ORB": {
+      "trades": 154,
+      "net_wr_pct": 46.1,
+      "net_pnl_rs": -4676,
+      "net_pct_cap": -9.35,
+      "net_pf": 0.83,
+      "avg_rs_per_trade": -30.4,
+      "deployable": false
+    },
+    "Momentum Trading": {
+      "trades": 280,
+      "net_wr_pct": 43.9,
+      "net_pnl_rs": -3482,
+      "net_pct_cap": -6.96,
+      "net_pf": 0.94,
+      "avg_rs_per_trade": -12.4,
+      "deployable": false
+    },
+    "Professional Momentum": {
+      "trades": 243,
+      "net_wr_pct": 43.2,
+      "net_pnl_rs": -1464,
+      "net_pct_cap": -2.93,
+      "net_pf": 0.97,
+      "avg_rs_per_trade": -6.0,
+      "deployable": false
+    },
+    "Trend Following": {
+      "trades": 464,
+      "net_wr_pct": 45.9,
+      "net_pnl_rs": -8167,
+      "net_pct_cap": -16.33,
+      "net_pf": 0.92,
+      "avg_rs_per_trade": -17.6,
+      "deployable": false
+    },
+    "Price Action": {
+      "trades": 727,
+      "net_wr_pct": 46.8,
+      "net_pnl_rs": -8118,
+      "net_pct_cap": -16.24,
+      "net_pf": 0.94,
+      "avg_rs_per_trade": -11.2,
+      "deployable": false
+    },
+    "ICT": {
+      "trades": 889,
+      "net_wr_pct": 43.5,
+      "net_pnl_rs": -27369,
+      "net_pct_cap": -54.74,
+      "net_pf": 0.87,
+      "avg_rs_per_trade": -30.8,
+      "deployable": false
+    }
+  },
+  "per_symbol_winners": [
+    {
+      "symbol": "ADANIENT",
+      "strategy": "ICT",
+      "trades": 231,
+      "net_pnl_rs": 14338,
+      "rs_per_trade": 62.1
+    },
+    {
+      "symbol": "ADANIENT",
+      "strategy": "ORB",
+      "trades": 50,
+      "net_pnl_rs": 2066,
+      "rs_per_trade": 41.3
+    },
+    {
+      "symbol": "ADANIENT",
+      "strategy": "Price Action",
+      "trades": 170,
+      "net_pnl_rs": 6974,
+      "rs_per_trade": 41.0
+    },
+    {
+      "symbol": "RELIANCE",
+      "strategy": "Momentum Trading",
+      "trades": 46,
+      "net_pnl_rs": 1545,
+      "rs_per_trade": 33.6
+    },
+    {
+      "symbol": "RELIANCE",
+      "strategy": "Trend Following",
+      "trades": 91,
+      "net_pnl_rs": 2933,
+      "rs_per_trade": 32.2
+    },
+    {
+      "symbol": "BSE",
+      "strategy": "ORB",
+      "trades": 32,
+      "net_pnl_rs": 1005,
+      "rs_per_trade": 31.4
+    },
+    {
+      "symbol": "ADANIENT",
+      "strategy": "Momentum Trading",
+      "trades": 72,
+      "net_pnl_rs": 1931,
+      "rs_per_trade": 26.8
+    },
+    {
+      "symbol": "BSE",
+      "strategy": "Trend Following",
+      "trades": 103,
+      "net_pnl_rs": 2588,
+      "rs_per_trade": 25.1
+    }
+  ]
+}

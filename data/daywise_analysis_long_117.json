@@ -1,0 +1,141 @@
+{
+  "total_trades": 731,
+  "by_day_of_week": {
+    "Monday": {
+      "trades": 131,
+      "win_rate_pct": 38.2,
+      "avg_r": 0.612,
+      "pnl_pct": 6553.04,
+      "pf": 2.05
+    },
+    "Tuesday": {
+      "trades": 127,
+      "win_rate_pct": 22.8,
+      "avg_r": 0.229,
+      "pnl_pct": 2770.67,
+      "pf": 1.35
+    },
+    "Wednesday": {
+      "trades": 125,
+      "win_rate_pct": 31.2,
+      "avg_r": 0.415,
+      "pnl_pct": 1836.54,
+      "pf": 1.7
+    },
+    "Thursday": {
+      "trades": 202,
+      "win_rate_pct": 28.7,
+      "avg_r": 0.544,
+      "pnl_pct": 5232.55,
+      "pf": 1.84
+    },
+    "Friday": {
+      "trades": 146,
+      "win_rate_pct": 30.1,
+      "avg_r": 1.042,
+      "pnl_pct": 4826.11,
+      "pf": 2.58
+    }
+  },
+  "by_expiry_proximity": {
+    "T-2": {
+      "trades": 127,
+      "win_rate_pct": 22.8,
+      "avg_r": 0.229,
+      "pnl_pct": 2770.67,
+      "pf": 1.35
+    },
+    "T-1": {
+      "trades": 125,
+      "win_rate_pct": 31.2,
+      "avg_r": 0.415,
+      "pnl_pct": 1836.54,
+      "pf": 1.7
+    },
+    "T-3 (Mon)": {
+      "trades": 131,
+      "win_rate_pct": 38.2,
+      "avg_r": 0.612,
+      "pnl_pct": 6553.04,
+      "pf": 2.05
+    },
+    "Expiry Day": {
+      "trades": 202,
+      "win_rate_pct": 28.7,
+      "avg_r": 0.544,
+      "pnl_pct": 5232.55,
+      "pf": 1.84
+    },
+    "T+1 (Fri)": {
+      "trades": 146,
+      "win_rate_pct": 30.1,
+      "avg_r": 1.042,
+      "pnl_pct": 4826.11,
+      "pf": 2.58
+    }
+  },
+  "by_monthly_expiry": {
+    "Non-Monthly": {
+      "trades": 702,
+      "win_rate_pct": 29.8,
+      "avg_r": 0.544,
+      "pnl_pct": 20378.67,
+      "pf": 1.86
+    },
+    "Monthly Expiry": {
+      "trades": 29,
+      "win_rate_pct": 37.9,
+      "avg_r": 1.428,
+      "pnl_pct": 840.25,
+      "pf": 3.37
+    }
+  },
+  "by_pre_holiday": {
+    "Normal": {
+      "trades": 687,
+      "win_rate_pct": 29.7,
+      "avg_r": 0.557,
+      "pnl_pct": 20463.52,
+      "pf": 1.88
+    },
+    "Pre-Holiday": {
+      "trades": 44,
+      "win_rate_pct": 36.4,
+      "avg_r": 0.925,
+      "pnl_pct": 755.4,
+      "pf": 2.67
+    }
+  },
+  "by_post_holiday": {
+    "Normal": {
+      "trades": 709,
+      "win_rate_pct": 30.0,
+      "avg_r": 0.584,
+      "pnl_pct": 19090.25,
+      "pf": 1.92
+    },
+    "Post-Holiday": {
+      "trades": 22,
+      "win_rate_pct": 31.8,
+      "avg_r": 0.426,
+      "pnl_pct": 2128.67,
+      "pf": 1.74
+    }
+  },
+  "by_weekend_hold": {
+    "Other Day": {
+      "trades": 585,
+      "win_rate_pct": 30.1,
+      "avg_r": 0.463,
+      "pnl_pct": 16392.81,
+      "pf": 1.74
+    },
+    "Friday Entry (wknd hold)": {
+      "trades": 146,
+      "win_rate_pct": 30.1,
+      "avg_r": 1.042,
+      "pnl_pct": 4826.11,
+      "pf": 2.58
+    }
+  }
+}

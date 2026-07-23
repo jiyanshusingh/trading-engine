@@ -1,0 +1,161 @@
+{
+  "timestamp": "2026-07-15 09:35:57",
+  "description": "Golden window boundary fix analysis \u2014 A1 backtest (190 syms, 22,022 trades)",
+  "change": "strategies/manual_institutional_strategy.py:63 \u2014 hour < end -> hour <= end",
+  "overall": {
+    "total_trades": 22022,
+    "total_symbols": 189,
+    "win_rate": 20.4,
+    "avg_r": 0.2584,
+    "sum_r": 5691.1,
+    "max_win_r": 27.9,
+    "max_loss_r": -1.0,
+    "date_range": {
+      "start": "2025-06-09",
+      "end": "2026-07-14"
+    }
+  },
+  "cost_impact": {
+    "gross_avg_r": 0.2584,
+    "net_avg_r_est": 0.1584,
+    "estimated_cost_per_trade_r": 0.1,
+    "gross_sum_r": 5691.1,
+    "net_sum_r_est": 3488.9,
+    "cost_eats_pct_of_gross": 38.7
+  },
+  "per_minute_bars": {
+    "10:00": {
+      "trades": 5560,
+      "win_rate": 17.9,
+      "avg_r": 0.3885,
+      "sum_r": 2160.04,
+      "profitable_symbols": 171
+    },
+    "10:15": {
+      "trades": 3918,
+      "win_rate": 18.0,
+      "avg_r": 0.3495,
+      "sum_r": 1369.49,
+      "profitable_symbols": 152
+    },
+    "10:30": {
+      "trades": 2636,
+      "win_rate": 16.5,
+      "avg_r": 0.1081,
+      "sum_r": 285.04,
+      "profitable_symbols": 138
+    },
+    "10:45": {
+      "trades": 59,
+      "win_rate": 16.9,
+      "avg_r": -0.4138,
+      "sum_r": -24.42,
+      "profitable_symbols": 6
+    },
+    "13:45": {
+      "trades": 3866,
+      "win_rate": 23.8,
+      "avg_r": 0.2001,
+      "sum_r": 773.7,
+      "profitable_symbols": 175
+    },
+    "14:00": {
+      "trades": 2590,
+      "win_rate": 23.1,
+      "avg_r": 0.1853,
+      "sum_r": 479.86,
+      "profitable_symbols": 140
+    },
+    "14:15": {
+      "trades": 1845,
+      "win_rate": 23.2,
+      "avg_r": 0.1743,
+      "sum_r": 321.57,
+      "profitable_symbols": 149
+    },
+    "14:30": {
+      "trades": 1548,
+      "win_rate": 25.7,
+      "avg_r": 0.2105,
+      "sum_r": 325.81,
+      "profitable_symbols": 125
+    }
+  },
+  "gate_comparison": {
+    "strict_gate_<_exclusive": {
+      "trades": 17779,
+      "win_rate": 20.5,
+      "avg_r": 0.2871,
+      "sum_r": 5104.66
+    },
+    "loose_gate_<=_inclusive": {
+      "trades": 21963,
+      "win_rate": 19.9,
+      "avg_r": 0.146,
+      "sum_r": 610.85
+    },
+    "truly_outside_blocked": {
+      "trades": 59,
+      "win_rate": 16.9,
+      "avg_r": -0.4138,
+      "sum_r": -24.42
+    },
+    "loose_gate_inclusive_total": {
+      "trades": 21963,
+      "win_rate": 20.4,
+      "avg_r": 0.2602,
+      "sum_r": 5715.51
+    }
+  },
+  "boundary_bars": {
+    "10:30_bar": {
+      "trades": 2636,
+      "win_rate": 16.5,
+      "avg_r": 0.1081,
+      "sum_r": 285.04
+    },
+    "14:30_bar": {
+      "trades": 1548,
+      "win_rate": 25.7,
+      "avg_r": 0.2105,
+      "sum_r": 325.81
+    },
+    "10:45_bar_outside": {
+      "trades": 59,
+      "avg_r": -0.4138,
+      "sum_r": -24.42
+    }
+  },
+  "loophole_review": {
+    "golden_window_boundary": {
+      "severity": "LOW",
+      "fix": "1-char change: < -> <= in _in_gol den_window()",
+      "impact": "Recovers +610.8 sumR from 4184 boundary trades",
+      "worth_it": true
+    },
+    "rr_filter_dead_code": {
+      "severity": "NONE",
+      "fix": "Remove or leave \u2014 0/22022 trades ever fire it",
+      "impact": "Zero performance impact either way",
+      "worth_it": false
+    },
+    "per_symbol_sltp_oos": {
+      "severity": "MEDIUM (pre-deployment)",
+      "fix": "57-symbol 3-fold walkforward (2-3h compute)",
+      "impact": "Catches selection bias before live trading",
+      "worth_it": "Before production, not urgent now"
+    },
+    "atr_instability": {
+      "severity": "NONE",
+      "fix": "Not a bug \u2014 ATR-based stops adapt by design",
+      "impact": "Changing lookback invalidates existing tunings",
+      "worth_it": false
+    },
+    "gross_vs_net_optimization": {
+      "severity": "NONE",
+      "fix": "Marginal \u2014 rankings are preserved",
+      "impact": "Net avg R = +0.158 (survives costs)",
+      "worth_it": false
+    }
+  }
+}

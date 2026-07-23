@@ -1,0 +1,107 @@
+{
+  "sessions": [
+    {
+      "session": "opening",
+      "count": 92,
+      "wins": 30,
+      "losses": 62,
+      "win_rate_pct": 32.6,
+      "profit_factor": 0.48,
+      "total_pnl": -1864.72
+    },
+    {
+      "session": "morning",
+      "count": 204,
+      "wins": 55,
+      "losses": 149,
+      "win_rate_pct": 27.0,
+      "profit_factor": 0.37,
+      "total_pnl": -4095.42
+    },
+    {
+      "session": "midday",
+      "count": 188,
+      "wins": 50,
+      "losses": 138,
+      "win_rate_pct": 26.6,
+      "profit_factor": 0.36,
+      "total_pnl": -3772.41
+    },
+    {
+      "session": "afternoon",
+      "count": 82,
+      "wins": 19,
+      "losses": 63,
+      "win_rate_pct": 23.2,
+      "profit_factor": 0.3,
+      "total_pnl": -1663.33
+    },
+    {
+      "session": "closing",
+      "count": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate_pct": 0,
+      "profit_factor": 0,
+      "total_pnl": 0
+    }
+  ],
+  "hours": [
+    {
+      "hour": 9,
+      "count": 156,
+      "wins": 49,
+      "losses": 107,
+      "win_rate_pct": 31.4,
+      "profit_factor": 0.46,
+      "total_pnl": -3148.09
+    },
+    {
+      "hour": 10,
+      "count": 105,
+      "wins": 29,
+      "losses": 76,
+      "win_rate_pct": 27.6,
+      "profit_factor": 0.38,
+      "total_pnl": -2103.22
+    },
+    {
+      "hour": 11,
+      "count": 62,
+      "wins": 12,
+      "losses": 50,
+      "win_rate_pct": 19.4,
+      "profit_factor": 0.24,
+      "total_pnl": -1252.75
+    },
+    {
+      "hour": 12,
+      "count": 103,
+      "wins": 29,
+      "losses": 74,
+      "win_rate_pct": 28.2,
+      "profit_factor": 0.39,
+      "total_pnl": -2059.42
+    },
+    {
+      "hour": 13,
+      "count": 114,
+      "wins": 30,
+      "losses": 84,
+      "win_rate_pct": 26.3,
+      "profit_factor": 0.36,
+      "total_pnl": -2306.12
+    },
+    {
+      "hour": 14,
+      "count": 26,
+      "wins": 5,
+      "losses": 21,
+      "win_rate_pct": 19.2,
+      "profit_factor": 0.24,
+      "total_pnl": -526.29
+    }
+  ],
+  "best_session": "opening",
+  "best_hour": 9
+}

@@ -1,16 +1,15 @@
-# Python
+.git/
+.gitignore
+.env*
 venv/
 __pycache__/
 *.py[cod]
 *.egg-info/
 dist/
 build/
-
-# Environment
-.env
-.env.*
-
-# Runtime data (large — excluded from git, mounted as Docker volume)
+*.log
+*.bak
+.DS_Store
 data/cache/
 data/__pycache__/
 data/paper_portfolio.json*
@@ -19,16 +18,3 @@ data/trade_state.json
 data/pending_orders.jsonl
 data/*.log
 data/*.bak
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo

@@ -1,0 +1,35 @@
+{
+  "experiment": "ML Standalone — wider-SL position-sizing fix",
+  "date": "2026-07-19",
+  "hypothesis": "SL=0.5% caps position sizing at ₹50k notional (only ₹250 risk deployed vs intended ₹500). Wider SL lets full ₹500 risk deploy → better-trained model + higher net PnL per trade.",
+  "verdict": "REJECTED — wider SL consistently destroys the strategy",
+  "method": "Walk-forward (expanding window, 4 folds, fixed thr 0.80) on the SAME 500-symbol universe for each SL config. PnL labels in the dataset encode the SL/TP; the model only selects bars. Narrow-SL control isolates the SL effect from the universe expansion (152→500 symbols, Phase 35).",
+  "results": {
+    "SL_0.5_TP_5.0": {
+      "aggregate_net": 223727, "trades": 282, "net_per_trade": 793,
+      "folds_positive": "4/4", "wr": 41.5,
+      "folds": {"f1": 54661, "f2": 42100, "f3": 22504, "f4": 104462},
+      "verdict": "WORKS OOS"
+    },
+    "SL_1.5_TP_5.0": {
+      "aggregate_net": 26981, "trades": 783, "net_per_trade": 34,
+      "folds_positive": "3/4", "wr": 28.6,
+      "folds": {"f1": 1140, "f2": 5735, "f3": -25804, "f4": 45911},
+      "verdict": "weak — fold 3 negative"
+    },
+    "SL_2.0_TP_4.0": {
+      "aggregate_net": -143878, "trades": 1874, "net_per_trade": -77,
+      "folds_positive": "1/4", "wr": 32.5,
+      "folds": {"f1": -48751, "f2": -1729, "f3": -113564, "f4": 20166},
+      "verdict": "FAILS — negative aggregate"
+    }
+  },
+  "mechanism": "Tight 0.5% stop creates a high-bar label (only genuinely strong setups survive net-positive). Wider SL dilutes the label → model at thr 0.80 admits many low-quality trades (₹34/tr at 1.5%, −₹77/tr at 2.0%). Per-trade quality collapses monotonically as SL widens.",
+  "conclusion": "Keep SL=0.5%/TP=5.0% deployment. The position-sizing cap at ₹50k is NOT a defect to fix via wider SL — it is what makes the label informative. Original deployment model (trained on 152 symbols) is still valid and unchanged.",
+  "bonus_finding": "The narrow-SL control on the expanded 500-symbol universe gives +₹223,727 OOS (vs old +₹49,985 on 152 symbols). Retraining the deployment model on the 500-symbol narrow dataset would likely improve the live sleeve — separate recommendation, not part of this test.",
+  "files": {
+    "datasets": ["data/ml_strategy_dataset_narrow.parquet", "data/ml_strategy_dataset_wide.parquet", "data/ml_strategy_dataset_wide2.parquet"],
+    "source_edits": "scripts/train_ml_strategy.py: meta sl_pct/tp_pct now read from dataset module; added --out-model/--out-meta args (non-destructive, deployment model unchanged)",
+    "deployment_model": "data/ml_strategy_model.json (unchanged, sl_pct=0.005, threshold=0.75)"
+  }
+}

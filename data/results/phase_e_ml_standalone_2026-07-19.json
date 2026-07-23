@@ -1,0 +1,58 @@
+{
+  "phase": "E - ML Standalone threshold sweep (0.75 + regime gate)",
+  "date": "2026-07-19",
+  "change": "Lowered ML Standalone deploy threshold 0.80 -> 0.75 + added NIFTY 1d downtrend regime gate (skip LONG when DOWN)",
+  "walkforward_OOS": {
+    "thr_0.75_gate_folds": [
+      {
+        "fold": 1,
+        "net": 62145,
+        "trades": 185,
+        "wr": 25.4
+      },
+      {
+        "fold": 2,
+        "net": 19255,
+        "trades": 40,
+        "wr": 30.0
+      },
+      {
+        "fold": 3,
+        "net": 29030,
+        "trades": 85,
+        "wr": 24.7
+      },
+      {
+        "fold": 4,
+        "net": 41200,
+        "trades": 49,
+        "wr": 42.9
+      }
+    ],
+    "aggregate_net": 151630,
+    "aggregate_trades": 359,
+    "net_per_trade": 422,
+    "verdict": "WORKS OOS (net-positive in all 4 folds)"
+  },
+  "comparison_vs_080": {
+    "thr_0.80_no_gate": {
+      "net": 49985,
+      "trades": 71,
+      "net_per_trade": 704
+    },
+    "thr_0.75_gate": {
+      "net": 151630,
+      "trades": 359,
+      "net_per_trade": 422
+    },
+    "improvement": {
+      "trades": "5.1x",
+      "net": "3.0x"
+    }
+  },
+  "files_changed": [
+    "data/ml_strategy_model_meta.json (threshold 0.80->0.75)",
+    "strategies/ml_strategy.py (regime gate in run())"
+  ],
+  "deployed": true
+}

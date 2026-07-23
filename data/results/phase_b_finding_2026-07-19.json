@@ -1,0 +1,17 @@
+{
+  "finding": "Phase B position-sizing (risk_pct multiplier) is a NO-OP for ML Standalone",
+  "date": "2026-07-19",
+  "root_cause": [
+    "position_size_for caps notional at INITIAL_CAPITAL (50,000)",
+    "ML Standalone 0.5% SL => notional = 2x capital at 1% risk => always exceeds cap",
+    "final position = min(50,000, strat_cash=8,000) = 8,000 regardless of risk_pct"
+  ],
+  "implication": "The Phase B experiment (+16.5% net) assumed 1.5x sizing is achievable. Under the no-leverage capital model it is NOT: high-proba trades already max out at the 8,000 strategy budget. The multiplier changes nothing.",
+  "experiment_flaw": "Walk-forward pnl_net is computed at standard 1% risk / 50k-scale. Live ML Standalone positions are capped at 8,000 (16% alloc). The 1.5x up-sizing in the sim requires leverage the live system forbids.",
+  "verdict": "DO NOT deploy as-is. Phase B cannot improve net PnL under current capital constraints. The proba signal is real but the sizing lever is already maxed (capped at strategy budget).",
+  "options_to_make_it_real": [
+    "A) Size as fraction of AVAILABLE strategy cash: low-proba 0.5x, high-proba 1.0x. Meaningful 2x difference, no leverage. But this SIZES DOWN low-proba (net-positive) trades => net DECREASES, drawdown improves.",
+    "B) Increase ML Standalone allocation (16%->25%+) so headroom exists, then proba-band sizing within the larger budget. Needs re-validation of net impact at new scale.",
+    "C) Accept Phase B as risk-reduction only (smaller size on weak signals), not profit. Skip if profit is the goal."
+  ]
+}

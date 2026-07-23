@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-07-21 11:17",
+  "trade_count": 2740,
+  "symbol_count": 167,
+  "strategy_params": {
+    "trail_atr_mult": 4.0,
+    "initial_sl_atr": 4.0,
+    "max_hold_bars": 60,
+    "risk_per_trade": 500.0,
+    "cost_rate": 0.001
+  },
+  "best_single_slot": "14:15",
+  "best_contiguous_window": {
+    "slots": [
+      "12:45",
+      "13:00",
+      "13:15",
+      "13:30",
+      "13:45",
+      "14:00",
+      "14:15",
+      "14:30",
+      "14:45"
+    ],
+    "net_pnl": 719672.38,
+    "trades": 24584
+  },
+  "by_slot": {
+    "09:15": {
+      "trades": 2721,
+      "net_pnl": 58985.97,
+      "avg_pnl_per_trade": 21.68,
+      "win_rate": 39.6,
+      "wins": 1077,
+      "losses": 1644
+    },
+    "09:30": {
+      "trades": 2721,
+      "net_pnl": 74116.13,
+      "avg_pnl_per_trade": 27.24,
+      "win_rate": 39.7,
+      "wins": 1081,
+      "losses": 1640
+    },
+    "09:45": {
+      "trades": 2721,
+      "net_pnl": 75752.79,
+      "avg_pnl_per_trade": 27.84,
+      "win_rate": 39.9,
+      "wins": 1086,
+      "losses": 1635
+    },
+    "10:00": {
+      "trades": 2721,
+      "net_pnl": 76765.69,
+      "avg_pnl_per_trade": 28.21,
+      "win_rate": 40.2,
+      "wins": 1093,
+      "losses": 1628
+    },
+    "10:15": {
+      "trades": 2721,
+      "net_pnl": 76077.12,
+      "avg_pnl_per_trade": 27.96,
+      "win_rate": 39.9,
+      "wins": 1086,
+      "losses": 1635
+    },
+    "10:30": {
+      "trades": 2721,
+      "net_pnl": 73449.85,
+      "avg_pnl_per_trade": 26.99,
+      "win_rate": 39.8,
+      "wins": 1083,
+      "losses": 1638
+    },
+    "10:45": {
+      "trades": 2721,
+      "net_pnl": 76484.22,
+      "avg_pnl_per_trade": 28.11,
+      "win_rate": 39.9,
+      "wins": 1087,
+      "losses": 1634
+    },
+    "11:00": {
+      "trades": 2721,
+      "net_pnl": 73544.43,
+      "avg_pnl_per_trade": 27.03,
+      "win_rate": 39.9,
+      "wins": 1085,
+      "losses": 1636
+    },
+    "11:15": {
+      "trades": 2721,
+      "net_pnl": 75416.55,
+      "avg_pnl_per_trade": 27.72,
+      "win_rate": 40.1,
+      "wins": 1092,
+      "losses": 1629
+    },
+    "11:30": {
+      "trades": 2721,
+      "net_pnl": 72171.74,
+      "avg_pnl_per_trade": 26.52,
+      "win_rate": 40.2,
+      "wins": 1094,
+      "losses": 1627
+    },
+    "11:45": {
+      "trades": 2721,
+      "net_pnl": 70029.33,
+      "avg_pnl_per_trade": 25.74,
+      "win_rate": 39.9,
+      "wins": 1086,
+      "losses": 1635
+    },
+    "12:00": {
+      "trades": 2721,
+      "net_pnl": 72680.99,
+      "avg_pnl_per_trade": 26.71,
+      "win_rate": 39.8,
+      "wins": 1084,
+      "losses": 1637
+    },
+    "12:15": {
+      "trades": 2721,
+      "net_pnl": 73200.98,
+      "avg_pnl_per_trade": 26.9,
+      "win_rate": 40.1,
+      "wins": 1091,
+      "losses": 1630
+    },
+    "12:30": {
+      "trades": 2721,
+      "net_pnl": 75437.0,
+      "avg_pnl_per_trade": 27.72,
+      "win_rate": 40.1,
+      "wins": 1090,
+      "losses": 1631
+    },
+    "12:45": {
+      "trades": 2721,
+      "net_pnl": 77709.58,
+      "avg_pnl_per_trade": 28.56,
+      "win_rate": 40.0,
+      "wins": 1089,
+      "losses": 1632
+    },
+    "13:00": {
+      "trades": 2721,
+      "net_pnl": 77641.65,
+      "avg_pnl_per_trade": 28.53,
+      "win_rate": 40.0,
+      "wins": 1089,
+      "losses": 1632
+    },
+    "13:15": {
+      "trades": 2721,
+      "net_pnl": 79521.85,
+      "avg_pnl_per_trade": 29.23,
+      "win_rate": 40.2,
+      "wins": 1093,
+      "losses": 1628
+    },
+    "13:30": {
+      "trades": 2721,
+      "net_pnl": 80538.31,
+      "avg_pnl_per_trade": 29.6,
+      "win_rate": 40.3,
+      "wins": 1096,
+      "losses": 1625
+    },
+    "13:45": {
+      "trades": 2740,
+      "net_pnl": 81794.53,
+      "avg_pnl_per_trade": 29.85,
+      "win_rate": 40.2,
+      "wins": 1101,
+      "losses": 1639
+    },
+    "14:00": {
+      "trades": 2740,
+      "net_pnl": 79619.73,
+      "avg_pnl_per_trade": 29.06,
+      "win_rate": 40.2,
+      "wins": 1102,
+      "losses": 1638
+    },
+    "14:15": {
+      "trades": 2740,
+      "net_pnl": 82569.57,
+      "avg_pnl_per_trade": 30.13,
+      "win_rate": 40.1,
+      "wins": 1100,
+      "losses": 1640
+    },
+    "14:30": {
+      "trades": 2740,
+      "net_pnl": 79638.47,
+      "avg_pnl_per_trade": 29.07,
+      "win_rate": 40.1,
+      "wins": 1100,
+      "losses": 1640
+    },
+    "14:45": {
+      "trades": 2740,
+      "net_pnl": 80638.69,
+      "avg_pnl_per_trade": 29.43,
+      "win_rate": 40.3,
+      "wins": 1103,
+      "losses": 1637
+    },
+    "15:00": {
+      "trades": 2721,
+      "net_pnl": 76034.73,
+      "avg_pnl_per_trade": 27.94,
+      "win_rate": 40.3,
+      "wins": 1096,
+      "losses": 1625
+    },
+    "15:15": {
+      "trades": 2721,
+      "net_pnl": 75888.9,
+      "avg_pnl_per_trade": 27.89,
+      "win_rate": 40.3,
+      "wins": 1097,
+      "losses": 1624
+    },
+    "15:30": {
+      "trades": 2654,
+      "net_pnl": 77006.72,
+      "avg_pnl_per_trade": 29.02,
+      "win_rate": 40.1,
+      "wins": 1064,
+      "losses": 1590
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-07-21T19:20:31",
+  "search_space": {
+    "LONG_MIN_SCORE": [
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "SHORT_MIN_SCORE": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "sl_mult": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "tp_mult": [
+      2.0,
+      3.0,
+      4.0
+    ]
+  },
+  "results": {
+    "best_config": null,
+    "best_metric": -Infinity,
+    "all_searches": []
+  }
+}

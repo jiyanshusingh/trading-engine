@@ -1,0 +1,639 @@
+{
+  "day": "2026-07-23",
+  "day_entries": 0,
+  "trades": [
+    {
+      "symbol": "COALINDIA",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 432.7,
+      "stop_loss": 431.49,
+      "take_profit": 435.72,
+      "shares": 23,
+      "ts": "2026-07-20 09:15",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "COALINDIA",
+        "instrument_key": "NSE_EQ|INE522F01014",
+        "quantity": 23,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 432.7,
+        "trigger_price": null,
+        "stop_loss": 431.49
+      }
+    },
+    {
+      "symbol": "COALINDIA",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Combined Swing",
+      "entry_price": 432.75,
+      "stop_loss": 430.24,
+      "take_profit": 437.76,
+      "shares": 27,
+      "ts": "2026-07-20 09:15",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "COALINDIA",
+        "instrument_key": "NSE_EQ|INE522F01014",
+        "quantity": 27,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 432.75,
+        "trigger_price": null,
+        "stop_loss": 430.24
+      }
+    },
+    {
+      "symbol": "ONGC",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Combined Swing",
+      "entry_price": 251.93,
+      "stop_loss": 250.34,
+      "take_profit": 255.1,
+      "shares": 1,
+      "ts": "2026-07-20 09:15",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "ONGC",
+        "instrument_key": "NSE_EQ|INE213A01029",
+        "quantity": 1,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 251.93,
+        "trigger_price": null,
+        "stop_loss": 250.34
+      }
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Daily Trend Breakout",
+      "entry_price": 349.0,
+      "stop_loss": 316.83,
+      "take_profit": 1745.0,
+      "shares": 23,
+      "ts": "2026-07-20 09:15",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "FEDERALBNK",
+        "instrument_key": "NSE_EQ|INE171A01029",
+        "quantity": 23,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "D",
+        "price": 349.0,
+        "trigger_price": null,
+        "stop_loss": 316.83
+      }
+    },
+    {
+      "symbol": "COALINDIA",
+      "direction": "LONG",
+      "side": "EXIT",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 432.7,
+      "exit_price": 431.49,
+      "shares": 23,
+      "pnl": -63.89,
+      "cost": 36.06,
+      "r_multiple": -1.0,
+      "result": "LOSS",
+      "ts": "2026-07-20 09:52",
+      "reason": "SIGNAL",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "COALINDIA",
+        "instrument_key": "NSE_EQ|INE522F01014",
+        "quantity": 23,
+        "transaction_type": "SELL",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 431.49,
+        "trigger_price": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "symbol": "ONGC",
+      "direction": "LONG",
+      "side": "EXIT",
+      "strategy": "Combined Swing",
+      "entry_price": 251.93,
+      "exit_price": 250.34,
+      "shares": 1,
+      "pnl": -25.51,
+      "cost": 23.92,
+      "r_multiple": -1.0,
+      "result": "LOSS",
+      "ts": "2026-07-20 09:52",
+      "reason": "SIGNAL",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "ONGC",
+        "instrument_key": "NSE_EQ|INE213A01029",
+        "quantity": 1,
+        "transaction_type": "SELL",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 250.34,
+        "trigger_price": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "symbol": "CIPLA",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 1453.8,
+      "stop_loss": 1447.67,
+      "take_profit": 1469.12,
+      "shares": 6,
+      "ts": "2026-07-20 12:13",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "CIPLA",
+        "instrument_key": "NSE_EQ|INE059A01026",
+        "quantity": 6,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 1453.8,
+        "trigger_price": null,
+        "stop_loss": 1447.67
+      }
+    },
+    {
+      "symbol": "COALINDIA",
+      "direction": "LONG",
+      "side": "EXIT",
+      "strategy": "Combined Swing",
+      "entry_price": 432.75,
+      "exit_price": 430.24,
+      "shares": 27,
+      "pnl": -105.99,
+      "cost": 38.22,
+      "r_multiple": -1.0,
+      "result": "LOSS",
+      "ts": "2026-07-20 13:24",
+      "reason": "SIGNAL",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "COALINDIA",
+        "instrument_key": "NSE_EQ|INE522F01014",
+        "quantity": 27,
+        "transaction_type": "SELL",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 430.24,
+        "trigger_price": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "symbol": "CIPLA",
+      "direction": "LONG",
+      "side": "EXIT",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 1453.8,
+      "exit_price": 1447.67,
+      "shares": 6,
+      "pnl": -71.29,
+      "cost": 34.51,
+      "r_multiple": -1.0,
+      "result": "LOSS",
+      "ts": "2026-07-20 14:18",
+      "reason": "SIGNAL",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "CIPLA",
+        "instrument_key": "NSE_EQ|INE059A01026",
+        "quantity": 6,
+        "transaction_type": "SELL",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 1447.67,
+        "trigger_price": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "symbol": "OIL",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Daily Trend Breakout",
+      "entry_price": 453.55,
+      "stop_loss": 412.26,
+      "take_profit": 2267.75,
+      "shares": 4,
+      "ts": "2026-07-21 09:15",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "OIL",
+        "instrument_key": "NSE_EQ|INE274J01014",
+        "quantity": 4,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "D",
+        "price": 453.55,
+        "trigger_price": null,
+        "stop_loss": 412.26
+      }
+    },
+    {
+      "symbol": "PNB",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Daily Trend Breakout",
+      "entry_price": 111.76,
+      "stop_loss": 101.6,
+      "take_profit": 558.8,
+      "shares": 1,
+      "ts": "2026-07-21 09:15",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "PNB",
+        "instrument_key": "NSE_EQ|INE160A01022",
+        "quantity": 1,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "D",
+        "price": 111.76,
+        "trigger_price": null,
+        "stop_loss": 101.6
+      }
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 1066.0,
+      "stop_loss": 1060.42,
+      "take_profit": 1079.95,
+      "shares": 9,
+      "ts": "2026-07-21 10:07",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "INDUSINDBK",
+        "instrument_key": "NSE_EQ|INE095A01012",
+        "quantity": 9,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 1066.0,
+        "trigger_price": null,
+        "stop_loss": 1060.42
+      }
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "direction": "LONG",
+      "side": "EXIT",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 1066.0,
+      "exit_price": 1060.42,
+      "shares": 9,
+      "pnl": -85.82,
+      "cost": 35.6,
+      "r_multiple": -1.0,
+      "result": "LOSS",
+      "ts": "2026-07-21 10:55",
+      "reason": "SIGNAL",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "INDUSINDBK",
+        "instrument_key": "NSE_EQ|INE095A01012",
+        "quantity": 9,
+        "transaction_type": "SELL",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 1060.42,
+        "trigger_price": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "symbol": "HAL",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 4556.0,
+      "stop_loss": 4541.9,
+      "take_profit": 4591.25,
+      "shares": 2,
+      "ts": "2026-07-21 14:05",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "HAL",
+        "instrument_key": "NSE_EQ|INE066F01020",
+        "quantity": 2,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 4556.0,
+        "trigger_price": null,
+        "stop_loss": 4541.9
+      }
+    },
+    {
+      "symbol": "HAL",
+      "direction": "LONG",
+      "side": "EXIT",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 4556.0,
+      "exit_price": 4605.3,
+      "shares": 2,
+      "pnl": 63.56,
+      "cost": 35.04,
+      "r_multiple": 3.496,
+      "result": "WIN",
+      "ts": "2026-07-22 11:58",
+      "reason": "EOD-FORCE-CLOSE",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "HAL",
+        "instrument_key": "NSE_EQ|INE066F01020",
+        "quantity": 2,
+        "transaction_type": "SELL",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 4605.3,
+        "trigger_price": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "symbol": "AEGISVOPAK",
+      "direction": "LONG",
+      "side": "ENTRY",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 300.71,
+      "stop_loss": 296.88,
+      "take_profit": 310.3,
+      "shares": 65,
+      "ts": "2026-07-22 11:59",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "AEGISVOPAK",
+        "instrument_key": "NSE_EQ|INE0INX01018",
+        "quantity": 65,
+        "transaction_type": "BUY",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 300.71,
+        "trigger_price": null,
+        "stop_loss": 296.88
+      }
+    },
+    {
+      "symbol": "AEGISVOPAK",
+      "direction": "LONG",
+      "side": "EXIT",
+      "strategy": "Relative Strength Momentum",
+      "entry_price": 300.71,
+      "exit_price": 296.88,
+      "shares": 65,
+      "pnl": -296.97,
+      "cost": 48.02,
+      "r_multiple": -1.0,
+      "result": "LOSS",
+      "ts": "2026-07-22 12:32",
+      "reason": "SIGNAL",
+      "order": {
+        "exchange": "NSE",
+        "symbol": "AEGISVOPAK",
+        "instrument_key": "NSE_EQ|INE0INX01018",
+        "quantity": 65,
+        "transaction_type": "SELL",
+        "order_type": "MARKET",
+        "product": "I",
+        "price": 296.88,
+        "trigger_price": null,
+        "stop_loss": null
+      }
+    }
+  ],
+  "equity_curve": [
+    {
+      "ts": null,
+      "equity": 50000.0
+    },
+    {
+      "ts": "2026-07-20 09:15",
+      "equity": 20084.72
+    },
+    {
+      "ts": "2026-07-20 09:52",
+      "equity": 41855.26
+    },
+    {
+      "ts": "2026-07-20 10:26",
+      "equity": 41845.81
+    },
+    {
+      "ts": "2026-07-20 11:20",
+      "equity": 41860.66
+    },
+    {
+      "ts": "2026-07-20 12:13",
+      "equity": 33108.16
+    },
+    {
+      "ts": "2026-07-20 13:24",
+      "equity": 41810.02
+    },
+    {
+      "ts": "2026-07-20 14:18",
+      "equity": 41706.33
+    },
+    {
+      "ts": "2026-07-20 14:51",
+      "equity": 41706.33
+    },
+    {
+      "ts": "2026-07-20 21:47",
+      "equity": 83412.66
+    },
+    {
+      "ts": "2026-07-21 09:15",
+      "equity": 89617.2
+    },
+    {
+      "ts": "2026-07-21 09:46",
+      "equity": 81486.7
+    },
+    {
+      "ts": "2026-07-21 10:02",
+      "equity": 81486.7
+    },
+    {
+      "ts": "2026-07-21 10:07",
+      "equity": 71892.7
+    },
+    {
+      "ts": "2026-07-21 10:55",
+      "equity": 81400.87
+    },
+    {
+      "ts": "2026-07-21 11:38",
+      "equity": 81400.87
+    },
+    {
+      "ts": "2026-07-21 12:25",
+      "equity": 81400.87
+    },
+    {
+      "ts": "2026-07-21 13:04",
+      "equity": 81400.87
+    },
+    {
+      "ts": "2026-07-21 13:34",
+      "equity": 81400.87
+    },
+    {
+      "ts": "2026-07-21 14:05",
+      "equity": 72288.87
+    },
+    {
+      "ts": "2026-07-21 14:50",
+      "equity": 81468.87
+    },
+    {
+      "ts": "2026-07-22 11:58",
+      "equity": 81464.44
+    },
+    {
+      "ts": "2026-07-22 11:59",
+      "equity": 61918.29
+    },
+    {
+      "ts": "2026-07-22 12:32",
+      "equity": 81167.48
+    },
+    {
+      "ts": "2026-07-22 13:08",
+      "equity": 81167.48
+    },
+    {
+      "ts": "2026-07-22 13:36",
+      "equity": 81167.48
+    },
+    {
+      "ts": "2026-07-22 14:50",
+      "equity": 81167.48
+    },
+    {
+      "ts": "2026-07-23 09:56",
+      "equity": 81167.48
+    },
+    {
+      "ts": "2026-07-23 11:35",
+      "equity": 81167.48
+    }
+  ],
+  "strategies": {
+    "Relative Strength Momentum": {
+      "cash": 21890.597266766,
+      "day_entries": 0,
+      "positions": [],
+      "peak_equity": 22187.56
+    },
+    "Combined Swing": {
+      "cash": 15903.55,
+      "day_entries": 0,
+      "positions": [],
+      "peak_equity": 15903.55
+    },
+    "Manual Institutional (time-gated)": {
+      "cash": 13012.0,
+      "day_entries": 0,
+      "positions": [],
+      "peak_equity": 13012.0
+    },
+    "ML Standalone": {
+      "cash": 10120.44,
+      "day_entries": 0,
+      "positions": [],
+      "peak_equity": 10120.44
+    },
+    "Daily Trend Breakout": {
+      "cash": 13012.0,
+      "day_entries": 0,
+      "positions": [
+        {
+          "symbol": "FEDERALBNK",
+          "direction": "LONG",
+          "strategy": "Daily Trend Breakout",
+          "entry_price": 349.0,
+          "stop_loss": 317.84,
+          "take_profit": 1745.0,
+          "shares": 23,
+          "opened_at": "2026-07-20 09:15",
+          "score": 99,
+          "mode": "daily",
+          "trail_atr_mult": 4.0,
+          "trail_high": 349.0,
+          "max_hold_bars": 60,
+          "signal_date": "2026-07-17"
+        },
+        {
+          "symbol": "OIL",
+          "direction": "LONG",
+          "strategy": "Daily Trend Breakout",
+          "entry_price": 453.55,
+          "stop_loss": 412.26,
+          "take_profit": 2267.75,
+          "shares": 4,
+          "opened_at": "2026-07-21 09:15",
+          "score": 98,
+          "mode": "daily",
+          "trail_atr_mult": 4.0,
+          "trail_high": 453.55,
+          "max_hold_bars": 60,
+          "signal_date": "2026-07-20"
+        },
+        {
+          "symbol": "PNB",
+          "direction": "LONG",
+          "strategy": "Daily Trend Breakout",
+          "entry_price": 111.76,
+          "stop_loss": 101.6,
+          "take_profit": 558.8,
+          "shares": 1,
+          "opened_at": "2026-07-21 09:15",
+          "score": 73,
+          "mode": "daily",
+          "trail_atr_mult": 4.0,
+          "trail_high": 111.76,
+          "max_hold_bars": 60,
+          "signal_date": "2026-07-20"
+        }
+      ],
+      "peak_equity": 13012.0
+    },
+    "ML Opening Breakout": {
+      "cash": 7228.89,
+      "day_entries": 0,
+      "positions": [],
+      "peak_equity": 50000.0
+    }
+  },
+  "daily_pass_date": "2026-07-22",
+  "_strategy_allocs": {
+    "Relative Strength Momentum": 18.0,
+    "Combined Swing": 22.0,
+    "Manual Institutional (time-gated)": 18.0,
+    "ML Standalone": 14.0,
+    "Daily Trend Breakout": 18.0,
+    "ML Opening Breakout": 10.0
+  }
+}

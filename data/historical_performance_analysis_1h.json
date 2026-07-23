@@ -1,0 +1,192 @@
+{
+  "windows": {
+    "5d": [
+      {
+        "bucket": "lt_minus_5",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "minus_5_to_0",
+        "count": 46,
+        "wins": 30,
+        "losses": 16,
+        "win_rate_pct": 65.2,
+        "profit_factor": 1.88,
+        "total_pnl": -894.96
+      },
+      {
+        "bucket": "0_to_5",
+        "count": 14,
+        "wins": 0,
+        "losses": 14,
+        "win_rate_pct": 0.0,
+        "profit_factor": 0.0,
+        "total_pnl": -284.49
+      },
+      {
+        "bucket": "5_to_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "gt_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      }
+    ],
+    "20d": [
+      {
+        "bucket": "lt_minus_5",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "minus_5_to_0",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "0_to_5",
+        "count": 60,
+        "wins": 30,
+        "losses": 30,
+        "win_rate_pct": 50.0,
+        "profit_factor": 1.0,
+        "total_pnl": -1179.45
+      },
+      {
+        "bucket": "5_to_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "gt_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      }
+    ],
+    "60d": [
+      {
+        "bucket": "lt_minus_5",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "minus_5_to_0",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "0_to_5",
+        "count": 60,
+        "wins": 30,
+        "losses": 30,
+        "win_rate_pct": 50.0,
+        "profit_factor": 1.0,
+        "total_pnl": -1179.45
+      },
+      {
+        "bucket": "5_to_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "gt_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      }
+    ],
+    "120d": [
+      {
+        "bucket": "lt_minus_5",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "minus_5_to_0",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "0_to_5",
+        "count": 60,
+        "wins": 30,
+        "losses": 30,
+        "win_rate_pct": 50.0,
+        "profit_factor": 1.0,
+        "total_pnl": -1179.45
+      },
+      {
+        "bucket": "5_to_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      },
+      {
+        "bucket": "gt_10",
+        "count": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": 0,
+        "profit_factor": 0,
+        "total_pnl": 0
+      }
+    ]
+  }
+}

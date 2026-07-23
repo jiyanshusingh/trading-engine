@@ -1,0 +1,176 @@
+{
+  "strategy": "Relative Strength Momentum",
+  "timeframe": "15m",
+  "mode": "SWING",
+  "default_sl": 2.0,
+  "default_tp": 4.0,
+  "tuned_count": 15,
+  "total_symbols": 15,
+  "tunings": {
+    "ACUTAAS": {
+      "sl": 3.0,
+      "tp": 4.0,
+      "trades": 210,
+      "pf": 1.72,
+      "avg_r": 0.298,
+      "pnl_pct": 60.56,
+      "wr": 55.2,
+      "dd": 12.82,
+      "changed": true
+    },
+    "ADANIGREEN": {
+      "sl": 2.0,
+      "tp": 3.0,
+      "trades": 168,
+      "pf": 1.7,
+      "avg_r": 0.339,
+      "pnl_pct": 49.91,
+      "wr": 53.6,
+      "dd": 8.95,
+      "changed": true
+    },
+    "BANKBARODA": {
+      "sl": 3.0,
+      "tp": 6.0,
+      "trades": 107,
+      "pf": 1.78,
+      "avg_r": 0.381,
+      "pnl_pct": 40.46,
+      "wr": 45.8,
+      "dd": 4.92,
+      "changed": true
+    },
+    "BHEL": {
+      "sl": 2.0,
+      "tp": 6.0,
+      "trades": 131,
+      "pf": 1.85,
+      "avg_r": 0.561,
+      "pnl_pct": 60.61,
+      "wr": 40.5,
+      "dd": 8.9,
+      "changed": true
+    },
+    "BSE": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 143,
+      "pf": 1.8,
+      "avg_r": 0.469,
+      "pnl_pct": 61.14,
+      "wr": 29.4,
+      "dd": 9.91,
+      "changed": true
+    },
+    "FEDERALBNK": {
+      "sl": 2.5,
+      "tp": 6.0,
+      "trades": 95,
+      "pf": 2.04,
+      "avg_r": 0.321,
+      "pnl_pct": 45.91,
+      "wr": 41.1,
+      "dd": 9.77,
+      "changed": true
+    },
+    "FORTIS": {
+      "sl": 2.0,
+      "tp": 6.0,
+      "trades": 120,
+      "pf": 1.73,
+      "avg_r": 0.379,
+      "pnl_pct": 43.71,
+      "wr": 35.0,
+      "dd": 6.3,
+      "changed": true
+    },
+    "HINDUNILVR": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 58,
+      "pf": 2.4,
+      "avg_r": 0.798,
+      "pnl_pct": 26.49,
+      "wr": 37.9,
+      "dd": 4.95,
+      "changed": true
+    },
+    "IDEA": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 155,
+      "pf": 2.03,
+      "avg_r": 0.663,
+      "pnl_pct": 95.93,
+      "wr": 33.5,
+      "dd": 9.39,
+      "changed": true
+    },
+    "KIRLOSENG": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 152,
+      "pf": 1.63,
+      "avg_r": 0.535,
+      "pnl_pct": 53.41,
+      "wr": 31.6,
+      "dd": 14.53,
+      "changed": true
+    },
+    "NEWGEN": {
+      "sl": 2.0,
+      "tp": 3.0,
+      "trades": 94,
+      "pf": 1.56,
+      "avg_r": 0.144,
+      "pnl_pct": 25.24,
+      "wr": 45.7,
+      "dd": 6.99,
+      "changed": true
+    },
+    "PAYTM": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 148,
+      "pf": 2.17,
+      "avg_r": 0.619,
+      "pnl_pct": 80.77,
+      "wr": 33.1,
+      "dd": 7.79,
+      "changed": true
+    },
+    "PERSISTENT": {
+      "sl": 3.0,
+      "tp": 6.0,
+      "trades": 126,
+      "pf": 1.72,
+      "avg_r": 0.353,
+      "pnl_pct": 40.95,
+      "wr": 46.8,
+      "dd": 7.52,
+      "changed": true
+    },
+    "SONATSOFTW": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 113,
+      "pf": 2.11,
+      "avg_r": 0.77,
+      "pnl_pct": 66.58,
+      "wr": 35.4,
+      "dd": 7.39,
+      "changed": true
+    },
+    "TRENT": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 87,
+      "pf": 2.09,
+      "avg_r": 0.593,
+      "pnl_pct": 40.36,
+      "wr": 33.3,
+      "dd": 4.81,
+      "changed": true
+    }
+  }
+}

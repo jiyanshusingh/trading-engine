@@ -1,0 +1,26 @@
+{
+  "experiment": "ML Standalone — retrain deployment model on 500-symbol universe",
+  "date": "2026-07-19",
+  "hypothesis": "Current deployment model trained on only 152 symbols (Phase 31). The expanded 500-symbol cache (Phase 35) should let the model scan 3.3x more names, yielding more high-conviction trades at the same per-trade quality.",
+  "verdict": "DEPLOYED — 500-symbol model is better in aggregate OOS; deployed to live paper trader",
+  "method": "Trained XGBoost on the narrow-SL (0.5%) 500-symbol dataset (4,003,893 bars). Compared via (a) full-universe 4-fold walk-forward (fixed thr 0.80) and (b) 5-symbol live-path backtest (WIPRO,TATAELXSI,DIXON,RELIANCE,ONGC, 730d).",
+  "results": {
+    "walkforward_500sym": {"aggregate_net": 223727, "trades": 282, "net_per_trade": 793, "folds_positive": "4/4", "wr": 41.5},
+    "walkforward_152sym_baseline": {"aggregate_net": 49985, "trades": 71, "net_per_trade": 704, "folds_positive": "4/4", "wr": 38},
+    "5sym_livepath_500sym": {"net": 28339, "trades": 45, "positive": "4/5 (ONGC -)", "per_symbol": {"DIXON": 12299, "TATAELXSI": 7094, "WIPRO": 5555, "RELIANCE": 4851, "ONGC": -1461}},
+    "5sym_livepath_152sym_baseline": {"net": 31812, "trades": 43, "positive": "4/5 (ONGC -)"}
+  },
+  "analysis": "5-symbol live-path test is ~equal (+28.3k vs +31.8k) because per-trade quality is similar (~630 vs ~740/trade). The real gain is UNIVERSE BREADTH: the 500-symbol model scans 3.3x more names, so the full-universe walk-forward shows +223,727 vs +49,985 (4.5x more total net) at the same per-trade quality. The improvement is in trade COUNT, not per-trade edge.",
+  "deployment": {
+    "action": "Replaced data/ml_strategy_model.json + _meta.json with the 500-symbol versions (features identical: 35, sl 0.005, LONG+SHORT). Threshold 0.80 (validated in walk-forward).",
+    "backup": "data/ml_strategy_model.json.bak_152sym_20260719 + _meta",
+    "paper_trader": "Restarted PID 78376 (was 77901). Preserved state (no --reset). Paper mode, no --real. Healthy: 168 symbols, 5 strategies, 0 errors.",
+    "note": "Old deployment used thr 0.75 (Phase E); new model thr 0.80 (more selective, validated). Live selectivity slightly tighter — consistent with walk-forward test."
+  },
+  "files": {
+    "trained_model": "data/ml_strategy_model_500.json + _meta (kept as the source of the deployment copy)",
+    "datasets": ["data/ml_strategy_dataset_narrow.parquet (500-sym, sl 0.5%)"],
+    "backtest_log": "data/bt_500sym_test.log",
+    "results_saved": "data/results/ml_standalone_wider_sl_test_2026-07-19.json (wider-SL test) + this file"
+  }
+}

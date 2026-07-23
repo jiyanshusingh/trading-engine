@@ -1,0 +1,218 @@
+[
+  {
+    "symbol": "HINDUNILVR",
+    "trades": 368,
+    "win_rate": 19.0,
+    "profit_factor": 0.97,
+    "avg_r": -0.02,
+    "total_pnl_pct": -1.45,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "MARUTI",
+    "trades": 471,
+    "win_rate": 21.7,
+    "profit_factor": 1.16,
+    "avg_r": 0.14,
+    "total_pnl_pct": 7.81,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "ADANIENT",
+    "trades": 445,
+    "win_rate": 22.2,
+    "profit_factor": 1.38,
+    "avg_r": 0.25,
+    "total_pnl_pct": 29.62,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "NESTLEIND",
+    "trades": 511,
+    "win_rate": 21.1,
+    "profit_factor": 1.04,
+    "avg_r": 0.04,
+    "total_pnl_pct": 3.17,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "TATACONSUM",
+    "trades": 428,
+    "win_rate": 20.6,
+    "profit_factor": 0.97,
+    "avg_r": -0.04,
+    "total_pnl_pct": -1.87,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "EICHERMOT",
+    "trades": 546,
+    "win_rate": 20.0,
+    "profit_factor": 1.07,
+    "avg_r": 0.13,
+    "total_pnl_pct": 5.18,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "CIPLA",
+    "trades": 392,
+    "win_rate": 24.0,
+    "profit_factor": 1.36,
+    "avg_r": 0.24,
+    "total_pnl_pct": 16.92,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "ICICIBANK",
+    "trades": 363,
+    "win_rate": 24.0,
+    "profit_factor": 1.39,
+    "avg_r": 0.22,
+    "total_pnl_pct": 14.67,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "OIL",
+    "trades": 280,
+    "win_rate": 20.0,
+    "profit_factor": 0.84,
+    "avg_r": -0.03,
+    "total_pnl_pct": -8.26,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "ABB",
+    "trades": 422,
+    "win_rate": 20.1,
+    "profit_factor": 1.29,
+    "avg_r": 0.22,
+    "total_pnl_pct": 18.24,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "TORNTPHARM",
+    "trades": 564,
+    "win_rate": 25.5,
+    "profit_factor": 1.47,
+    "avg_r": 0.34,
+    "total_pnl_pct": 35.23,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "TECHM",
+    "trades": 381,
+    "win_rate": 21.8,
+    "profit_factor": 1.25,
+    "avg_r": 0.21,
+    "total_pnl_pct": 13.98,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "WIPRO",
+    "trades": 220,
+    "win_rate": 20.9,
+    "profit_factor": 0.95,
+    "avg_r": 0.01,
+    "total_pnl_pct": -1.51,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "INFY",
+    "trades": 299,
+    "win_rate": 24.1,
+    "profit_factor": 1.21,
+    "avg_r": 0.18,
+    "total_pnl_pct": 8.17,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "ONGC",
+    "trades": 322,
+    "win_rate": 24.2,
+    "profit_factor": 1.33,
+    "avg_r": 0.22,
+    "total_pnl_pct": 15.8,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "BHARTIARTL",
+    "trades": 432,
+    "win_rate": 23.4,
+    "profit_factor": 1.4,
+    "avg_r": 0.26,
+    "total_pnl_pct": 19.48,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "BSE",
+    "trades": 386,
+    "win_rate": 20.7,
+    "profit_factor": 1.18,
+    "avg_r": 0.19,
+    "total_pnl_pct": 14.3,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "PIDILITIND",
+    "trades": 314,
+    "win_rate": 18.2,
+    "profit_factor": 0.88,
+    "avg_r": -0.11,
+    "total_pnl_pct": -5.3,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "HDFCBANK",
+    "trades": 282,
+    "win_rate": 22.0,
+    "profit_factor": 0.85,
+    "avg_r": -0.07,
+    "total_pnl_pct": -4.72,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "ICICIPRULI",
+    "trades": 256,
+    "win_rate": 18.0,
+    "profit_factor": 0.93,
+    "avg_r": -0.06,
+    "total_pnl_pct": -2.75,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "ITC",
+    "trades": 213,
+    "win_rate": 17.4,
+    "profit_factor": 0.79,
+    "avg_r": -0.1,
+    "total_pnl_pct": -4.82,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "BEL",
+    "trades": 431,
+    "win_rate": 21.1,
+    "profit_factor": 1.15,
+    "avg_r": 0.11,
+    "total_pnl_pct": 9.76,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "DIVISLAB",
+    "trades": 464,
+    "win_rate": 20.7,
+    "profit_factor": 1.18,
+    "avg_r": 0.17,
+    "total_pnl_pct": 11.5,
+    "max_dd": 0.0
+  },
+  {
+    "symbol": "COALINDIA",
+    "trades": 322,
+    "win_rate": 20.8,
+    "profit_factor": 1.16,
+    "avg_r": 0.1,
+    "total_pnl_pct": 7.93,
+    "max_dd": 0.0
+  }
+]

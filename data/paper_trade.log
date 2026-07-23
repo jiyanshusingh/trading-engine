@@ -1,0 +1,1217 @@
+  Per-strategy watchlists: Relative Strength Momentum=153, Combined Swing=153, Manual Institutional=30, ML Standalone=153, Daily Trend Breakout=108, ML Opening Breakout=500
+  Auto-resolved 501 unique symbols across 6 strategies
+  Time-based watchlist switching active: 25 morning / 20 evening symbols
+  Paper-trading loop started (interval=5m, 501 symbols). Ctrl-C to stop.
+  wrote 1 rows → data/exports/2026-07-22_trades.csv
+======================================================================
+  PAPER TRADING CYCLE — 2026-07-23 09:56 IST
+  Strategies: Relative Strength Momentum, Combined Swing, Manual Institutional (time-gated), ML Standalone, Daily Trend Breakout, ML Opening Breakout
+  Cash: ₹81,167 | Day entries: 0/30 | Open: 3
+======================================================================
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x11420b8c0>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082) - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+WARNING Upstox search API request failed for ABB: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v2/instruments/search?query=ABB&exchanges=NSE (Caused by NameResolutionError("HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 8] nodename nor servname provided, or not known)"))
+WARNING Could not resolve ABB.NS — falling back to raw symbol
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x1152e0cd0>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+  [Relative Strength Momentum] [ml-filter] BAJAJ-AUTO LONG — P=0.50 < 0.6
+  [Relative Strength Momentum] [ml-filter] HEROMOTOCO LONG — P=0.59 < 0.6
+WARNING Upstox search API error 500 for ICICIAMC
+WARNING Could not resolve ICICIAMC.NS — falling back to raw symbol
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x1141f9610>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082) - goodbye
+ERROR Connection to remote host was lost. - goodbye
+WARNING Upstox search API request failed for IOC: HTTPSConnectionPool(host='api.upstox.com', port=443): Read timed out. (read timeout=10)
+WARNING Could not resolve IOC.NS — falling back to raw symbol
+ERROR Connection to remote host was lost. - goodbye
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x1141f99d0>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x119d73710>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+ERROR [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082) - goodbye
+ERROR Connection to remote host was lost. - goodbye
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x119d73c50>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:06:58 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:07:06 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:07:21 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:07:51 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:08:30 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:09:13 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:10:22 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:10:46 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:11:00 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:11:06 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:11:17 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:11:23 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:11:52 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:12:26 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:12:39 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:13:00 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+  [Relative Strength Momentum] [ml-filter] M&M LONG — P=0.57 < 0.6
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:13:35 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:14:02 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:14:14 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:14:26 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:14:40 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:15:00 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:15:10 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:15:20 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:15:29 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:15:47 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:16:58 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:17:22 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:17:31 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:17:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:17:43 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:07 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:17 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:26 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:33 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:35 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:37 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:40 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:42 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:43 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:46 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:18:51 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:19:00 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:19:28 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:19:35 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:19:43 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:19:53 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:20:04 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:20:18 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:20:27 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:20:51 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:21:08 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:21:21 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:21:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:22:04 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:22:48 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:23:12 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:23:27 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:23:38 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:25:09 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:26:00 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:26:30 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:26:52 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:26:59 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:27:07 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:27:45 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:28:11 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:28:57 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:29:39 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:30:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:31:49 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:32:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:32:57 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:33:05 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:33:18 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:33:47 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:33:57 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:33:59 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:02 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:04 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:07 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:07 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:10 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:17 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:26 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:35 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+ERROR Handshake status 403 Forbidden -+-+- {'date': 'Thu, 23 Jul 2026 05:34:44 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+  [Manual Institutional (time-gated)] morning window — 25 symbols
+  [ML Opening Breakout] [dd] equity ₹7,229 vs peak ₹50,000 → risk x0.0
+  [ML Opening Breakout] [halt] max drawdown reached — no new entries this cycle
+  Equity: ₹81,167  (cash ₹81,167 + 3 open positions)
+======================================================================
+  PAPER TRADING CYCLE — 2026-07-23 11:35 IST
+  Strategies: Relative Strength Momentum, Combined Swing, Manual Institutional (time-gated), ML Standalone, Daily Trend Breakout, ML Opening Breakout
+  Cash: ₹81,167 | Day entries: 0/30 | Open: 3
+======================================================================
+  [Relative Strength Momentum] [ml-filter] HEROMOTOCO LONG — P=0.58 < 0.6
+  [Relative Strength Momentum] [ml-filter] HEROMOTOCO LONG — P=0.58 < 0.6
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 65] No route to host - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+  [Manual Institutional (time-gated)] [skip] outside golden windows — scanning paused
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+  [ML Opening Breakout] [dd] equity ₹7,229 vs peak ₹50,000 → risk x0.0
+  [ML Opening Breakout] [halt] max drawdown reached — no new entries this cycle
+  Equity: ₹81,167  (cash ₹81,167 + 3 open positions)
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 60] Operation timed out - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+ERROR [Errno 8] nodename nor servname provided, or not known - goodbye
+======================================================================
+  PAPER TRADING CYCLE — 2026-07-23 11:53 IST
+  Strategies: Relative Strength Momentum, Combined Swing, Manual Institutional (time-gated), ML Standalone, Daily Trend Breakout, ML Opening Breakout
+  Cash: ₹81,167 | Day entries: 0/30 | Open: 3
+======================================================================
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x119d73a10>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+ERROR error from callback <bound method MarketDataStreamerV3.handle_open of <upstox_client.feeder.market_data_streamer_v3.MarketDataStreamerV3 object at 0x114842690>>: WebSocket is not open.
+ERROR 'NoneType' object has no attribute 'sock' - goodbye
+ERROR [Errno 54] Connection reset by peer - goodbye

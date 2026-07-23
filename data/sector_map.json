@@ -1,0 +1,9534 @@
+{
+  "LEMONTREE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "TARIL": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "SMALLIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "RADIOCITY": {
+    "sector": "Communication Services",
+    "industry": "Broadcasting"
+  },
+  "CHEMICAL": {
+    "sector": "",
+    "industry": ""
+  },
+  "KISSHT": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "MOMENTUM30": {
+    "sector": "",
+    "industry": ""
+  },
+  "GOKULAGRO": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "MARUTI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  "NDL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "EIEL": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "NATIONALUM": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum"
+  },
+  "TOP15IETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "BCONCEPTS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  },
+  "QUALITY30": {
+    "sector": "",
+    "industry": ""
+  },
+  "MANAPPURAM": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "SGFIN": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "VINYLINDIA": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "IOLCP": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "SMLT": {
+    "sector": "Industrials",
+    "industry": "Metal Fabrication"
+  },
+  "SHAREINDIA": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "CENTRUM": {
+    "sector": "Financial Services",
+    "industry": "Financial Conglomerates"
+  },
+  "ASPINWALL": {
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products"
+  },
+  "BOMDYEING": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "PVSL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto & Truck Dealerships"
+  },
+  "SGL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "CEINSYS": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "INGERRAND": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "JISLJALEQS": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "MID150": {
+    "sector": "",
+    "industry": ""
+  },
+  "CPEDU": {
+    "sector": "Consumer Defensive",
+    "industry": "Education & Training Services"
+  },
+  "BANSWRAS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "MSCIINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "NIFTY100EW": {
+    "sector": "",
+    "industry": ""
+  },
+  "SICALLOG": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "EVIETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "FIEMIND": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "SFL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "AMBIKCO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "PLATIND": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "MAHLOG": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "MUNJALAU": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "ENRIN": {
+    "sector": "Utilities",
+    "industry": "Utilities - Renewable"
+  },
+  "GRINFRA": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "CHALET": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "DALBHARAT": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "TATVA": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "KHANDSE": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "JUBLCPL": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "TRANSPEK": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "KALAMANDIR": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail"
+  },
+  "KAMOPAINTS": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "IVALUE": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "SIGNPOST": {
+    "sector": "Communication Services",
+    "industry": "Advertising Agencies"
+  },
+  "SHREERAMA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "BAJAJ-AUTO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  "TMCV": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  "MAZDA": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "AKG": {
+    "sector": "Industrials",
+    "industry": "Industrial Distribution"
+  },
+  "RGL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "PANACHE": {
+    "sector": "Technology",
+    "industry": "Communication Equipment"
+  },
+  "TEXMOPIPES": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "KIRLOSENG": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "XTGLOBAL": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "NITTAGELA": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "NIFTY1": {
+    "sector": null,
+    "industry": null
+  },
+  "AGARWALEYE": {
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies"
+  },
+  "HINDZINC": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "360ONE": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "TIIL": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories"
+  },
+  "AGIIL": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "SHREECEM": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "LIBAS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing"
+  },
+  "ANANTRAJ": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "GOLDAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "RELCHEMQ": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "NIFTYAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "JAYAGROGN": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "LLOYDSENGG": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "WONDERLA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure"
+  },
+  "ARFIN": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum"
+  },
+  "JETFREIGHT": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "ASTEC": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "DJML": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services"
+  },
+  "BIRLAMONEY": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "ASIANENE": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Equipment & Services"
+  },
+  "JINDALSTEL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "AADHARHFC": {
+    "sector": "Financial Services",
+    "industry": "Mortgage Finance"
+  },
+  "BDL": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "QUINT": {
+    "sector": "",
+    "industry": ""
+  },
+  "BIRLANU": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "COFORGE": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "ARVSMART": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "JINDWORLD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "GMRP&UI": {
+    "sector": "Energy",
+    "industry": "Thermal Coal"
+  },
+  "HESTERBIO": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "BANARISUG": {
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners"
+  },
+  "SILVERBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "USK": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "SIGNATURE": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "GHCLTEXTIL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "HGM": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "RAJTV": {
+    "sector": "Communication Services",
+    "industry": "Broadcasting"
+  },
+  "ORIENTCEM": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "MADRASFERT": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "ELITECON": {
+    "sector": "",
+    "industry": ""
+  },
+  "GIPCL": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric"
+  },
+  "AUTOBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "RAMRAT": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "ASALCBR": {
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Wineries & Distilleries"
+  },
+  "PNB": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "ORKLAINDIA": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "RPSGVENT": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "SKFINDIA": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories"
+  },
+  "EMMVEE": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "VIYASH": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "UTLSOLAR": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "GNA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "VIKRAMSOLR": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "SHBAJRG": {
+    "sector": "",
+    "industry": ""
+  },
+  "CDSL": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "SIL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "GCSL": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "EXXARO": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "IFBIND": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "RAYMOND": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "ADANIPOWER": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "HECPROJECT": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "DALMIASUG": {
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners"
+  },
+  "GODREJCP": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products"
+  },
+  "LALPATHLAB": {
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
+  },
+  "MOREPENLAB": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "INA": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "PARADEEP": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "SHANTIGOLD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "LAXMICOT": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "PFC": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "GILT5YBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "ARKADE": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "PHARMABEES": {
+    "sector": "",
+    "industry": ""
+  },
+  "VCL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "INFY": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "SONATSOFTW": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "IRCON": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "BANKNIFTY1": {
+    "sector": null,
+    "industry": null
+  },
+  "MIDCAP": {
+    "sector": null,
+    "industry": null
+  },
+  "SILVER1": {
+    "sector": null,
+    "industry": null
+  },
+  "NAVINFLUOR": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "SHK": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "SANOFICONR": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General"
+  },
+  "NV20": {
+    "sector": null,
+    "industry": null
+  },
+  "CONS": {
+    "sector": null,
+    "industry": null
+  },
+  "NEXT50ETF": {
+    "sector": null,
+    "industry": null
+  },
+  "VEDPOWER": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "SINTERCOM": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "VISHWARAJ": {
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners"
+  },
+  "GREAVESCOT": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "GOLD1": {
+    "sector": null,
+    "industry": null
+  },
+  "KAYNES": {
+    "sector": "Technology",
+    "industry": "Electronic Components"
+  },
+  "KAYA": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products"
+  },
+  "BIOCON": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "MIDHANI": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "DEVX": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services"
+  },
+  "RAMANEWS": {
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic"
+  },
+  "MCLOUD": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "IT": {
+    "sector": null,
+    "industry": null
+  },
+  "GTL": {
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  "VOGL": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "PATANJALI": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "SWSOLAR": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "BHARATFORG": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "BBOX": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "INDTERRAIN": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail"
+  },
+  "ADSL": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "SURYALAXMI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "GTLINFRA": {
+    "sector": "Technology",
+    "industry": "Communication Equipment"
+  },
+  "EPACKPEB": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "BERGEPAINT": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "NLCINDIA": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric"
+  },
+  "CLEANMAX": {
+    "sector": "Utilities",
+    "industry": "Utilities - Renewable"
+  },
+  "EPACK": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "GENUSPOWER": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "QUESS": {
+    "sector": "Industrials",
+    "industry": "Staffing & Employment Services"
+  },
+  "DECCANCE": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "ASAHISONG": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "LIQUIDBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "JUNIORBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "JGCHEM": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "SATIA": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "NILASPACES": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "AARNAV": {
+    "sector": "",
+    "industry": ""
+  },
+  "ACMESOLAR": {
+    "sector": "Utilities",
+    "industry": "Utilities - Renewable"
+  },
+  "PTC": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "NITCO": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "LORDSCHLO": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "DSSL": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "ZEEL": {
+    "sector": "Communication Services",
+    "industry": "Broadcasting"
+  },
+  "ADOR": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "SONAL": {
+    "sector": "",
+    "industry": ""
+  },
+  "PONNIERODE": {
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners"
+  },
+  "ALKEM": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "STEL": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "INFRABEES": {
+    "sector": null,
+    "industry": null
+  },
+  "TEGA": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "BIL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  },
+  "VIMTALABS": {
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
+  },
+  "GSFC": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "KOTAKBANK": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "TCPLPACK": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "HEALTHAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "PIONRINV": {
+    "sector": "",
+    "industry": ""
+  },
+  "ARIES": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "SHARIABEES": {
+    "sector": null,
+    "industry": null
+  },
+  "SAKHTISUG": {
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners"
+  },
+  "EIDPARRY": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "ITAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "BNKETFAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "STAR": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "INDPRUD": {
+    "sector": "",
+    "industry": ""
+  },
+  "CEATLTD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "ROTO": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "DIVISLAB": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "SAFARI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  },
+  "ZSARACOM": {
+    "sector": "",
+    "industry": ""
+  },
+  "GODREJAGRO": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "TTML": {
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  "NIF100BEES": {
+    "sector": null,
+    "industry": null
+  },
+  "LIQGRWBEES": {
+    "sector": "",
+    "industry": ""
+  },
+  "MERCANTILE": {
+    "sector": "",
+    "industry": ""
+  },
+  "FOSECOIND": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "MANUFGBEES": {
+    "sector": "",
+    "industry": ""
+  },
+  "SARDAEN": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "AMJLAND": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "SAHLIBHFI": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "DHANBANK": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "VSTIND": {
+    "sector": "Consumer Defensive",
+    "industry": "Tobacco"
+  },
+  "SPECIALITY": {
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants"
+  },
+  "OSWALGREEN": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "PRESTIGE": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Diversified"
+  },
+  "SNXT30BEES": {
+    "sector": "",
+    "industry": ""
+  },
+  "VMM": {
+    "sector": "Consumer Cyclical",
+    "industry": "Department Stores"
+  },
+  "POKARNA": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "SPECTRUM": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "BANG": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing"
+  },
+  "CELLO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "PENIND": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "TIJARIA": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "ACEINTEG": {
+    "sector": "Industrials",
+    "industry": "Staffing & Employment Services"
+  },
+  "INVENTURE": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "SAHYADRI": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "AVTNPL": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "ENGINERSIN": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "WABAG": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "PRABHA": {
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  "IRISDOREME": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing"
+  },
+  "FAZE3Q": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "MAANALU": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum"
+  },
+  "YATHARTH": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "SKMEGGPROD": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "HINDUNILVR": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products"
+  },
+  "RAMKY": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "JASH": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "DEVYANI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants"
+  },
+  "LIQUID1": {
+    "sector": "",
+    "industry": ""
+  },
+  "NEPHROPLUS": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "ICICIB22": {
+    "sector": null,
+    "industry": null
+  },
+  "THEJO": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "UNIONGOLD": {
+    "sector": "",
+    "industry": ""
+  },
+  "CANBK": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "UCOBANK": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "HAPPSTMNDS": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "UEL": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "ANTHEM": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "MCX": {
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  "DIVOPPBEES": {
+    "sector": "",
+    "industry": ""
+  },
+  "SAGILITY": {
+    "sector": "Healthcare",
+    "industry": "Health Information Services"
+  },
+  "OAL": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "PAR": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "ANURAS": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "ANDHRSUGAR": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "SHARDUL": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "HINDCOPPER": {
+    "sector": "Basic Materials",
+    "industry": "Copper"
+  },
+  "TANLA": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "SHRIRAMFIN": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "DIGITIDE": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services"
+  },
+  "MODIRUBBER": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services"
+  },
+  "MNC": {
+    "sector": null,
+    "industry": null
+  },
+  "LOWVOL1": {
+    "sector": null,
+    "industry": null
+  },
+  "DREDGECORP": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "BANKBARODA": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "GOPAL": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "GRAUWEIL": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "LODHA": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "LXCHEM": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "BRNL": {
+    "sector": "Industrials",
+    "industry": "Infrastructure Operations"
+  },
+  "IFCI": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "ALPHA": {
+    "sector": null,
+    "industry": null
+  },
+  "SCHAND": {
+    "sector": "Communication Services",
+    "industry": "Publishing"
+  },
+  "GATEWAY": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "BLIL": {
+    "sector": "",
+    "industry": ""
+  },
+  "CONSUMBEES": {
+    "sector": "",
+    "industry": ""
+  },
+  "JAGSNPHARM": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "ASTERDM": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "PRECWIRE": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "SAILIFE": {
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
+  },
+  "REPRO": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services"
+  },
+  "ACI": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "METROPOLIS": {
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
+  },
+  "LLOYDSENT": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "HALDER": {
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products"
+  },
+  "UNOMINDA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "HEROMOTOCO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  "BCG": {
+    "sector": "Communication Services",
+    "industry": "Advertising Agencies"
+  },
+  "HEIDELBERG": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "VSSL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "KENNAMET": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories"
+  },
+  "DISAQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "WHEELS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "SUNFLAG": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "SRD": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "ASHAPURMIN": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "TATACAP": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "BLBLIMITED": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "HUBTOWN": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "RRKABEL": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "PKTEA": {
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products"
+  },
+  "SBILIFE": {
+    "sector": "Financial Services",
+    "industry": "Insurance - Life"
+  },
+  "MOBIKWIK": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  "MAHAPEXLTD": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "EMIL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail"
+  },
+  "TATACONSUM": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "THANGAMAYL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "IRIS": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "SYNGENE": {
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
+  },
+  "AVANTEL": {
+    "sector": "Technology",
+    "industry": "Communication Equipment"
+  },
+  "LAHOTIOV": {
+    "sector": "",
+    "industry": ""
+  },
+  "ARTEMISMED": {
+    "sector": "",
+    "industry": ""
+  },
+  "BAJAJHLDNG": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "SHALBY": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "INDORAMA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "BBNPPGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "KAUSHALYA": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "ATLANTAA": {
+    "sector": "Industrials",
+    "industry": "Infrastructure Operations"
+  },
+  "WENDT": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories"
+  },
+  "PAUSHAKLTD": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "ICDSLTD": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services"
+  },
+  "GRAPHITE": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "MEESHO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail"
+  },
+  "SILLYMONKS": {
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  "VESUVIUS": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "TMB": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "AVANTIFEED": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "GFLLIMITED": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "OSWALSEEDS": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "MOINFRA": {
+    "sector": "",
+    "industry": ""
+  },
+  "MOMGF": {
+    "sector": "",
+    "industry": ""
+  },
+  "SHRADHA": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "TEAMGTY": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "MONEXT50": {
+    "sector": "",
+    "industry": ""
+  },
+  "MON50EQUAL": {
+    "sector": "",
+    "industry": ""
+  },
+  "BASF": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "RAMCOSYS": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "ACSTECH": {
+    "sector": "",
+    "industry": ""
+  },
+  "GOCLCORP": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "MOCAPITAL": {
+    "sector": null,
+    "industry": null
+  },
+  "ABCAPITAL": {
+    "sector": "Financial Services",
+    "industry": "Financial Conglomerates"
+  },
+  "HINDPETRO": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing"
+  },
+  "HINDCOMPOS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "NH": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "CHOICEGOLD": {
+    "sector": "",
+    "industry": ""
+  },
+  "NIBL": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories"
+  },
+  "MOSERVICE": {
+    "sector": "",
+    "industry": ""
+  },
+  "VINATIORGA": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "SPARC": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "KMSUGAR": {
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners"
+  },
+  "MOENERGY": {
+    "sector": null,
+    "industry": null
+  },
+  "MOIPO": {
+    "sector": "",
+    "industry": ""
+  },
+  "MOMNC": {
+    "sector": "",
+    "industry": ""
+  },
+  "ASTRAZEN": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "CARERATING": {
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  "BBNPNBETF": {
+    "sector": null,
+    "industry": null
+  },
+  "ORISSAMINE": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "GKENERGY": {
+    "sector": "Utilities",
+    "industry": "Utilities - Renewable"
+  },
+  "MONIFTY100": {
+    "sector": "",
+    "industry": ""
+  },
+  "MOGOLD": {
+    "sector": "",
+    "industry": ""
+  },
+  "PILANIINVS": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "MOMIDMTM": {
+    "sector": null,
+    "industry": null
+  },
+  "MOTOUR": {
+    "sector": null,
+    "industry": null
+  },
+  "MOSILVER": {
+    "sector": "",
+    "industry": ""
+  },
+  "LUXIND": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing"
+  },
+  "SURYAROSNI": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "MOALPHA50": {
+    "sector": "",
+    "industry": ""
+  },
+  "YESBANK": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "ITI": {
+    "sector": "Technology",
+    "industry": "Communication Equipment"
+  },
+  "MOPSE": {
+    "sector": "",
+    "industry": ""
+  },
+  "NUVAMA": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "SUPRIYA": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "KNACK": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "KEYFINSERV": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "ICICIAMC": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "NIITMTS": {
+    "sector": "Consumer Defensive",
+    "industry": "Education & Training Services"
+  },
+  "SUNCLAY": {
+    "sector": "Industrials",
+    "industry": "Metal Fabrication"
+  },
+  "KICL": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "MOREALTY": {
+    "sector": null,
+    "industry": null
+  },
+  "SHIVATEX": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "MOSMALL250": {
+    "sector": null,
+    "industry": null
+  },
+  "ARIHANT": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "SILVERAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "ISGEC": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "ADL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "RUCHIRA": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "OBEROIRLTY": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "KUANTUM": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "SUVIDHAA": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "HISARMETAL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "RML": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "INOXINDIA": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "MODEFENCE": {
+    "sector": null,
+    "industry": null
+  },
+  "MOVALUE": {
+    "sector": null,
+    "industry": null
+  },
+  "MOHEALTH": {
+    "sector": null,
+    "industry": null
+  },
+  "ICICIPRULI": {
+    "sector": "Financial Services",
+    "industry": "Insurance - Life"
+  },
+  "CYIENTDLM": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "MOMENTUM50": {
+    "sector": null,
+    "industry": null
+  },
+  "APLLTD": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "HGS": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services"
+  },
+  "MONQ50": {
+    "sector": null,
+    "industry": null
+  },
+  "SENSEXAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "MAHSEAMLES": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "MANCREDIT": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "KIRANVYPAR": {
+    "sector": "",
+    "industry": ""
+  },
+  "MON100": {
+    "sector": null,
+    "industry": null
+  },
+  "TBZ": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "GOLDBND": {
+    "sector": null,
+    "industry": null
+  },
+  "SILVERBND": {
+    "sector": null,
+    "industry": null
+  },
+  "DECNGOLD": {
+    "sector": "",
+    "industry": ""
+  },
+  "MOGSEC": {
+    "sector": null,
+    "industry": null
+  },
+  "INDNIPPON": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "APOLLOPIPE": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "AONESILVER": {
+    "sector": "",
+    "industry": ""
+  },
+  "VISHNU": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "MOQUALITY": {
+    "sector": null,
+    "industry": null
+  },
+  "MONIFTY500": {
+    "sector": null,
+    "industry": null
+  },
+  "MOSCHIP": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials"
+  },
+  "SONACOMS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "AONEGOLD": {
+    "sector": "",
+    "industry": ""
+  },
+  "AONETMMQ50": {
+    "sector": "",
+    "industry": ""
+  },
+  "MOLOWVOL": {
+    "sector": null,
+    "industry": null
+  },
+  "SECMARK": {
+    "sector": "Industrials",
+    "industry": "Consulting Services"
+  },
+  "MOMOMENTUM": {
+    "sector": null,
+    "industry": null
+  },
+  "SANOFI": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General"
+  },
+  "LIQUIDCASE": {
+    "sector": null,
+    "industry": null
+  },
+  "GOLDCASE": {
+    "sector": null,
+    "industry": null
+  },
+  "PATELENG": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "ASTRAL": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "EIHAHOTELS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "AWFIS": {
+    "sector": "Industrials",
+    "industry": "Rental & Leasing Services"
+  },
+  "NPST": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "MID150CASE": {
+    "sector": null,
+    "industry": null
+  },
+  "SILVERCASE": {
+    "sector": null,
+    "industry": null
+  },
+  "TOP100CASE": {
+    "sector": null,
+    "industry": null
+  },
+  "NIFTYCASE": {
+    "sector": "",
+    "industry": ""
+  },
+  "LTGILTCASE": {
+    "sector": "",
+    "industry": ""
+  },
+  "BALAJITELE": {
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  "SML100CASE": {
+    "sector": null,
+    "industry": null
+  },
+  "ELPROINTL": {
+    "sector": null,
+    "industry": null
+  },
+  "TATATECH": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "VINCOFE": {
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic"
+  },
+  "RADHIKAJWE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "BRIGHOTEL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "BLUEDART": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "KARURVYSYA": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "ARE&M": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "AHLEAST": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "SBGLP": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "COROMANDEL": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "RANEHOLDIN": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "HEXAGON": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "FINCABLES": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "RAJPALAYAM": {
+    "sector": null,
+    "industry": null
+  },
+  "SUYOG": {
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  "JYOTHYLAB": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products"
+  },
+  "DICIND": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "TRENT": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail"
+  },
+  "PASHUPATI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "TECHM": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "SINGERIND": {
+    "sector": "",
+    "industry": ""
+  },
+  "GILLETTE": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products"
+  },
+  "LICNFNHGP": {
+    "sector": null,
+    "industry": null
+  },
+  "BRITANNIA": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "LICNETFN50": {
+    "sector": null,
+    "industry": null
+  },
+  "AETHER": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "VINNY": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "LICNETFSEN": {
+    "sector": null,
+    "industry": null
+  },
+  "CMSINFO": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services"
+  },
+  "MGL": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Gas"
+  },
+  "TVSSRICHAK": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "MAHEPC": {
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery"
+  },
+  "GOACARBON": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "CONCOR": {
+    "sector": "Industrials",
+    "industry": "Railroads"
+  },
+  "ENIL": {
+    "sector": "Communication Services",
+    "industry": "Broadcasting"
+  },
+  "VIDHIING": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "SALZERELEC": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "MALUPAPER": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "THYROCARE": {
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
+  },
+  "VRAJ": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "MONTECARLO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing"
+  },
+  "SILGO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "SBIN": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "AYE": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "KANSAINER": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "ADVANCE": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "EXPLEOSOL": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "KAMATHOTEL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "CGCL": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "TARAPUR": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "PANACEABIO": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "LICNETFGSC": {
+    "sector": null,
+    "industry": null
+  },
+  "MAHLIFE": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "NILE": {
+    "sector": "",
+    "industry": ""
+  },
+  "IMAGICAA": {
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  "FIVESTAR": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "KDDL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "ATLASCYCLE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure"
+  },
+  "TALBROAUTO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "GATECH": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "TEAMLEASE": {
+    "sector": "Industrials",
+    "industry": "Staffing & Employment Services"
+  },
+  "GATECHDVR": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "AXISCADES": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "NEXTMEDIA": {
+    "sector": "Communication Services",
+    "industry": "Broadcasting"
+  },
+  "EMSLIMITED": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "AMAGI": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "SURYODAY": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "AAVAS": {
+    "sector": "Financial Services",
+    "industry": "Mortgage Finance"
+  },
+  "TATAINVEST": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "EBBETF0430": {
+    "sector": null,
+    "industry": null
+  },
+  "JKPAPER": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "INDOFARM": {
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery"
+  },
+  "RBA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants"
+  },
+  "SCANSTL": {
+    "sector": "",
+    "industry": ""
+  },
+  "TATASTEEL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "WANBURY": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "EBBETF0431": {
+    "sector": "",
+    "industry": ""
+  },
+  "CRISIL": {
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  "PIXTRANS": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "KPIL": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "LICMFGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "CONSUMAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "JAGRAN": {
+    "sector": "Communication Services",
+    "industry": "Publishing"
+  },
+  "WPIL": {
+    "sector": "",
+    "industry": ""
+  },
+  "GILT10BETA": {
+    "sector": "",
+    "industry": ""
+  },
+  "VAML": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum"
+  },
+  "RAMAPHO": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "SILVERTUC": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "ITBETA": {
+    "sector": null,
+    "industry": null
+  },
+  "GILT5BETA": {
+    "sector": "",
+    "industry": ""
+  },
+  "LICNMID100": {
+    "sector": null,
+    "industry": null
+  },
+  "NIFTYBETA": {
+    "sector": null,
+    "industry": null
+  },
+  "NDGL": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "MIDCAPBETA": {
+    "sector": "",
+    "industry": ""
+  },
+  "GSLSU": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "AROGRANITE": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "KSOLVES": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "KITEX": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing"
+  },
+  "HMAAGRO": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "SILVERBETA": {
+    "sector": null,
+    "industry": null
+  },
+  "MAJESAUT": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services"
+  },
+  "NAHARCAP": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "MRF": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "JINDALPHOT": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "JSWHL": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "BBETF0432": {
+    "sector": null,
+    "industry": null
+  },
+  "WIPRO": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "NGLFINE": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General"
+  },
+  "SANSTAR": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "NORTHARC": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "MOM50": {
+    "sector": "",
+    "industry": ""
+  },
+  "TNPL": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "REPCOHOME": {
+    "sector": "Financial Services",
+    "industry": "Mortgage Finance"
+  },
+  "SAMPANN": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "AEGISVOPAK": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Equipment & Services"
+  },
+  "LTF": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "BANKBETA": {
+    "sector": null,
+    "industry": null
+  },
+  "GOLDBETA": {
+    "sector": null,
+    "industry": null
+  },
+  "SOLARWORLD": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "SNXT50BETA": {
+    "sector": "",
+    "industry": ""
+  },
+  "RATEGAIN": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "BECTORFOOD": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "MIDWESTLTD": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "NEXT50BETA": {
+    "sector": "",
+    "industry": ""
+  },
+  "TIMEX": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "WAAREEENER": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "ONWARDTEC": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "INDOUS": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "ELECTHERM": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "LANCORHOL": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "UNIECOM": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "GODREJPROP": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "HBESD": {
+    "sector": null,
+    "industry": null
+  },
+  "EGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "GLOBALVECT": {
+    "sector": "Industrials",
+    "industry": "Airports & Air Services"
+  },
+  "ESILVER": {
+    "sector": null,
+    "industry": null
+  },
+  "CASHIETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "FACT": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "SHILCTECH": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "MANOMAY": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "SAREGAMA": {
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  "HARRMALAYA": {
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products"
+  },
+  "EMULTIMQ": {
+    "sector": null,
+    "industry": null
+  },
+  "EBANKNIFTY": {
+    "sector": null,
+    "industry": null
+  },
+  "KRITIKA": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "VEDL": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "INDIANHUME": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "VSTL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "ECAPINSURE": {
+    "sector": null,
+    "industry": null
+  },
+  "STCINDIA": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "PREMIERPOL": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "KSL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "TVSHLTD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "EBBETF0433": {
+    "sector": null,
+    "industry": null
+  },
+  "MAHSCOOTER": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "ENTERO": {
+    "sector": "Healthcare",
+    "industry": "Medical Distribution"
+  },
+  "MAGADSUGAR": {
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners"
+  },
+  "MOM100": {
+    "sector": null,
+    "industry": null
+  },
+  "MAXHEALTH": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "HARDWYN": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "BBTCL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "MOLDTKPAC": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "DEN": {
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  "FCL": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "KSHINTL": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "NAM-INDIA": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "ENERGYDEV": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric"
+  },
+  "KAPSTON": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services"
+  },
+  "LMW": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "TRACXN": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "GRANULES": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "GLOSTERLTD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "AIAENG": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "CAPACITE": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "KELLTONTEC": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "ENEXT50": {
+    "sector": "",
+    "industry": ""
+  },
+  "CINEVISTA": {
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  "MUFIN": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "EXCELINDUS": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "SUDARCOLOR": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "KIMS": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "ASHOKA": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "INDSWFTLAB": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "STARPAPER": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "LUMAXIND": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "SANSERA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "CHOLAFIN": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "NEOGEN": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "SBILIQETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "ARVIND": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "PNC": {
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  "SECURKLOUD": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "UYFINCORP": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "ELIQUID": {
+    "sector": "",
+    "industry": ""
+  },
+  "ELM250": {
+    "sector": "",
+    "industry": ""
+  },
+  "ESENSEX": {
+    "sector": "",
+    "industry": ""
+  },
+  "ENIFTY": {
+    "sector": "",
+    "industry": ""
+  },
+  "AVL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail"
+  },
+  "TEJASNET": {
+    "sector": "Technology",
+    "industry": "Communication Equipment"
+  },
+  "DCBBANK": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "SHANTIGEAR": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "EBGNG": {
+    "sector": "Technology",
+    "industry": "Computer Hardware"
+  },
+  "DHUNINV": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "AQYLON": {
+    "sector": "Communication Services",
+    "industry": "Broadcasting"
+  },
+  "ARSSBL": {
+    "sector": "Financial Services",
+    "industry": "Financial Conglomerates"
+  },
+  "PSB": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "MEDANTA": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "KOTHARIPRO": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "NITINSPIN": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "DODLA": {
+    "sector": "Consumer Defensive",
+    "industry": "Food Distribution"
+  },
+  "THELEELA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "ARCHIES": {
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail"
+  },
+  "SCHNEIDER": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "PGHH": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products"
+  },
+  "ADVENTHTL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "SILINV": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "UNIVCABLES": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "INDIQUBE": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services"
+  },
+  "BCPL": {
+    "sector": "Industrials",
+    "industry": "Infrastructure Operations"
+  },
+  "TDPOWERSYS": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "TIINDIA": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "COASTCORP": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "UNITDSPR": {
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Wineries & Distilleries"
+  },
+  "PRAJIND": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "CRIZAC": {
+    "sector": "Consumer Defensive",
+    "industry": "Education & Training Services"
+  },
+  "TECH": {
+    "sector": null,
+    "industry": null
+  },
+  "PRICOLLTD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "FABTECH": {
+    "sector": "Healthcare",
+    "industry": "Health Information Services"
+  },
+  "MODTHREAD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "NAVKARCORP": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "SUVEN": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "GMMPFAUDLR": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "OMNI": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "JSL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "BSLSENETFG": {
+    "sector": null,
+    "industry": null
+  },
+  "HEALTHY": {
+    "sector": null,
+    "industry": null
+  },
+  "ADANIPORTS": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping"
+  },
+  "AFSL": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "VOLTAS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "GOODLUCK": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "RUSTOMJEE": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "HBLENGINE": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "BIMETAL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "NETWEB": {
+    "sector": "Technology",
+    "industry": "Computer Hardware"
+  },
+  "ESAFSFB": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "DELTACORP": {
+    "sector": "Consumer Cyclical",
+    "industry": "Resorts & Casinos"
+  },
+  "GRASIM": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "AVALON": {
+    "sector": "Technology",
+    "industry": "Electronic Components"
+  },
+  "LUPIN": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "PIGL": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "BLKASHYAP": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "NMDC": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "CHAMBLFERT": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "ADVAIT": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "WELSPLSOL": {
+    "sector": "",
+    "industry": ""
+  },
+  "SDBL": {
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Brewers"
+  },
+  "DBCORP": {
+    "sector": "Communication Services",
+    "industry": "Publishing"
+  },
+  "ALIVUS": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "SHINDL": {
+    "sector": "",
+    "industry": ""
+  },
+  "KABRAEXTRU": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "BSOFT": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "SUNTECK": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "TARACHAND": {
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery"
+  },
+  "63MOONS": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "PVP": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "INDIGOPNTS": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "BELRISE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "MOKSH": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "VOLTAMP": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "VIVIDHA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "HFCL": {
+    "sector": "Technology",
+    "industry": "Communication Equipment"
+  },
+  "AARON": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "TOLINS": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "SBIMIDMOM": {
+    "sector": "",
+    "industry": ""
+  },
+  "KALYANIFRG": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "SENSEXIETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "GPTINFRA": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "MONARCH": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "JINDALPOLY": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "SBINMID150": {
+    "sector": "",
+    "industry": ""
+  },
+  "METROBRAND": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail"
+  },
+  "SBISMLETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "AMRUTANJAN": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "NACLIND": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "RITCO": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "ZFSTEERING": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "VALUE": {
+    "sector": "",
+    "industry": ""
+  },
+  "RHIM": {
+    "sector": "Industrials",
+    "industry": "Metal Fabrication"
+  },
+  "TERASOFT": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "MUTHOOTFIN": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "SUDARSCHEM": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "DEEPAKFERT": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "SBIVALETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "TREL": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services"
+  },
+  "JINDALSAW": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "TARMAT": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "TORNTPOWER": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "PHOENIXLTD": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Diversified"
+  },
+  "BAJAJELEC": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "PRIMESECU": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "INDOBORAX": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "CIEINDIA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "SHADOWFAX": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  "LAOPALA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "MCL": {
+    "sector": "Basic Materials",
+    "industry": "Copper"
+  },
+  "INOXWIND": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "EQUAL50": {
+    "sector": null,
+    "industry": null
+  },
+  "SCPL": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "MANAKCOAT": {
+    "sector": "Industrials",
+    "industry": "Metal Fabrication"
+  },
+  "JSWINFRA": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping"
+  },
+  "ABBOTINDIA": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "IDEA": {
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  "VMART": {
+    "sector": "Consumer Cyclical",
+    "industry": "Department Stores"
+  },
+  "AHLADA": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "SIGIND": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "KOVAI": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "STEELCITY": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "SELECTIPO": {
+    "sector": null,
+    "industry": null
+  },
+  "NCC": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "AEROFLEX": {
+    "sector": "Industrials",
+    "industry": "Metal Fabrication"
+  },
+  "ZAGGLE": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  "INTERNET": {
+    "sector": null,
+    "industry": null
+  },
+  "GALAPREC": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "ONGC": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
+  },
+  "CASTROLIND": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing"
+  },
+  "VTL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "SMALL250": {
+    "sector": "",
+    "industry": ""
+  },
+  "ENERGY": {
+    "sector": null,
+    "industry": null
+  },
+  "ROSSARI": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "MEGASTAR": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "DIVIDEND": {
+    "sector": null,
+    "industry": null
+  },
+  "TOP20": {
+    "sector": null,
+    "industry": null
+  },
+  "DEFENCE": {
+    "sector": "",
+    "industry": ""
+  },
+  "INFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "MSUMI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "HEALTHCARE": {
+    "sector": null,
+    "industry": null
+  },
+  "IRCTC": {
+    "sector": "Consumer Cyclical",
+    "industry": "Travel Services"
+  },
+  "ERIS": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "INDIANCARD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "INNOVANA": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "DATAMATICS": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "NAVA": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "LIQUIDPLUS": {
+    "sector": null,
+    "industry": null
+  },
+  "AFFLE": {
+    "sector": "Communication Services",
+    "industry": "Advertising Agencies"
+  },
+  "3PLAND": {
+    "sector": null,
+    "industry": null
+  },
+  "BLUESTONE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods"
+  },
+  "LIBERTSHOE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  },
+  "ADANIENSOL": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "GLOBAL": {
+    "sector": "Consumer Defensive",
+    "industry": "Education & Training Services"
+  },
+  "CONTROLPR": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies"
+  },
+  "SAGCEM": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "CONSUMER": {
+    "sector": null,
+    "industry": null
+  },
+  "HPIL": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "EQUAL200": {
+    "sector": null,
+    "industry": null
+  },
+  "IPL": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs"
+  },
+  "GSEC10YEAR": {
+    "sector": null,
+    "industry": null
+  },
+  "NSIL": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "CAMLINFINE": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "SILVERAG": {
+    "sector": "",
+    "industry": ""
+  },
+  "RTNPOWER": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "VADILALIND": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods"
+  },
+  "BANKETF": {
+    "sector": null,
+    "industry": null
+  },
+  "BALKRISHNA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "IRFC": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "COCHINSHIP": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "SENSEXETF": {
+    "sector": null,
+    "industry": null
+  },
+  "ITETF": {
+    "sector": null,
+    "industry": null
+  },
+  "ALPHAETF": {
+    "sector": null,
+    "industry": null
+  },
+  "INVPRECQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "LIQUID": {
+    "sector": null,
+    "industry": null
+  },
+  "MIDSMALL": {
+    "sector": null,
+    "industry": null
+  },
+  "ADVANIHOTR": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "SMALLCAP": {
+    "sector": null,
+    "industry": null
+  },
+  "BENGALASM": {
+    "sector": "",
+    "industry": ""
+  },
+  "THAKDEV": {
+    "sector": "",
+    "industry": ""
+  },
+  "EVINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "BOSCH-HCIL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "METAL": {
+    "sector": null,
+    "industry": null
+  },
+  "ADVENZYMES": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "BANKPSU": {
+    "sector": null,
+    "industry": null
+  },
+  "YATRA": {
+    "sector": "Consumer Cyclical",
+    "industry": "Travel Services"
+  },
+  "AKSHAR": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "PROTEAN": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "S&SPOWER": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "MULTICAP": {
+    "sector": null,
+    "industry": null
+  },
+  "SHIVAUM": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "MIDCAPETF": {
+    "sector": "",
+    "industry": ""
+  },
+  "BLACKBUCK": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "MASTERTR": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "GUJAPOLLO": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "MAKEINDIA": {
+    "sector": "",
+    "industry": ""
+  },
+  "HDFCAMC": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "REMSONSIND": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "SMLMAH": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  "ASIANPAINT": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "GOLDETF": {
+    "sector": null,
+    "industry": null
+  },
+  "LOWVOL": {
+    "sector": null,
+    "industry": null
+  },
+  "SANDHAR": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "MAGNUM": {
+    "sector": "Basic Materials",
+    "industry": "Paper & Paper Products"
+  },
+  "SIS": {
+    "sector": "Industrials",
+    "industry": "Security & Protection Services"
+  },
+  "HONAUT": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "UCAL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "ATHERENERG": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  "ESG": {
+    "sector": "",
+    "industry": ""
+  },
+  "LINC": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies"
+  },
+  "MUFTI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail"
+  },
+  "MOBANK10": {
+    "sector": "",
+    "industry": ""
+  },
+  "BFSI": {
+    "sector": "",
+    "industry": ""
+  },
+  "MPHASIS": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "NTPC": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric"
+  },
+  "IPCALAB": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "MAHKTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "MAFANG": {
+    "sector": null,
+    "industry": null
+  },
+  "THEMISMED": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "ELLEN": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  "BIGBLOC": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "MASPTOP50": {
+    "sector": null,
+    "industry": null
+  },
+  "RPTECH": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution"
+  },
+  "IEX": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "RELTD": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "IOB": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "EIHOTEL": {
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging"
+  },
+  "UGROCAP": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "NIFTYETF": {
+    "sector": null,
+    "industry": null
+  },
+  "SBINEQWETF": {
+    "sector": null,
+    "industry": null
+  },
+  "SBISILVER": {
+    "sector": null,
+    "industry": null
+  },
+  "UNIMECH": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "GLOBE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing"
+  },
+  "KIRIINDUS": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "PRSMJOHNSN": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials"
+  },
+  "SURANAT&P": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "VISL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "RESPONIND": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "CAPLIPOINT": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "SENSEXBETA": {
+    "sector": null,
+    "industry": null
+  },
+  "NEXT50": {
+    "sector": "",
+    "industry": ""
+  },
+  "AKI": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  },
+  "ORIENTLTD": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers"
+  },
+  "LICHSGFIN": {
+    "sector": "Financial Services",
+    "industry": "Mortgage Finance"
+  },
+  "HIRECT": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "VIKASECO": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "ACCELYA": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "CUBEXTUB": {
+    "sector": "Basic Materials",
+    "industry": "Copper"
+  },
+  "NIFTYQLITY": {
+    "sector": null,
+    "industry": null
+  },
+  "ATALREAL": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction"
+  },
+  "ANANDRATHI": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
+  },
+  "PSUBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "PACEDIGITK": {
+    "sector": "Technology",
+    "industry": "Communication Equipment"
+  },
+  "MAXESTATES": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development"
+  },
+  "CAMS": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "NIPPOBATRY": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "DCAL": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "MAITHANALL": {
+    "sector": "Basic Materials",
+    "industry": "Steel"
+  },
+  "RELIABLE": {
+    "sector": null,
+    "industry": null
+  },
+  "FSL": {
+    "sector": null,
+    "industry": null
+  },
+  "WAAREEINDO": {
+    "sector": null,
+    "industry": null
+  },
+  "BCLIND": {
+    "sector": null,
+    "industry": null
+  },
+  "BHARATWIRE": {
+    "sector": null,
+    "industry": null
+  },
+  "CROWN": {
+    "sector": null,
+    "industry": null
+  },
+  "GULPOLY": {
+    "sector": null,
+    "industry": null
+  },
+  "PARKHOSPS": {
+    "sector": null,
+    "industry": null
+  },
+  "SUMEETINDS": {
+    "sector": null,
+    "industry": null
+  },
+  "COMFINTE": {
+    "sector": null,
+    "industry": null
+  },
+  "MOMENTUM": {
+    "sector": null,
+    "industry": null
+  },
+  "GRANDOAK": {
+    "sector": null,
+    "industry": null
+  },
+  "NIRLON": {
+    "sector": null,
+    "industry": null
+  },
+  "APLAPOLLO": {
+    "sector": null,
+    "industry": null
+  },
+  "QUADFUTURE": {
+    "sector": null,
+    "industry": null
+  },
+  "ORIENTBELL": {
+    "sector": null,
+    "industry": null
+  },
+  "MAXIND": {
+    "sector": null,
+    "industry": null
+  },
+  "BSLGOLDETF": {
+    "sector": null,
+    "industry": null
+  },
+  "SHREDIGCEM": {
+    "sector": null,
+    "industry": null
+  },
+  "ABSLNN50ET": {
+    "sector": null,
+    "industry": null
+  },
+  "SBIBPB": {
+    "sector": null,
+    "industry": null
+  },
+  "ABSLBANETF": {
+    "sector": null,
+    "industry": null
+  },
+  "OPTIEMUS": {
+    "sector": null,
+    "industry": null
+  },
+  "MANGALAM": {
+    "sector": null,
+    "industry": null
+  },
+  "RELIGARE": {
+    "sector": null,
+    "industry": null
+  },
+  "AKASH": {
+    "sector": null,
+    "industry": null
+  },
+  "GESHIP": {
+    "sector": null,
+    "industry": null
+  },
+  "MUTHOOTMF": {
+    "sector": null,
+    "industry": null
+  },
+  "MANINDS": {
+    "sector": null,
+    "industry": null
+  },
+  "CENTURYPLY": {
+    "sector": null,
+    "industry": null
+  },
+  "NYKAA": {
+    "sector": null,
+    "industry": null
+  },
+  "BAIDFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "AAATECH": {
+    "sector": null,
+    "industry": null
+  },
+  "GREENPLY": {
+    "sector": null,
+    "industry": null
+  },
+  "NESTLEIND": {
+    "sector": null,
+    "industry": null
+  },
+  "ABSLPSE": {
+    "sector": null,
+    "industry": null
+  },
+  "HARSHA": {
+    "sector": null,
+    "industry": null
+  },
+  "RACLGEAR": {
+    "sector": null,
+    "industry": null
+  },
+  "RAYMONDLSL": {
+    "sector": null,
+    "industry": null
+  },
+  "ABB": {
+    "sector": null,
+    "industry": null
+  },
+  "ORCHPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "NUCLEUS": {
+    "sector": null,
+    "industry": null
+  },
+  "JYOTICNC": {
+    "sector": null,
+    "industry": null
+  },
+  "ABSLLIQUID": {
+    "sector": null,
+    "industry": null
+  },
+  "ALPA": {
+    "sector": null,
+    "industry": null
+  },
+  "SURAJLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "SANATHAN": {
+    "sector": null,
+    "industry": null
+  },
+  "ONESOURCE": {
+    "sector": null,
+    "industry": null
+  },
+  "SILVER": {
+    "sector": null,
+    "industry": null
+  },
+  "EVEREADY": {
+    "sector": null,
+    "industry": null
+  },
+  "BSLNIFTY": {
+    "sector": null,
+    "industry": null
+  },
+  "ARIS": {
+    "sector": null,
+    "industry": null
+  },
+  "ICEMAKE": {
+    "sector": null,
+    "industry": null
+  },
+  "TIMETECHNO": {
+    "sector": null,
+    "industry": null
+  },
+  "USHAMART": {
+    "sector": null,
+    "industry": null
+  },
+  "WCIL": {
+    "sector": null,
+    "industry": null
+  },
+  "GICL": {
+    "sector": null,
+    "industry": null
+  },
+  "APOLLOHOSP": {
+    "sector": null,
+    "industry": null
+  },
+  "SYMPHONY": {
+    "sector": null,
+    "industry": null
+  },
+  "INDIAGLYCO": {
+    "sector": null,
+    "industry": null
+  },
+  "CENTEXT": {
+    "sector": null,
+    "industry": null
+  },
+  "SHAHALLOYS": {
+    "sector": null,
+    "industry": null
+  },
+  "KRISHNADEF": {
+    "sector": null,
+    "industry": null
+  },
+  "SAIPARENT": {
+    "sector": null,
+    "industry": null
+  },
+  "PURVA": {
+    "sector": null,
+    "industry": null
+  },
+  "ZENITHEXPO": {
+    "sector": null,
+    "industry": null
+  },
+  "DOLLAR": {
+    "sector": null,
+    "industry": null
+  },
+  "SUDEEPPHRM": {
+    "sector": null,
+    "industry": null
+  },
+  "TATAPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "LGHL": {
+    "sector": null,
+    "industry": null
+  },
+  "JMA": {
+    "sector": null,
+    "industry": null
+  },
+  "DEEPAKNTR": {
+    "sector": null,
+    "industry": null
+  },
+  "RHL": {
+    "sector": null,
+    "industry": null
+  },
+  "MBAPL": {
+    "sector": null,
+    "industry": null
+  },
+  "INDHOTEL": {
+    "sector": null,
+    "industry": null
+  },
+  "NIBE": {
+    "sector": null,
+    "industry": null
+  },
+  "STANLEY": {
+    "sector": null,
+    "industry": null
+  },
+  "THOMASCOOK": {
+    "sector": null,
+    "industry": null
+  },
+  "UTKARSHBNK": {
+    "sector": null,
+    "industry": null
+  },
+  "CREATIVEYE": {
+    "sector": null,
+    "industry": null
+  },
+  "JBMA": {
+    "sector": null,
+    "industry": null
+  },
+  "NIVABUPA": {
+    "sector": null,
+    "industry": null
+  },
+  "ANDHRAPAP": {
+    "sector": null,
+    "industry": null
+  },
+  "PRECOT": {
+    "sector": null,
+    "industry": null
+  },
+  "ATUL": {
+    "sector": null,
+    "industry": null
+  },
+  "SCODATUBES": {
+    "sector": null,
+    "industry": null
+  },
+  "CEIGALL": {
+    "sector": null,
+    "industry": null
+  },
+  "HLVLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "FEDDERSHOL": {
+    "sector": null,
+    "industry": null
+  },
+  "ALGOQUANT": {
+    "sector": null,
+    "industry": null
+  },
+  "NILAINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "SWANCORP": {
+    "sector": null,
+    "industry": null
+  },
+  "MARICO": {
+    "sector": null,
+    "industry": null
+  },
+  "IWP": {
+    "sector": null,
+    "industry": null
+  },
+  "AEPL": {
+    "sector": null,
+    "industry": null
+  },
+  "CONCORDBIO": {
+    "sector": null,
+    "industry": null
+  },
+  "PRUDENT": {
+    "sector": null,
+    "industry": null
+  },
+  "SHARDACROP": {
+    "sector": null,
+    "industry": null
+  },
+  "SUMMITSEC": {
+    "sector": null,
+    "industry": null
+  },
+  "INDOCO": {
+    "sector": null,
+    "industry": null
+  },
+  "WELENT": {
+    "sector": null,
+    "industry": null
+  },
+  "TRITURBINE": {
+    "sector": null,
+    "industry": null
+  },
+  "ANUHPHR": {
+    "sector": null,
+    "industry": null
+  },
+  "PROZONER": {
+    "sector": null,
+    "industry": null
+  },
+  "EMAMIPAP": {
+    "sector": null,
+    "industry": null
+  },
+  "BANARBEADS": {
+    "sector": null,
+    "industry": null
+  },
+  "ABREL": {
+    "sector": null,
+    "industry": null
+  },
+  "KEC": {
+    "sector": null,
+    "industry": null
+  },
+  "INDUSTOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "CORALFINAC": {
+    "sector": null,
+    "industry": null
+  },
+  "JAIPURKURT": {
+    "sector": null,
+    "industry": null
+  },
+  "IVP": {
+    "sector": null,
+    "industry": null
+  },
+  "ATGL": {
+    "sector": null,
+    "industry": null
+  },
+  "ARIHANTCAP": {
+    "sector": null,
+    "industry": null
+  },
+  "TEXRAIL": {
+    "sector": null,
+    "industry": null
+  },
+  "COSMOFIRST": {
+    "sector": null,
+    "industry": null
+  },
+  "GRAVITA": {
+    "sector": null,
+    "industry": null
+  },
+  "SARLAPOLY": {
+    "sector": null,
+    "industry": null
+  },
+  "ASHIKA": {
+    "sector": null,
+    "industry": null
+  },
+  "TOUCHWOOD": {
+    "sector": null,
+    "industry": null
+  },
+  "CENTUM": {
+    "sector": null,
+    "industry": null
+  },
+  "TITAGARH": {
+    "sector": null,
+    "industry": null
+  },
+  "ABINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "HINDOILEXP": {
+    "sector": null,
+    "industry": null
+  },
+  "BMWVENTLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "COUNCODOS": {
+    "sector": null,
+    "industry": null
+  },
+  "IIFLCAPS": {
+    "sector": null,
+    "industry": null
+  },
+  "NEAGI": {
+    "sector": null,
+    "industry": null
+  },
+  "NCLIND": {
+    "sector": null,
+    "industry": null
+  },
+  "GEOJITFSL": {
+    "sector": null,
+    "industry": null
+  },
+  "ALPHAGEO": {
+    "sector": null,
+    "industry": null
+  },
+  "CCAVENUE": {
+    "sector": null,
+    "industry": null
+  },
+  "HEXT": {
+    "sector": null,
+    "industry": null
+  },
+  "JSWENERGY": {
+    "sector": null,
+    "industry": null
+  },
+  "JSWSTEEL": {
+    "sector": null,
+    "industry": null
+  },
+  "IGCL": {
+    "sector": null,
+    "industry": null
+  },
+  "IGARASHI": {
+    "sector": null,
+    "industry": null
+  },
+  "DATAPATTNS": {
+    "sector": null,
+    "industry": null
+  },
+  "RAMCOIND": {
+    "sector": null,
+    "industry": null
+  },
+  "VHL": {
+    "sector": null,
+    "industry": null
+  },
+  "GUJRAFFIA": {
+    "sector": null,
+    "industry": null
+  },
+  "EKC": {
+    "sector": null,
+    "industry": null
+  },
+  "LGBBROSLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "NELCO": {
+    "sector": null,
+    "industry": null
+  },
+  "VRLLOG": {
+    "sector": null,
+    "industry": null
+  },
+  "AIRAN": {
+    "sector": null,
+    "industry": null
+  },
+  "GRSE": {
+    "sector": null,
+    "industry": null
+  },
+  "NBCC": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJFINANCE": {
+    "sector": null,
+    "industry": null
+  },
+  "ROUTE": {
+    "sector": null,
+    "industry": null
+  },
+  "TATACOMM": {
+    "sector": null,
+    "industry": null
+  },
+  "VERANDA": {
+    "sector": null,
+    "industry": null
+  },
+  "COALINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "TRANSRAILL": {
+    "sector": null,
+    "industry": null
+  },
+  "HAL": {
+    "sector": null,
+    "industry": null
+  },
+  "NKIND": {
+    "sector": null,
+    "industry": null
+  },
+  "ORIENTHOT": {
+    "sector": null,
+    "industry": null
+  },
+  "SPLPETRO": {
+    "sector": null,
+    "industry": null
+  },
+  "SONAMLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "RELIANCE": {
+    "sector": null,
+    "industry": null
+  },
+  "BHARATSE": {
+    "sector": null,
+    "industry": null
+  },
+  "NELCAST": {
+    "sector": null,
+    "industry": null
+  },
+  "BAYERCROP": {
+    "sector": null,
+    "industry": null
+  },
+  "BONLON": {
+    "sector": null,
+    "industry": null
+  },
+  "SOTL": {
+    "sector": null,
+    "industry": null
+  },
+  "RAINBOW": {
+    "sector": null,
+    "industry": null
+  },
+  "IGL": {
+    "sector": null,
+    "industry": null
+  },
+  "SCI": {
+    "sector": null,
+    "industry": null
+  },
+  "AARTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "FINPIPE": {
+    "sector": null,
+    "industry": null
+  },
+  "DAMCAPITAL": {
+    "sector": null,
+    "industry": null
+  },
+  "HAPPYFORGE": {
+    "sector": null,
+    "industry": null
+  },
+  "ONEPOINT": {
+    "sector": null,
+    "industry": null
+  },
+  "NEWGEN": {
+    "sector": null,
+    "industry": null
+  },
+  "SHREYANIND": {
+    "sector": null,
+    "industry": null
+  },
+  "SUNDROP": {
+    "sector": null,
+    "industry": null
+  },
+  "SENORES": {
+    "sector": null,
+    "industry": null
+  },
+  "JKTYRE": {
+    "sector": null,
+    "industry": null
+  },
+  "GNFC": {
+    "sector": null,
+    "industry": null
+  },
+  "MMFL": {
+    "sector": null,
+    "industry": null
+  },
+  "TCS": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJAJST": {
+    "sector": null,
+    "industry": null
+  },
+  "LFIC": {
+    "sector": null,
+    "industry": null
+  },
+  "SINCLAIR": {
+    "sector": null,
+    "industry": null
+  },
+  "DGCONTENT": {
+    "sector": null,
+    "industry": null
+  },
+  "STALLION": {
+    "sector": null,
+    "industry": null
+  },
+  "HDBFS": {
+    "sector": null,
+    "industry": null
+  },
+  "LINDEINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "RAJRATAN": {
+    "sector": null,
+    "industry": null
+  },
+  "SAPPHIRE": {
+    "sector": null,
+    "industry": null
+  },
+  "DNAMEDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "BLS": {
+    "sector": null,
+    "industry": null
+  },
+  "BEML": {
+    "sector": null,
+    "industry": null
+  },
+  "EFCIL": {
+    "sector": null,
+    "industry": null
+  },
+  "INDOSTAR": {
+    "sector": null,
+    "industry": null
+  },
+  "MASTEK": {
+    "sector": null,
+    "industry": null
+  },
+  "KCP": {
+    "sector": null,
+    "industry": null
+  },
+  "NTPCGREEN": {
+    "sector": null,
+    "industry": null
+  },
+  "HAWKINCOOK": {
+    "sector": null,
+    "industry": null
+  },
+  "MALLCOM": {
+    "sector": null,
+    "industry": null
+  },
+  "HARIOMPIPE": {
+    "sector": null,
+    "industry": null
+  },
+  "SANGAMIND": {
+    "sector": null,
+    "industry": null
+  },
+  "SATIN": {
+    "sector": null,
+    "industry": null
+  },
+  "CHOLAHLDNG": {
+    "sector": null,
+    "industry": null
+  },
+  "PAKKA": {
+    "sector": null,
+    "industry": null
+  },
+  "RANASUG": {
+    "sector": null,
+    "industry": null
+  },
+  "AMBUJACEM": {
+    "sector": null,
+    "industry": null
+  },
+  "WELSPUNLIV": {
+    "sector": null,
+    "industry": null
+  },
+  "PGEL": {
+    "sector": null,
+    "industry": null
+  },
+  "SOLEX": {
+    "sector": null,
+    "industry": null
+  },
+  "EMUDHRA": {
+    "sector": null,
+    "industry": null
+  },
+  "CMRGREEN": {
+    "sector": null,
+    "industry": null
+  },
+  "LICI": {
+    "sector": null,
+    "industry": null
+  },
+  "GOODYEAR": {
+    "sector": null,
+    "industry": null
+  },
+  "SPIC": {
+    "sector": null,
+    "industry": null
+  },
+  "DIVGIITTS": {
+    "sector": null,
+    "industry": null
+  },
+  "GODFRYPHLP": {
+    "sector": null,
+    "industry": null
+  },
+  "ANTGRAPHIC": {
+    "sector": null,
+    "industry": null
+  },
+  "GILLANDERS": {
+    "sector": null,
+    "industry": null
+  },
+  "CROMPTON": {
+    "sector": null,
+    "industry": null
+  },
+  "QMSMEDI": {
+    "sector": null,
+    "industry": null
+  },
+  "GVT&D": {
+    "sector": null,
+    "industry": null
+  },
+  "BALAMINES": {
+    "sector": null,
+    "industry": null
+  },
+  "JSWCEMENT": {
+    "sector": null,
+    "industry": null
+  },
+  "LCCINFOTEC": {
+    "sector": null,
+    "industry": null
+  },
+  "MARATHON": {
+    "sector": null,
+    "industry": null
+  },
+  "AARTISURF": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "WORTHPERI": {
+    "sector": null,
+    "industry": null
+  },
+  "STUDDS": {
+    "sector": null,
+    "industry": null
+  },
+  "ALOKINDS": {
+    "sector": null,
+    "industry": null
+  },
+  "CMPDI": {
+    "sector": null,
+    "industry": null
+  },
+  "SHREEPUSHK": {
+    "sector": null,
+    "industry": null
+  },
+  "WAKEFIT": {
+    "sector": null,
+    "industry": null
+  },
+  "GALLANTT": {
+    "sector": null,
+    "industry": null
+  },
+  "AHCL": {
+    "sector": null,
+    "industry": null
+  },
+  "UFLEX": {
+    "sector": null,
+    "industry": null
+  },
+  "RISHABH": {
+    "sector": null,
+    "industry": null
+  },
+  "AMBER": {
+    "sector": null,
+    "industry": null
+  },
+  "MHLXMIRU": {
+    "sector": null,
+    "industry": null
+  },
+  "COMSYN": {
+    "sector": null,
+    "industry": null
+  },
+  "RPPL": {
+    "sector": null,
+    "industry": null
+  },
+  "SMCGLOBAL": {
+    "sector": null,
+    "industry": null
+  },
+  "NIRAJISPAT": {
+    "sector": null,
+    "industry": null
+  },
+  "SOMATEX": {
+    "sector": null,
+    "industry": null
+  },
+  "TTKPRESTIG": {
+    "sector": null,
+    "industry": null
+  },
+  "PWL": {
+    "sector": null,
+    "industry": null
+  },
+  "ELECON": {
+    "sector": null,
+    "industry": null
+  },
+  "KOTIC": {
+    "sector": null,
+    "industry": null
+  },
+  "NAUKRI": {
+    "sector": null,
+    "industry": null
+  },
+  "PIIND": {
+    "sector": null,
+    "industry": null
+  },
+  "GANGAFORGE": {
+    "sector": null,
+    "industry": null
+  },
+  "CESC": {
+    "sector": null,
+    "industry": null
+  },
+  "RKFORGE": {
+    "sector": null,
+    "industry": null
+  },
+  "IREDA": {
+    "sector": null,
+    "industry": null
+  },
+  "SPAL": {
+    "sector": null,
+    "industry": null
+  },
+  "EICHERMOT": {
+    "sector": null,
+    "industry": null
+  },
+  "PPAP": {
+    "sector": null,
+    "industry": null
+  },
+  "HOMEFIRST": {
+    "sector": null,
+    "industry": null
+  },
+  "KROSS": {
+    "sector": null,
+    "industry": null
+  },
+  "PML": {
+    "sector": null,
+    "industry": null
+  },
+  "SURAKSHA": {
+    "sector": null,
+    "industry": null
+  },
+  "SKFINDUS": {
+    "sector": null,
+    "industry": null
+  },
+  "FMGOETZE": {
+    "sector": null,
+    "industry": null
+  },
+  "AEROENTER": {
+    "sector": null,
+    "industry": null
+  },
+  "SAMHI": {
+    "sector": null,
+    "industry": null
+  },
+  "ORIENTPPR": {
+    "sector": null,
+    "industry": null
+  },
+  "JAYSREETEA": {
+    "sector": null,
+    "industry": null
+  },
+  "SHRIKRISH": {
+    "sector": null,
+    "industry": null
+  },
+  "CCL": {
+    "sector": null,
+    "industry": null
+  },
+  "CHEMPLASTS": {
+    "sector": null,
+    "industry": null
+  },
+  "MTNL": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJEL": {
+    "sector": null,
+    "industry": null
+  },
+  "SERVOTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "VISAKAIND": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJAJINDEF": {
+    "sector": null,
+    "industry": null
+  },
+  "SWARAJENG": {
+    "sector": null,
+    "industry": null
+  },
+  "HIMATSEIDE": {
+    "sector": null,
+    "industry": null
+  },
+  "EIMCOELECO": {
+    "sector": null,
+    "industry": null
+  },
+  "PYRAMID": {
+    "sector": null,
+    "industry": null
+  },
+  "POWERGRID": {
+    "sector": null,
+    "industry": null
+  },
+  "ULTRAMAR": {
+    "sector": null,
+    "industry": null
+  },
+  "GREENPANEL": {
+    "sector": null,
+    "industry": null
+  },
+  "TRAVELFOOD": {
+    "sector": null,
+    "industry": null
+  },
+  "TRF": {
+    "sector": null,
+    "industry": null
+  },
+  "PIDILITIND": {
+    "sector": null,
+    "industry": null
+  },
+  "CCHHL": {
+    "sector": null,
+    "industry": null
+  },
+  "CEWATER": {
+    "sector": null,
+    "industry": null
+  },
+  "GEEKAYWIRE": {
+    "sector": null,
+    "industry": null
+  },
+  "DLF": {
+    "sector": null,
+    "industry": null
+  },
+  "HUHTAMAKI": {
+    "sector": null,
+    "industry": null
+  },
+  "BALMLAWRIE": {
+    "sector": null,
+    "industry": null
+  },
+  "AEGISLOG": {
+    "sector": null,
+    "industry": null
+  },
+  "MOL": {
+    "sector": null,
+    "industry": null
+  },
+  "MASFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "RKEC": {
+    "sector": null,
+    "industry": null
+  },
+  "DOLATALGO": {
+    "sector": null,
+    "industry": null
+  },
+  "GUFICBIO": {
+    "sector": null,
+    "industry": null
+  },
+  "TFCILTD": {
+    "sector": null,
+    "industry": null
+  },
+  "AHLUCONT": {
+    "sector": null,
+    "industry": null
+  },
+  "SKIPPER": {
+    "sector": null,
+    "industry": null
+  },
+  "RKSWAMY": {
+    "sector": null,
+    "industry": null
+  },
+  "ZENSARTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "HERANBA": {
+    "sector": null,
+    "industry": null
+  },
+  "FOODSIN": {
+    "sector": null,
+    "industry": null
+  },
+  "ROSSTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "SEAMECLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "LTFOODS": {
+    "sector": null,
+    "industry": null
+  },
+  "HEALTHX": {
+    "sector": null,
+    "industry": null
+  },
+  "DCMSHRIRAM": {
+    "sector": null,
+    "industry": null
+  },
+  "INTELLECT": {
+    "sector": null,
+    "industry": null
+  },
+  "POCL": {
+    "sector": null,
+    "industry": null
+  },
+  "UJJIVANSFB": {
+    "sector": null,
+    "industry": null
+  },
+  "SHAKTIPUMP": {
+    "sector": null,
+    "industry": null
+  },
+  "ESCORTS": {
+    "sector": null,
+    "industry": null
+  },
+  "VAKRANGEE": {
+    "sector": null,
+    "industry": null
+  },
+  "SYNCOMF": {
+    "sector": null,
+    "industry": null
+  },
+  "GANESHBE": {
+    "sector": null,
+    "industry": null
+  },
+  "RADAAN": {
+    "sector": null,
+    "industry": null
+  },
+  "TECHNOE": {
+    "sector": null,
+    "industry": null
+  },
+  "AGARIND": {
+    "sector": null,
+    "industry": null
+  },
+  "TRIDENT": {
+    "sector": null,
+    "industry": null
+  },
+  "ELDEHSG": {
+    "sector": null,
+    "industry": null
+  },
+  "GTPL": {
+    "sector": null,
+    "industry": null
+  },
+  "SUPRAJIT": {
+    "sector": null,
+    "industry": null
+  },
+  "BATAINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "WESTLIFE": {
+    "sector": null,
+    "industry": null
+  },
+  "BEDMUTHA": {
+    "sector": null,
+    "industry": null
+  },
+  "TRIVENI": {
+    "sector": null,
+    "industry": null
+  },
+  "STARTECK": {
+    "sector": null,
+    "industry": null
+  },
+  "LAURUSLABS": {
+    "sector": null,
+    "industry": null
+  },
+  "KAMAHOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJAJFINSV": {
+    "sector": null,
+    "industry": null
+  },
+  "JIOFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "DRREDDY": {
+    "sector": null,
+    "industry": null
+  },
+  "MOIL": {
+    "sector": null,
+    "industry": null
+  },
+  "ENDURANCE": {
+    "sector": null,
+    "industry": null
+  },
+  "SHANTI": {
+    "sector": null,
+    "industry": null
+  },
+  "PREMCO": {
+    "sector": null,
+    "industry": null
+  },
+  "MIRZAINT": {
+    "sector": null,
+    "industry": null
+  },
+  "ZENTEC": {
+    "sector": null,
+    "industry": null
+  },
+  "LIQUIDSHRI": {
+    "sector": null,
+    "industry": null
+  },
+  "INNOVISION": {
+    "sector": null,
+    "industry": null
+  },
+  "MEDIASSIST": {
+    "sector": null,
+    "industry": null
+  },
+  "PREMEXPLN": {
+    "sector": null,
+    "industry": null
+  },
+  "LYPSAGEMS": {
+    "sector": null,
+    "industry": null
+  },
+  "ESTER": {
+    "sector": null,
+    "industry": null
+  },
+  "UNICHEMLAB": {
+    "sector": null,
+    "industry": null
+  },
+  "POLYPLEX": {
+    "sector": null,
+    "industry": null
+  },
+  "STARHEALTH": {
+    "sector": null,
+    "industry": null
+  },
+  "ZOTA": {
+    "sector": null,
+    "industry": null
+  },
+  "DMCC": {
+    "sector": null,
+    "industry": null
+  },
+  "GOYALALUM": {
+    "sector": null,
+    "industry": null
+  },
+  "BIRLAPREC": {
+    "sector": null,
+    "industry": null
+  },
+  "BORORENEW": {
+    "sector": null,
+    "industry": null
+  },
+  "SAKAR": {
+    "sector": null,
+    "industry": null
+  },
+  "RPEL": {
+    "sector": null,
+    "industry": null
+  },
+  "HTMEDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "TOTAL": {
+    "sector": null,
+    "industry": null
+  },
+  "SHRIPISTON": {
+    "sector": null,
+    "industry": null
+  },
+  "RTNINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "CEMPRO": {
+    "sector": null,
+    "industry": null
+  },
+  "PNCINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "SCILAL": {
+    "sector": null,
+    "industry": null
+  },
+  "JHS": {
+    "sector": null,
+    "industry": null
+  },
+  "RPPINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "NHPC": {
+    "sector": null,
+    "industry": null
+  },
+  "21STCENMGM": {
+    "sector": null,
+    "industry": null
+  },
+  "AAKASH": {
+    "sector": null,
+    "industry": null
+  },
+  "TECHNVISN": {
+    "sector": null,
+    "industry": null
+  },
+  "EPIGRAL": {
+    "sector": null,
+    "industry": null
+  },
+  "TIPSFILMS": {
+    "sector": null,
+    "industry": null
+  },
+  "APTUS": {
+    "sector": null,
+    "industry": null
+  },
+  "MPSLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "RATNAVEER": {
+    "sector": null,
+    "industry": null
+  },
+  "ZYDUSWELL": {
+    "sector": null,
+    "industry": null
+  },
+  "TNTELE": {
+    "sector": null,
+    "industry": null
+  },
+  "ATL": {
+    "sector": null,
+    "industry": null
+  },
+  "HEG": {
+    "sector": null,
+    "industry": null
+  },
+  "SESHAPAPER": {
+    "sector": null,
+    "industry": null
+  },
+  "ASAL": {
+    "sector": null,
+    "industry": null
+  },
+  "PFS": {
+    "sector": null,
+    "industry": null
+  },
+  "AGI": {
+    "sector": null,
+    "industry": null
+  },
+  "SEPC": {
+    "sector": null,
+    "industry": null
+  },
+  "DCW": {
+    "sector": null,
+    "industry": null
+  },
+  "VARDMNPOLY": {
+    "sector": null,
+    "industry": null
+  },
+  "PAYTM": {
+    "sector": null,
+    "industry": null
+  },
+  "LPDC": {
+    "sector": null,
+    "industry": null
+  },
+  "POLYMED": {
+    "sector": null,
+    "industry": null
+  },
+  "TVSSCS": {
+    "sector": null,
+    "industry": null
+  },
+  "PDMJEPAPER": {
+    "sector": null,
+    "industry": null
+  },
+  "PAGEIND": {
+    "sector": null,
+    "industry": null
+  },
+  "KNRCON": {
+    "sector": null,
+    "industry": null
+  },
+  "ABMKNO": {
+    "sector": null,
+    "industry": null
+  },
+  "VENTIVE": {
+    "sector": null,
+    "industry": null
+  },
+  "JAYBARMARU": {
+    "sector": null,
+    "industry": null
+  },
+  "INNOVACAP": {
+    "sector": null,
+    "industry": null
+  },
+  "ZFCVINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "TRU": {
+    "sector": null,
+    "industry": null
+  },
+  "ASTRAMICRO": {
+    "sector": null,
+    "industry": null
+  },
+  "SAATVIKGL": {
+    "sector": null,
+    "industry": null
+  },
+  "INOXGREEN": {
+    "sector": null,
+    "industry": null
+  },
+  "AARVI": {
+    "sector": null,
+    "industry": null
+  },
+  "WEBELSOLAR": {
+    "sector": null,
+    "industry": null
+  },
+  "TPHQ": {
+    "sector": null,
+    "industry": null
+  },
+  "KANPRPLA": {
+    "sector": null,
+    "industry": null
+  },
+  "DENTA": {
+    "sector": null,
+    "industry": null
+  },
+  "FORCEMOT": {
+    "sector": null,
+    "industry": null
+  },
+  "IVZINGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "LAXMIDENTL": {
+    "sector": null,
+    "industry": null
+  },
+  "ASIANTILES": {
+    "sector": null,
+    "industry": null
+  },
+  "HNGSNGBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "REDTAPE": {
+    "sector": null,
+    "industry": null
+  },
+  "GOLDBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "NRAIL": {
+    "sector": null,
+    "industry": null
+  },
+  "VSTTILLERS": {
+    "sector": null,
+    "industry": null
+  },
+  "GOKEX": {
+    "sector": null,
+    "industry": null
+  },
+  "JKLAKSHMI": {
+    "sector": null,
+    "industry": null
+  },
+  "TVSMOTOR": {
+    "sector": null,
+    "industry": null
+  },
+  "NV20BEES": {
+    "sector": null,
+    "industry": null
+  },
+  "JAMNAAUTO": {
+    "sector": null,
+    "industry": null
+  },
+  "LTGILTBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "TINNARUBR": {
+    "sector": null,
+    "industry": null
+  },
+  "TI": {
+    "sector": null,
+    "industry": null
+  },
+  "PRAKASH": {
+    "sector": null,
+    "industry": null
+  },
+  "KKCL": {
+    "sector": null,
+    "industry": null
+  },
+  "TBOTEK": {
+    "sector": null,
+    "industry": null
+  },
+  "INDIGO": {
+    "sector": null,
+    "industry": null
+  },
+  "ZYDUSLIFE": {
+    "sector": null,
+    "industry": null
+  },
+  "PSUBNKBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "BANKBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "TENNIND": {
+    "sector": null,
+    "industry": null
+  },
+  "HYUNDAI": {
+    "sector": null,
+    "industry": null
+  },
+  "ITBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "BANSALWIRE": {
+    "sector": null,
+    "industry": null
+  },
+  "SHREEJISPG": {
+    "sector": null,
+    "industry": null
+  },
+  "SUNDARAM": {
+    "sector": null,
+    "industry": null
+  },
+  "JUBLINGREA": {
+    "sector": null,
+    "industry": null
+  },
+  "EUREKAFORB": {
+    "sector": null,
+    "industry": null
+  },
+  "RIIL": {
+    "sector": null,
+    "industry": null
+  },
+  "ALICON": {
+    "sector": null,
+    "industry": null
+  },
+  "ROLEXRINGS": {
+    "sector": null,
+    "industry": null
+  },
+  "NIFTYBEES": {
+    "sector": null,
+    "industry": null
+  },
+  "EXIDEIND": {
+    "sector": null,
+    "industry": null
+  },
+  "NIITLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "PANAMAPET": {
+    "sector": null,
+    "industry": null
+  },
+  "RBZJEWEL": {
+    "sector": null,
+    "industry": null
+  },
+  "RRIL": {
+    "sector": null,
+    "industry": null
+  },
+  "ZUARIIND": {
+    "sector": null,
+    "industry": null
+  },
+  "RVTH": {
+    "sector": null,
+    "industry": null
+  },
+  "FRACTAL": {
+    "sector": null,
+    "industry": null
+  },
+  "PAISALO": {
+    "sector": null,
+    "industry": null
+  },
+  "SHYAMMETL": {
+    "sector": null,
+    "industry": null
+  },
+  "CURAA": {
+    "sector": null,
+    "industry": null
+  },
+  "JPPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "MANKIND": {
+    "sector": null,
+    "industry": null
+  },
+  "WEIZMANIND": {
+    "sector": null,
+    "industry": null
+  },
+  "HEALTHADD": {
+    "sector": null,
+    "industry": null
+  },
+  "MIDQ50ADD": {
+    "sector": null,
+    "industry": null
+  },
+  "FMCGADD": {
+    "sector": null,
+    "industry": null
+  },
+  "UNITEDTEA": {
+    "sector": null,
+    "industry": null
+  },
+  "MUKANDLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "BPL": {
+    "sector": null,
+    "industry": null
+  },
+  "DIGIDRIVE": {
+    "sector": null,
+    "industry": null
+  },
+  "WELCORP": {
+    "sector": null,
+    "industry": null
+  },
+  "LOVABLE": {
+    "sector": null,
+    "industry": null
+  },
+  "SENCO": {
+    "sector": null,
+    "industry": null
+  },
+  "BANK10ADD": {
+    "sector": null,
+    "industry": null
+  },
+  "ATAM": {
+    "sector": null,
+    "industry": null
+  },
+  "BHARTIARTL": {
+    "sector": null,
+    "industry": null
+  },
+  "DMART": {
+    "sector": null,
+    "industry": null
+  },
+  "NOVARTIND": {
+    "sector": null,
+    "industry": null
+  },
+  "NAZARA": {
+    "sector": null,
+    "industry": null
+  },
+  "GSPCROP": {
+    "sector": null,
+    "industry": null
+  },
+  "UBL": {
+    "sector": null,
+    "industry": null
+  },
+  "DPABHUSHAN": {
+    "sector": null,
+    "industry": null
+  },
+  "SMALLADD": {
+    "sector": null,
+    "industry": null
+  },
+  "MIDCAPADD": {
+    "sector": null,
+    "industry": null
+  },
+  "JAINREC": {
+    "sector": null,
+    "industry": null
+  },
+  "MSCIADD": {
+    "sector": null,
+    "industry": null
+  },
+  "MEDICAMEQ": {
+    "sector": null,
+    "industry": null
+  },
+  "NEXT50ADD": {
+    "sector": null,
+    "industry": null
+  },
+  "MMTC": {
+    "sector": null,
+    "industry": null
+  },
+  "HLEGLAS": {
+    "sector": null,
+    "industry": null
+  },
+  "PIRAMALFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "IDBI": {
+    "sector": null,
+    "industry": null
+  },
+  "VAIBHAVGBL": {
+    "sector": null,
+    "industry": null
+  },
+  "FINEORG": {
+    "sector": null,
+    "industry": null
+  },
+  "JSLL": {
+    "sector": null,
+    "industry": null
+  },
+  "DYNPRO": {
+    "sector": null,
+    "industry": null
+  },
+  "DOMS": {
+    "sector": null,
+    "industry": null
+  },
+  "TVTODAY": {
+    "sector": null,
+    "industry": null
+  },
+  "IXIGO": {
+    "sector": null,
+    "industry": null
+  },
+  "20MICRONS": {
+    "sector": null,
+    "industry": null
+  },
+  "MMP": {
+    "sector": null,
+    "industry": null
+  },
+  "FISCHER": {
+    "sector": null,
+    "industry": null
+  },
+  "VENKEYS": {
+    "sector": null,
+    "industry": null
+  },
+  "SAYAJIHOTL": {
+    "sector": null,
+    "industry": null
+  },
+  "GOKUL": {
+    "sector": null,
+    "industry": null
+  },
+  "BATLIBOI": {
+    "sector": null,
+    "industry": null
+  },
+  "INDIAMART": {
+    "sector": null,
+    "industry": null
+  },
+  "AZAD": {
+    "sector": null,
+    "industry": null
+  },
+  "ANGELONE": {
+    "sector": null,
+    "industry": null
+  },
+  "SKYGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "ALEMBICLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "CIPLA": {
+    "sector": null,
+    "industry": null
+  },
+  "BETA": {
+    "sector": null,
+    "industry": null
+  },
+  "SANDUMA": {
+    "sector": null,
+    "industry": null
+  },
+  "RSDFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "KOLTEPATIL": {
+    "sector": null,
+    "industry": null
+  },
+  "KOKUYOCMLN": {
+    "sector": null,
+    "industry": null
+  },
+  "BLUEJET": {
+    "sector": null,
+    "industry": null
+  },
+  "RKDL": {
+    "sector": null,
+    "industry": null
+  },
+  "DBSTOCKBRO": {
+    "sector": null,
+    "industry": null
+  },
+  "URBANCO": {
+    "sector": null,
+    "industry": null
+  },
+  "BIKAJI": {
+    "sector": null,
+    "industry": null
+  },
+  "FRONTSP": {
+    "sector": null,
+    "industry": null
+  },
+  "SUNDARMFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "GMBREW": {
+    "sector": null,
+    "industry": null
+  },
+  "ICRA": {
+    "sector": null,
+    "industry": null
+  },
+  "WSTCSTPAPR": {
+    "sector": null,
+    "industry": null
+  },
+  "ORIENTALTL": {
+    "sector": null,
+    "industry": null
+  },
+  "NOCIL": {
+    "sector": null,
+    "industry": null
+  },
+  "GSEC5IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "CHEVIOT": {
+    "sector": null,
+    "industry": null
+  },
+  "V2RETAIL": {
+    "sector": null,
+    "industry": null
+  },
+  "AJOONI": {
+    "sector": null,
+    "industry": null
+  },
+  "KFINTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "AARTIDRUGS": {
+    "sector": null,
+    "industry": null
+  },
+  "AMBALALSA": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJAJHFL": {
+    "sector": null,
+    "industry": null
+  },
+  "LIQUIDBETF": {
+    "sector": null,
+    "industry": null
+  },
+  "EMCURE": {
+    "sector": null,
+    "industry": null
+  },
+  "COHANCE": {
+    "sector": null,
+    "industry": null
+  },
+  "SGIL": {
+    "sector": null,
+    "industry": null
+  },
+  "HSBCGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "GICRE": {
+    "sector": null,
+    "industry": null
+  },
+  "BHARTIHEXA": {
+    "sector": null,
+    "industry": null
+  },
+  "JTEKTINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "BANKIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "APOLSINHOT": {
+    "sector": null,
+    "industry": null
+  },
+  "BANKBETF": {
+    "sector": null,
+    "industry": null
+  },
+  "ARMANFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "NIFTYBETF": {
+    "sector": null,
+    "industry": null
+  },
+  "BAGFILMS": {
+    "sector": null,
+    "industry": null
+  },
+  "JUBLFOOD": {
+    "sector": null,
+    "industry": null
+  },
+  "MFSL": {
+    "sector": null,
+    "industry": null
+  },
+  "MODIS": {
+    "sector": null,
+    "industry": null
+  },
+  "KNAGRI": {
+    "sector": null,
+    "industry": null
+  },
+  "UTTAMSUGAR": {
+    "sector": null,
+    "industry": null
+  },
+  "INFRAIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "RAJMET": {
+    "sector": null,
+    "industry": null
+  },
+  "RUBICON": {
+    "sector": null,
+    "industry": null
+  },
+  "BOROLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "NIF100IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "CHOICEIN": {
+    "sector": null,
+    "industry": null
+  },
+  "PNGSREVA": {
+    "sector": null,
+    "industry": null
+  },
+  "AMIRCHAND": {
+    "sector": null,
+    "industry": null
+  },
+  "WILLAMAGOR": {
+    "sector": null,
+    "industry": null
+  },
+  "NFL": {
+    "sector": null,
+    "industry": null
+  },
+  "ITIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "MSTCLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "AUBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "OFSS": {
+    "sector": null,
+    "industry": null
+  },
+  "GREENLAM": {
+    "sector": null,
+    "industry": null
+  },
+  "VAL30IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "FINIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "MOM30IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "APEX": {
+    "sector": null,
+    "industry": null
+  },
+  "ALPL30IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "LEXUS": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCLIFE": {
+    "sector": null,
+    "industry": null
+  },
+  "GHCL": {
+    "sector": null,
+    "industry": null
+  },
+  "DONEAR": {
+    "sector": null,
+    "industry": null
+  },
+  "SANGHVIMOV": {
+    "sector": null,
+    "industry": null
+  },
+  "PDSL": {
+    "sector": null,
+    "industry": null
+  },
+  "PARACABLES": {
+    "sector": null,
+    "industry": null
+  },
+  "SMSPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "ASAHIINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "MIDSELIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "AUTOIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "ORCHASP": {
+    "sector": null,
+    "industry": null
+  },
+  "KRYSTAL": {
+    "sector": null,
+    "industry": null
+  },
+  "VOEPL": {
+    "sector": null,
+    "industry": null
+  },
+  "PSUBNKIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "JSFB": {
+    "sector": null,
+    "industry": null
+  },
+  "SAMMAANCAP": {
+    "sector": null,
+    "industry": null
+  },
+  "NUVOCO": {
+    "sector": null,
+    "industry": null
+  },
+  "PICCADIL": {
+    "sector": null,
+    "industry": null
+  },
+  "JKCEMENT": {
+    "sector": null,
+    "industry": null
+  },
+  "GLOBUSSPR": {
+    "sector": null,
+    "industry": null
+  },
+  "NATCOPHARM": {
+    "sector": null,
+    "industry": null
+  },
+  "URJA": {
+    "sector": null,
+    "industry": null
+  },
+  "MIDCAPIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "GVPIL": {
+    "sector": null,
+    "industry": null
+  },
+  "CAPILLARY": {
+    "sector": null,
+    "industry": null
+  },
+  "TITAN": {
+    "sector": null,
+    "industry": null
+  },
+  "NV20IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "GRWRHITECH": {
+    "sector": null,
+    "industry": null
+  },
+  "VASWANI": {
+    "sector": null,
+    "industry": null
+  },
+  "DANGEE": {
+    "sector": null,
+    "industry": null
+  },
+  "SSWL": {
+    "sector": null,
+    "industry": null
+  },
+  "HERITGFOOD": {
+    "sector": null,
+    "industry": null
+  },
+  "ALMONDZ": {
+    "sector": null,
+    "industry": null
+  },
+  "TEXINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "TNIDETF": {
+    "sector": null,
+    "industry": null
+  },
+  "CLEAN": {
+    "sector": null,
+    "industry": null
+  },
+  "RAYMONDREL": {
+    "sector": null,
+    "industry": null
+  },
+  "KRISHANA": {
+    "sector": null,
+    "industry": null
+  },
+  "SURYALA": {
+    "sector": null,
+    "industry": null
+  },
+  "MID150BEES": {
+    "sector": null,
+    "industry": null
+  },
+  "WHIRLPOOL": {
+    "sector": null,
+    "industry": null
+  },
+  "DHANUKA": {
+    "sector": null,
+    "industry": null
+  },
+  "IMPAL": {
+    "sector": null,
+    "industry": null
+  },
+  "PLASTIBLEN": {
+    "sector": null,
+    "industry": null
+  },
+  "GABRIEL": {
+    "sector": null,
+    "industry": null
+  },
+  "GODIGIT": {
+    "sector": null,
+    "industry": null
+  },
+  "GENCON": {
+    "sector": null,
+    "industry": null
+  },
+  "LOTUSDEV": {
+    "sector": null,
+    "industry": null
+  },
+  "KPIGREEN": {
+    "sector": null,
+    "industry": null
+  },
+  "IKIO": {
+    "sector": null,
+    "industry": null
+  },
+  "ASKAUTOLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "CLSEL": {
+    "sector": null,
+    "industry": null
+  },
+  "IDFNIFTYET": {
+    "sector": null,
+    "industry": null
+  },
+  "UFO": {
+    "sector": null,
+    "industry": null
+  },
+  "SEDEMAC": {
+    "sector": null,
+    "industry": null
+  },
+  "RUBFILA": {
+    "sector": null,
+    "industry": null
+  },
+  "TWCGOLDETF": {
+    "sector": null,
+    "industry": null
+  },
+  "SICAGEN": {
+    "sector": null,
+    "industry": null
+  },
+  "ALANKIT": {
+    "sector": null,
+    "industry": null
+  },
+  "NIACL": {
+    "sector": null,
+    "industry": null
+  },
+  "TICL": {
+    "sector": null,
+    "industry": null
+  },
+  "CUMMINSIND": {
+    "sector": null,
+    "industry": null
+  },
+  "KTKBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "AARTIIND": {
+    "sector": null,
+    "industry": null
+  },
+  "UFBL": {
+    "sector": null,
+    "industry": null
+  },
+  "ASHIANA": {
+    "sector": null,
+    "industry": null
+  },
+  "TMPV": {
+    "sector": null,
+    "industry": null
+  },
+  "AMDIND": {
+    "sector": null,
+    "industry": null
+  },
+  "THEINVEST": {
+    "sector": null,
+    "industry": null
+  },
+  "HITECH": {
+    "sector": null,
+    "industry": null
+  },
+  "IGPL": {
+    "sector": null,
+    "industry": null
+  },
+  "BALRAMCHIN": {
+    "sector": null,
+    "industry": null
+  },
+  "NATCAPSUQ": {
+    "sector": null,
+    "industry": null
+  },
+  "NRBBEARING": {
+    "sector": null,
+    "industry": null
+  },
+  "SIKKO": {
+    "sector": null,
+    "industry": null
+  },
+  "SUPREME": {
+    "sector": null,
+    "industry": null
+  },
+  "SHALPAINTS": {
+    "sector": null,
+    "industry": null
+  },
+  "KARMAENG": {
+    "sector": null,
+    "industry": null
+  },
+  "SUMICHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "CANHLIFE": {
+    "sector": null,
+    "industry": null
+  },
+  "WIPL": {
+    "sector": null,
+    "industry": null
+  },
+  "CINELINE": {
+    "sector": null,
+    "industry": null
+  },
+  "DRAGARWQ": {
+    "sector": null,
+    "industry": null
+  },
+  "KPRMILL": {
+    "sector": null,
+    "industry": null
+  },
+  "IVZINNIFTY": {
+    "sector": null,
+    "industry": null
+  },
+  "BANKADD": {
+    "sector": null,
+    "industry": null
+  },
+  "NBIFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "UGARSUGAR": {
+    "sector": null,
+    "industry": null
+  },
+  "SHAILY": {
+    "sector": null,
+    "industry": null
+  },
+  "RPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "OIL": {
+    "sector": null,
+    "industry": null
+  },
+  "APARINDS": {
+    "sector": null,
+    "industry": null
+  },
+  "PRIVISCL": {
+    "sector": null,
+    "industry": null
+  },
+  "RICOAUTO": {
+    "sector": null,
+    "industry": null
+  },
+  "SSDL": {
+    "sector": null,
+    "industry": null
+  },
+  "EQUAL50ADD": {
+    "sector": null,
+    "industry": null
+  },
+  "WEWORK": {
+    "sector": null,
+    "industry": null
+  },
+  "ACUTAAS": {
+    "sector": null,
+    "industry": null
+  },
+  "SILVERADD": {
+    "sector": null,
+    "industry": null
+  },
+  "SPORTKING": {
+    "sector": null,
+    "industry": null
+  },
+  "LANDSMILL": {
+    "sector": null,
+    "industry": null
+  },
+  "CANTABIL": {
+    "sector": null,
+    "industry": null
+  },
+  "NATHBIOGEN": {
+    "sector": null,
+    "industry": null
+  },
+  "FIRSTCRY": {
+    "sector": null,
+    "industry": null
+  },
+  "BLSE": {
+    "sector": null,
+    "industry": null
+  },
+  "ELGIRUBCO": {
+    "sector": null,
+    "industry": null
+  },
+  "ELGIEQUIP": {
+    "sector": null,
+    "industry": null
+  },
+  "PITTIENG": {
+    "sector": null,
+    "industry": null
+  },
+  "INTERARCH": {
+    "sector": null,
+    "industry": null
+  },
+  "INFOMEDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "KRISHIVAL": {
+    "sector": null,
+    "industry": null
+  },
+  "INDIACEM": {
+    "sector": null,
+    "industry": null
+  },
+  "RUPA": {
+    "sector": null,
+    "industry": null
+  },
+  "JTLIND": {
+    "sector": null,
+    "industry": null
+  },
+  "JINDRILL": {
+    "sector": null,
+    "industry": null
+  },
+  "MUTHOOTCAP": {
+    "sector": null,
+    "industry": null
+  },
+  "KOHINOOR": {
+    "sector": null,
+    "industry": null
+  },
+  "ETHOSLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "ELCIDIN": {
+    "sector": null,
+    "industry": null
+  },
+  "KPL": {
+    "sector": null,
+    "industry": null
+  },
+  "FLEXIADD": {
+    "sector": null,
+    "industry": null
+  },
+  "NSLNISP": {
+    "sector": null,
+    "industry": null
+  },
+  "ACC": {
+    "sector": null,
+    "industry": null
+  },
+  "RADICO": {
+    "sector": null,
+    "industry": null
+  },
+  "PNBHOUSING": {
+    "sector": null,
+    "industry": null
+  },
+  "LLOYDSME": {
+    "sector": null,
+    "industry": null
+  },
+  "HATHWAY": {
+    "sector": null,
+    "industry": null
+  },
+  "TOP10ADD": {
+    "sector": null,
+    "industry": null
+  },
+  "BBTC": {
+    "sector": null,
+    "industry": null
+  },
+  "INFOBEAN": {
+    "sector": null,
+    "industry": null
+  },
+  "NEXT30ADD": {
+    "sector": null,
+    "industry": null
+  },
+  "FINKURVE": {
+    "sector": null,
+    "industry": null
+  },
+  "KSCL": {
+    "sector": null,
+    "industry": null
+  },
+  "BHARATCOAL": {
+    "sector": null,
+    "industry": null
+  },
+  "KRONOX": {
+    "sector": null,
+    "industry": null
+  },
+  "STYLAMIND": {
+    "sector": null,
+    "industry": null
+  },
+  "INDUSINDBK": {
+    "sector": null,
+    "industry": null
+  },
+  "SINDHUTRAD": {
+    "sector": null,
+    "industry": null
+  },
+  "FLUOROCHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "GOLDADD": {
+    "sector": null,
+    "industry": null
+  },
+  "ITADD": {
+    "sector": null,
+    "industry": null
+  },
+  "SCHAEFFLER": {
+    "sector": null,
+    "industry": null
+  },
+  "LIQUIDADD": {
+    "sector": null,
+    "industry": null
+  },
+  "IZMO": {
+    "sector": null,
+    "industry": null
+  },
+  "INDIANB": {
+    "sector": null,
+    "industry": null
+  },
+  "MANGLMCEM": {
+    "sector": null,
+    "industry": null
+  },
+  "SENSEXADD": {
+    "sector": null,
+    "industry": null
+  },
+  "PNBGILTS": {
+    "sector": null,
+    "industry": null
+  },
+  "JMFINANCIL": {
+    "sector": null,
+    "industry": null
+  },
+  "PSUBANKADD": {
+    "sector": null,
+    "industry": null
+  },
+  "SUPREMEIND": {
+    "sector": null,
+    "industry": null
+  },
+  "MAFATIND": {
+    "sector": null,
+    "industry": null
+  },
+  "NITIRAJ": {
+    "sector": null,
+    "industry": null
+  },
+  "PVTBANKADD": {
+    "sector": null,
+    "industry": null
+  },
+  "WOCKPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "SUPREMEINF": {
+    "sector": null,
+    "industry": null
+  },
+  "IITL": {
+    "sector": null,
+    "industry": null
+  },
+  "SUPERHOUSE": {
+    "sector": null,
+    "industry": null
+  },
+  "BIRLACORPN": {
+    "sector": null,
+    "industry": null
+  },
+  "CARYSIL": {
+    "sector": null,
+    "industry": null
+  },
+  "THOMASCOTT": {
+    "sector": null,
+    "industry": null
+  },
+  "RAIN": {
+    "sector": null,
+    "industry": null
+  },
+  "BBL": {
+    "sector": null,
+    "industry": null
+  },
+  "CENTRALBK": {
+    "sector": null,
+    "industry": null
+  },
+  "LUMAXTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "CYIENT": {
+    "sector": null,
+    "industry": null
+  },
+  "CONSOFINVT": {
+    "sector": null,
+    "industry": null
+  },
+  "AWHCL": {
+    "sector": null,
+    "industry": null
+  },
+  "J&KBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "SAMBHAAV": {
+    "sector": null,
+    "industry": null
+  },
+  "ABDL": {
+    "sector": null,
+    "industry": null
+  },
+  "JWL": {
+    "sector": null,
+    "industry": null
+  },
+  "VIJAYA": {
+    "sector": null,
+    "industry": null
+  },
+  "RUSHIL": {
+    "sector": null,
+    "industry": null
+  },
+  "PUNJABCHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "VARROC": {
+    "sector": null,
+    "industry": null
+  },
+  "HCL-INSYS": {
+    "sector": null,
+    "industry": null
+  },
+  "MEDPLUS": {
+    "sector": null,
+    "industry": null
+  },
+  "SAGARDEEP": {
+    "sector": null,
+    "industry": null
+  },
+  "NETWORK18": {
+    "sector": null,
+    "industry": null
+  },
+  "SAMBHV": {
+    "sector": null,
+    "industry": null
+  },
+  "TTL": {
+    "sector": null,
+    "industry": null
+  },
+  "ADANIGREEN": {
+    "sector": null,
+    "industry": null
+  },
+  "ARTNIRMAN": {
+    "sector": null,
+    "industry": null
+  },
+  "PODDARMENT": {
+    "sector": null,
+    "industry": null
+  },
+  "EPL": {
+    "sector": null,
+    "industry": null
+  },
+  "BSE": {
+    "sector": null,
+    "industry": null
+  },
+  "GRMOVER": {
+    "sector": null,
+    "industry": null
+  },
+  "PARASPETRO": {
+    "sector": null,
+    "industry": null
+  },
+  "ARENTERP": {
+    "sector": null,
+    "industry": null
+  },
+  "FDC": {
+    "sector": null,
+    "industry": null
+  },
+  "HATSUN": {
+    "sector": null,
+    "industry": null
+  },
+  "AFCONS": {
+    "sector": null,
+    "industry": null
+  },
+  "REFEX": {
+    "sector": null,
+    "industry": null
+  },
+  "AXISBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "TASTYBITE": {
+    "sector": null,
+    "industry": null
+  },
+  "HCG": {
+    "sector": null,
+    "industry": null
+  },
+  "SURAJEST": {
+    "sector": null,
+    "industry": null
+  },
+  "INDGN": {
+    "sector": null,
+    "industry": null
+  },
+  "DIAMINESQ": {
+    "sector": null,
+    "industry": null
+  },
+  "ARCHIDPLY": {
+    "sector": null,
+    "industry": null
+  },
+  "DOLPHIN": {
+    "sector": null,
+    "industry": null
+  },
+  "RMC": {
+    "sector": null,
+    "industry": null
+  },
+  "DIGJAMLMTD": {
+    "sector": null,
+    "industry": null
+  },
+  "SUNPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "ANUP": {
+    "sector": null,
+    "industry": null
+  },
+  "GEMAROMA": {
+    "sector": null,
+    "industry": null
+  },
+  "VENUSPIPES": {
+    "sector": null,
+    "industry": null
+  },
+  "UNITECH": {
+    "sector": null,
+    "industry": null
+  },
+  "ESSARSHPNG": {
+    "sector": null,
+    "industry": null
+  },
+  "ITCHOTELS": {
+    "sector": null,
+    "industry": null
+  },
+  "AGROPHOS": {
+    "sector": null,
+    "industry": null
+  },
+  "HIKAL": {
+    "sector": null,
+    "industry": null
+  },
+  "OMAXE": {
+    "sector": null,
+    "industry": null
+  },
+  "ROSSELLIND": {
+    "sector": null,
+    "industry": null
+  },
+  "CORONA": {
+    "sector": null,
+    "industry": null
+  },
+  "AVROIND": {
+    "sector": null,
+    "industry": null
+  },
+  "SHRINGARMS": {
+    "sector": null,
+    "industry": null
+  },
+  "GENESYS": {
+    "sector": null,
+    "industry": null
+  },
+  "DCMSRIND": {
+    "sector": null,
+    "industry": null
+  },
+  "MENNPIS": {
+    "sector": null,
+    "industry": null
+  },
+  "LAGNAM": {
+    "sector": null,
+    "industry": null
+  },
+  "PINELABS": {
+    "sector": null,
+    "industry": null
+  },
+  "GAEL": {
+    "sector": null,
+    "industry": null
+  },
+  "ISHANCH": {
+    "sector": null,
+    "industry": null
+  },
+  "BORANA": {
+    "sector": null,
+    "industry": null
+  },
+  "MFML": {
+    "sector": null,
+    "industry": null
+  },
+  "POWERICA": {
+    "sector": null,
+    "industry": null
+  },
+  "TCI": {
+    "sector": null,
+    "industry": null
+  },
+  "GPIL": {
+    "sector": null,
+    "industry": null
+  },
+  "BLAL": {
+    "sector": null,
+    "industry": null
+  },
+  "NDLVENTURE": {
+    "sector": null,
+    "industry": null
+  },
+  "3MINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "SOUTHWEST": {
+    "sector": null,
+    "industry": null
+  },
+  "JITFINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "YUKEN": {
+    "sector": null,
+    "industry": null
+  },
+  "PRIMO": {
+    "sector": null,
+    "industry": null
+  },
+  "SGMART": {
+    "sector": null,
+    "industry": null
+  },
+  "ORIENTTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "DAVANGERE": {
+    "sector": null,
+    "industry": null
+  },
+  "SJVN": {
+    "sector": null,
+    "industry": null
+  },
+  "MOTILALOFS": {
+    "sector": null,
+    "industry": null
+  },
+  "KIOCL": {
+    "sector": null,
+    "industry": null
+  },
+  "ZEEMEDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "LIQUIDETF": {
+    "sector": null,
+    "industry": null
+  },
+  "PIONEEREMB": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJAJHCARE": {
+    "sector": null,
+    "industry": null
+  },
+  "MUNJALSHOW": {
+    "sector": null,
+    "industry": null
+  },
+  "HINDALCO": {
+    "sector": null,
+    "industry": null
+  },
+  "ROML": {
+    "sector": null,
+    "industry": null
+  },
+  "EMBDL": {
+    "sector": null,
+    "industry": null
+  },
+  "DWARKESH": {
+    "sector": null,
+    "industry": null
+  },
+  "HUDCO": {
+    "sector": null,
+    "industry": null
+  },
+  "DIXON": {
+    "sector": null,
+    "industry": null
+  },
+  "NORBTEAEXP": {
+    "sector": null,
+    "industry": null
+  },
+  "GENUSPAPER": {
+    "sector": null,
+    "industry": null
+  },
+  "BFINVEST": {
+    "sector": null,
+    "industry": null
+  },
+  "JPOLYINVST": {
+    "sector": null,
+    "industry": null
+  },
+  "RCF": {
+    "sector": null,
+    "industry": null
+  },
+  "IOC": {
+    "sector": null,
+    "industry": null
+  },
+  "STEELXIND": {
+    "sector": null,
+    "industry": null
+  },
+  "PCJEWELLER": {
+    "sector": null,
+    "industry": null
+  },
+  "VEEDOL": {
+    "sector": null,
+    "industry": null
+  },
+  "AARTIPHARM": {
+    "sector": null,
+    "industry": null
+  },
+  "KOTHARIPET": {
+    "sector": null,
+    "industry": null
+  },
+  "OSWALPUMPS": {
+    "sector": null,
+    "industry": null
+  },
+  "SETL": {
+    "sector": null,
+    "industry": null
+  },
+  "NURECA": {
+    "sector": null,
+    "industry": null
+  },
+  "PPLPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "MAPMYINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "TARC": {
+    "sector": null,
+    "industry": null
+  },
+  "INCREDIBLE": {
+    "sector": null,
+    "industry": null
+  },
+  "KSR": {
+    "sector": null,
+    "industry": null
+  },
+  "BIOFILCHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "GANECOS": {
+    "sector": null,
+    "industry": null
+  },
+  "TAALTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "GMDCLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "MOTISONS": {
+    "sector": null,
+    "industry": null
+  },
+  "BHARATRAS": {
+    "sector": null,
+    "industry": null
+  },
+  "BNALTD": {
+    "sector": null,
+    "industry": null
+  },
+  "TAJGVK": {
+    "sector": null,
+    "industry": null
+  },
+  "UNIONBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "MOHITIND": {
+    "sector": null,
+    "industry": null
+  },
+  "SALONA": {
+    "sector": null,
+    "industry": null
+  },
+  "SOMICONVEY": {
+    "sector": null,
+    "industry": null
+  },
+  "FORTIS": {
+    "sector": null,
+    "industry": null
+  },
+  "KPITTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "CANFINHOME": {
+    "sector": null,
+    "industry": null
+  },
+  "NIFTYADD": {
+    "sector": null,
+    "industry": null
+  },
+  "CERA": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCSILVER": {
+    "sector": null,
+    "industry": null
+  },
+  "PRECAM": {
+    "sector": null,
+    "industry": null
+  },
+  "JUNIPER": {
+    "sector": null,
+    "industry": null
+  },
+  "CRAMC": {
+    "sector": null,
+    "industry": null
+  },
+  "LTTS": {
+    "sector": null,
+    "industry": null
+  },
+  "KINGFA": {
+    "sector": null,
+    "industry": null
+  },
+  "SHOPERSTOP": {
+    "sector": null,
+    "industry": null
+  },
+  "PSPPROJECT": {
+    "sector": null,
+    "industry": null
+  },
+  "BEL": {
+    "sector": null,
+    "industry": null
+  },
+  "CARBORUNIV": {
+    "sector": null,
+    "industry": null
+  },
+  "ASTAR": {
+    "sector": null,
+    "industry": null
+  },
+  "RECLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "JLHL": {
+    "sector": null,
+    "industry": null
+  },
+  "TORNTPHARM": {
+    "sector": null,
+    "industry": null
+  },
+  "PRAVEG": {
+    "sector": null,
+    "industry": null
+  },
+  "SRF": {
+    "sector": null,
+    "industry": null
+  },
+  "GPPL": {
+    "sector": null,
+    "industry": null
+  },
+  "SURANASOL": {
+    "sector": null,
+    "industry": null
+  },
+  "CUB": {
+    "sector": null,
+    "industry": null
+  },
+  "IFGLEXPOR": {
+    "sector": null,
+    "industry": null
+  },
+  "LAL": {
+    "sector": null,
+    "industry": null
+  },
+  "RHETAN": {
+    "sector": null,
+    "industry": null
+  },
+  "KREBSBIO": {
+    "sector": null,
+    "industry": null
+  },
+  "BOHRAIND": {
+    "sector": null,
+    "industry": null
+  },
+  "BFUTILITIE": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCSML250": {
+    "sector": null,
+    "industry": null
+  },
+  "SULA": {
+    "sector": null,
+    "industry": null
+  },
+  "UDS": {
+    "sector": null,
+    "industry": null
+  },
+  "ALLTIME": {
+    "sector": null,
+    "industry": null
+  },
+  "GANDHAR": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCBSE500": {
+    "sector": null,
+    "industry": null
+  },
+  "SANDESH": {
+    "sector": null,
+    "industry": null
+  },
+  "SBCL": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCVALUE": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCGROWTH": {
+    "sector": null,
+    "industry": null
+  },
+  "HCLTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "PREMIERENE": {
+    "sector": null,
+    "industry": null
+  },
+  "5PAISA": {
+    "sector": null,
+    "industry": null
+  },
+  "NILKAMAL": {
+    "sector": null,
+    "industry": null
+  },
+  "DREAMFOLKS": {
+    "sector": null,
+    "industry": null
+  },
+  "SEIL": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCQUAL": {
+    "sector": null,
+    "industry": null
+  },
+  "SWIGGY": {
+    "sector": null,
+    "industry": null
+  },
+  "MVGJL": {
+    "sector": null,
+    "industry": null
+  },
+  "MAHABANK": {
+    "sector": null,
+    "industry": null
+  },
+  "CHENNPETRO": {
+    "sector": null,
+    "industry": null
+  },
+  "LENSKART": {
+    "sector": null,
+    "industry": null
+  },
+  "INTLCONV": {
+    "sector": null,
+    "industry": null
+  },
+  "FIBERWEB": {
+    "sector": null,
+    "industry": null
+  },
+  "CPPLUS": {
+    "sector": null,
+    "industry": null
+  },
+  "SWELECTES": {
+    "sector": null,
+    "industry": null
+  },
+  "MANAKALUCO": {
+    "sector": null,
+    "industry": null
+  },
+  "PALASHSECU": {
+    "sector": null,
+    "industry": null
+  },
+  "ELECTCAST": {
+    "sector": null,
+    "industry": null
+  },
+  "NAGREEKEXP": {
+    "sector": null,
+    "industry": null
+  },
+  "OMPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "UNIENTER": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCLIQUID": {
+    "sector": null,
+    "industry": null
+  },
+  "SOUTHBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "ORICONENT": {
+    "sector": null,
+    "industry": null
+  },
+  "MCCHRLS-B": {
+    "sector": null,
+    "industry": null
+  },
+  "SPLIL": {
+    "sector": null,
+    "industry": null
+  },
+  "WINDLAS": {
+    "sector": null,
+    "industry": null
+  },
+  "REDINGTON": {
+    "sector": null,
+    "industry": null
+  },
+  "KOTARISUG": {
+    "sector": null,
+    "industry": null
+  },
+  "SIYSIL": {
+    "sector": null,
+    "industry": null
+  },
+  "SOBHA": {
+    "sector": null,
+    "industry": null
+  },
+  "MANAKSIA": {
+    "sector": null,
+    "industry": null
+  },
+  "UMESLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "WSI": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCNIFIT": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCPVTBAN": {
+    "sector": null,
+    "industry": null
+  },
+  "TREJHARA": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCSENSEX": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCPSUBK": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCMOMENT": {
+    "sector": null,
+    "industry": null
+  },
+  "RETAIL": {
+    "sector": null,
+    "industry": null
+  },
+  "HALEOSLABS": {
+    "sector": null,
+    "industry": null
+  },
+  "CAMPUS": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCNIFBAN": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCMID150": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCLOWVOL": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCNIF100": {
+    "sector": null,
+    "industry": null
+  },
+  "AJAXENGG": {
+    "sector": null,
+    "industry": null
+  },
+  "TPLPLASTEH": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCNEXT50": {
+    "sector": null,
+    "industry": null
+  },
+  "ALBERTDAVD": {
+    "sector": null,
+    "industry": null
+  },
+  "DRCSYSTEMS": {
+    "sector": null,
+    "industry": null
+  },
+  "VALUEAXIS": {
+    "sector": null,
+    "industry": null
+  },
+  "FEDERALBNK": {
+    "sector": null,
+    "industry": null
+  },
+  "KPEL": {
+    "sector": null,
+    "industry": null
+  },
+  "KLBRENG-B": {
+    "sector": null,
+    "industry": null
+  },
+  "PERSISTENT": {
+    "sector": null,
+    "industry": null
+  },
+  "JISLDVREQS": {
+    "sector": null,
+    "industry": null
+  },
+  "RBLBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "DYCL": {
+    "sector": null,
+    "industry": null
+  },
+  "GUJTHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "BANKINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "ASIANHOTNR": {
+    "sector": null,
+    "industry": null
+  },
+  "STOVEKRAFT": {
+    "sector": null,
+    "industry": null
+  },
+  "MANBA": {
+    "sector": null,
+    "industry": null
+  },
+  "MOTHERSON": {
+    "sector": null,
+    "industry": null
+  },
+  "SASKEN": {
+    "sector": null,
+    "industry": null
+  },
+  "JUSTDIAL": {
+    "sector": null,
+    "industry": null
+  },
+  "XELPMOC": {
+    "sector": null,
+    "industry": null
+  },
+  "KAJARIACER": {
+    "sector": null,
+    "industry": null
+  },
+  "MUKKA": {
+    "sector": null,
+    "industry": null
+  },
+  "WEL": {
+    "sector": null,
+    "industry": null
+  },
+  "KEI": {
+    "sector": null,
+    "industry": null
+  },
+  "SETFNIF50": {
+    "sector": null,
+    "industry": null
+  },
+  "TIMKEN": {
+    "sector": null,
+    "industry": null
+  },
+  "TVVISION": {
+    "sector": null,
+    "industry": null
+  },
+  "RPGLIFE": {
+    "sector": null,
+    "industry": null
+  },
+  "ICIL": {
+    "sector": null,
+    "industry": null
+  },
+  "SRGHFL": {
+    "sector": null,
+    "industry": null
+  },
+  "SBICARD": {
+    "sector": null,
+    "industry": null
+  },
+  "CAPITALSFB": {
+    "sector": null,
+    "industry": null
+  },
+  "ASHIMASYN": {
+    "sector": null,
+    "industry": null
+  },
+  "OLAELEC": {
+    "sector": null,
+    "industry": null
+  },
+  "CREDITACC": {
+    "sector": null,
+    "industry": null
+  },
+  "TURTLEMINT": {
+    "sector": null,
+    "industry": null
+  },
+  "GMRAIRPORT": {
+    "sector": null,
+    "industry": null
+  },
+  "PRAKASHSTL": {
+    "sector": null,
+    "industry": null
+  },
+  "POLICYBZR": {
+    "sector": null,
+    "industry": null
+  },
+  "SPMLINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "GLAND": {
+    "sector": null,
+    "industry": null
+  },
+  "IKS": {
+    "sector": null,
+    "industry": null
+  },
+  "SETF10GILT": {
+    "sector": null,
+    "industry": null
+  },
+  "PCBL": {
+    "sector": null,
+    "industry": null
+  },
+  "SREEL": {
+    "sector": null,
+    "industry": null
+  },
+  "ATLANTAELE": {
+    "sector": null,
+    "industry": null
+  },
+  "LINCOLN": {
+    "sector": null,
+    "industry": null
+  },
+  "KWIL": {
+    "sector": null,
+    "industry": null
+  },
+  "KIRLOSIND": {
+    "sector": null,
+    "industry": null
+  },
+  "HAVISHA": {
+    "sector": null,
+    "industry": null
+  },
+  "BALUFORGE": {
+    "sector": null,
+    "industry": null
+  },
+  "MINDTECK": {
+    "sector": null,
+    "industry": null
+  },
+  "HINDWAREAP": {
+    "sector": null,
+    "industry": null
+  },
+  "CIFL": {
+    "sector": null,
+    "industry": null
+  },
+  "CSLFINANCE": {
+    "sector": null,
+    "industry": null
+  },
+  "RVNL": {
+    "sector": null,
+    "industry": null
+  },
+  "BSL": {
+    "sector": null,
+    "industry": null
+  },
+  "DEEPINDS": {
+    "sector": null,
+    "industry": null
+  },
+  "VIRINCHI": {
+    "sector": null,
+    "industry": null
+  },
+  "BLUSPRING": {
+    "sector": null,
+    "industry": null
+  },
+  "KEEPLEARN": {
+    "sector": null,
+    "industry": null
+  },
+  "ABSL10BANK": {
+    "sector": null,
+    "industry": null
+  },
+  "MARSONS": {
+    "sector": null,
+    "industry": null
+  },
+  "ABSLMSCIN": {
+    "sector": null,
+    "industry": null
+  },
+  "GANESHCP": {
+    "sector": null,
+    "industry": null
+  },
+  "BRIGADE": {
+    "sector": null,
+    "industry": null
+  },
+  "AONENIFTY": {
+    "sector": null,
+    "industry": null
+  },
+  "EMKAY": {
+    "sector": null,
+    "industry": null
+  },
+  "TNPETRO": {
+    "sector": null,
+    "industry": null
+  },
+  "AONELIQUID": {
+    "sector": null,
+    "industry": null
+  },
+  "TRUALT": {
+    "sector": null,
+    "industry": null
+  },
+  "MOLDTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "DHAMPURSUG": {
+    "sector": null,
+    "industry": null
+  },
+  "BVCL": {
+    "sector": null,
+    "industry": null
+  },
+  "BUILDPRO": {
+    "sector": null,
+    "industry": null
+  },
+  "DYNAMATECH": {
+    "sector": null,
+    "industry": null
+  },
+  "IRB": {
+    "sector": null,
+    "industry": null
+  },
+  "NAVNETEDUL": {
+    "sector": null,
+    "industry": null
+  },
+  "GRADIENTE": {
+    "sector": null,
+    "industry": null
+  },
+  "BOSCHLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "INSECTICID": {
+    "sector": null,
+    "industry": null
+  },
+  "JAYNECOIND": {
+    "sector": null,
+    "industry": null
+  },
+  "PARKHOTELS": {
+    "sector": null,
+    "industry": null
+  },
+  "APCL": {
+    "sector": null,
+    "industry": null
+  },
+  "LOYALTEX": {
+    "sector": null,
+    "industry": null
+  },
+  "AONETOTAL": {
+    "sector": null,
+    "industry": null
+  },
+  "MAYURUNIQ": {
+    "sector": null,
+    "industry": null
+  },
+  "KERNEX": {
+    "sector": null,
+    "industry": null
+  },
+  "ZODIACLOTH": {
+    "sector": null,
+    "industry": null
+  },
+  "IVC": {
+    "sector": null,
+    "industry": null
+  },
+  "RITES": {
+    "sector": null,
+    "industry": null
+  },
+  "HPL": {
+    "sector": null,
+    "industry": null
+  },
+  "SJS": {
+    "sector": null,
+    "industry": null
+  },
+  "TVSELECT": {
+    "sector": null,
+    "industry": null
+  },
+  "3BBLACKBIO": {
+    "sector": null,
+    "industry": null
+  },
+  "ELANTAS": {
+    "sector": null,
+    "industry": null
+  },
+  "NAHARINDUS": {
+    "sector": null,
+    "industry": null
+  },
+  "HNDFDS": {
+    "sector": null,
+    "industry": null
+  },
+  "LIQUIDSBI": {
+    "sector": null,
+    "industry": null
+  },
+  "DELTAMAGNT": {
+    "sector": null,
+    "industry": null
+  },
+  "NDRAUTO": {
+    "sector": null,
+    "industry": null
+  },
+  "GKSL": {
+    "sector": null,
+    "industry": null
+  },
+  "HGINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "PFIZER": {
+    "sector": null,
+    "industry": null
+  },
+  "EXCELSOFT": {
+    "sector": null,
+    "industry": null
+  },
+  "AURIONPRO": {
+    "sector": null,
+    "industry": null
+  },
+  "HEADSUP": {
+    "sector": null,
+    "industry": null
+  },
+  "SETFNN50": {
+    "sector": null,
+    "industry": null
+  },
+  "SETFNIFBK": {
+    "sector": null,
+    "industry": null
+  },
+  "MONEYBOXX": {
+    "sector": null,
+    "industry": null
+  },
+  "MWL": {
+    "sector": null,
+    "industry": null
+  },
+  "EMAMILTD": {
+    "sector": null,
+    "industry": null
+  },
+  "TREEHOUSE": {
+    "sector": null,
+    "industry": null
+  },
+  "COCKERILL": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCNIFTY": {
+    "sector": null,
+    "industry": null
+  },
+  "HONDAPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "HDFCGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "GREENPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "RUCHINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "CPSEETF": {
+    "sector": null,
+    "industry": null
+  },
+  "SPANDANA": {
+    "sector": null,
+    "industry": null
+  },
+  "HAVELLS": {
+    "sector": null,
+    "industry": null
+  },
+  "ABSLAMC": {
+    "sector": null,
+    "industry": null
+  },
+  "LTM": {
+    "sector": null,
+    "industry": null
+  },
+  "VIDYAWIRES": {
+    "sector": null,
+    "industry": null
+  },
+  "BANDHANBNK": {
+    "sector": null,
+    "industry": null
+  },
+  "GALAXYSURF": {
+    "sector": null,
+    "industry": null
+  },
+  "SRHHYPOLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "MARKSANS": {
+    "sector": null,
+    "industry": null
+  },
+  "JKIL": {
+    "sector": null,
+    "industry": null
+  },
+  "ACL": {
+    "sector": null,
+    "industry": null
+  },
+  "GKWLIMITED": {
+    "sector": null,
+    "industry": null
+  },
+  "YASHO": {
+    "sector": null,
+    "industry": null
+  },
+  "GROBTEA": {
+    "sector": null,
+    "industry": null
+  },
+  "MHRIL": {
+    "sector": null,
+    "industry": null
+  },
+  "SIKA": {
+    "sector": null,
+    "industry": null
+  },
+  "SADBHAV": {
+    "sector": null,
+    "industry": null
+  },
+  "MAHASTEEL": {
+    "sector": null,
+    "industry": null
+  },
+  "THERMAX": {
+    "sector": null,
+    "industry": null
+  },
+  "GULFOILLUB": {
+    "sector": null,
+    "industry": null
+  },
+  "POONAWALLA": {
+    "sector": null,
+    "industry": null
+  },
+  "GARFIBRES": {
+    "sector": null,
+    "industry": null
+  },
+  "GRPLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "CARTRADE": {
+    "sector": null,
+    "industry": null
+  },
+  "MADHAVIPL": {
+    "sector": null,
+    "industry": null
+  },
+  "INDBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "EQUITASBNK": {
+    "sector": null,
+    "industry": null
+  },
+  "ALKYLAMINE": {
+    "sector": null,
+    "industry": null
+  },
+  "AKCAPIT": {
+    "sector": null,
+    "industry": null
+  },
+  "IMFA": {
+    "sector": null,
+    "industry": null
+  },
+  "GRAVISSHO": {
+    "sector": null,
+    "industry": null
+  },
+  "GVPTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "SETFGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "MAZDOCK": {
+    "sector": null,
+    "industry": null
+  },
+  "ADROITINFO": {
+    "sector": null,
+    "industry": null
+  },
+  "RAILTEL": {
+    "sector": null,
+    "industry": null
+  },
+  "BANCOINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "GARUDA": {
+    "sector": null,
+    "industry": null
+  },
+  "ABCOTS": {
+    "sector": null,
+    "industry": null
+  },
+  "UMIYA-MRO": {
+    "sector": null,
+    "industry": null
+  },
+  "BUTTERFLY": {
+    "sector": null,
+    "industry": null
+  },
+  "SAKSOFT": {
+    "sector": null,
+    "industry": null
+  },
+  "RADIANTCMS": {
+    "sector": null,
+    "industry": null
+  },
+  "KRSNAA": {
+    "sector": null,
+    "industry": null
+  },
+  "RENUKA": {
+    "sector": null,
+    "industry": null
+  },
+  "GANGESSECU": {
+    "sector": null,
+    "industry": null
+  },
+  "JARO": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJAJHIND": {
+    "sector": null,
+    "industry": null
+  },
+  "SOLARINDS": {
+    "sector": null,
+    "industry": null
+  },
+  "KIRLOSBROS": {
+    "sector": null,
+    "industry": null
+  },
+  "ABGSEC": {
+    "sector": null,
+    "industry": null
+  },
+  "PVRINOX": {
+    "sector": null,
+    "industry": null
+  },
+  "JNKINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "CNL": {
+    "sector": null,
+    "industry": null
+  },
+  "QGOLDHALF": {
+    "sector": null,
+    "industry": null
+  },
+  "QNIFTY": {
+    "sector": null,
+    "industry": null
+  },
+  "VIPIND": {
+    "sector": null,
+    "industry": null
+  },
+  "AXITA": {
+    "sector": null,
+    "industry": null
+  },
+  "GINNIFILA": {
+    "sector": null,
+    "industry": null
+  },
+  "GSEC10ABSL": {
+    "sector": null,
+    "industry": null
+  },
+  "UTIAMC": {
+    "sector": null,
+    "industry": null
+  },
+  "ZUARI": {
+    "sector": null,
+    "industry": null
+  },
+  "IIFL": {
+    "sector": null,
+    "industry": null
+  },
+  "ZENITHSTL": {
+    "sector": null,
+    "industry": null
+  },
+  "ETERNAL": {
+    "sector": null,
+    "industry": null
+  },
+  "INDIASHLTR": {
+    "sector": null,
+    "industry": null
+  },
+  "SIMPLEXINF": {
+    "sector": null,
+    "industry": null
+  },
+  "SNOWMAN": {
+    "sector": null,
+    "industry": null
+  },
+  "ITC": {
+    "sector": null,
+    "industry": null
+  },
+  "ISFT": {
+    "sector": null,
+    "industry": null
+  },
+  "GODAVARIB": {
+    "sector": null,
+    "industry": null
+  },
+  "BAJAJCON": {
+    "sector": null,
+    "industry": null
+  },
+  "AUROPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "POLYCAB": {
+    "sector": null,
+    "industry": null
+  },
+  "SRM": {
+    "sector": null,
+    "industry": null
+  },
+  "SUNDRMFAST": {
+    "sector": null,
+    "industry": null
+  },
+  "WEALTH": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWSC250": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWRLTY": {
+    "sector": null,
+    "industry": null
+  },
+  "RATNAMANI": {
+    "sector": null,
+    "industry": null
+  },
+  "SHRIRAMPPS": {
+    "sector": null,
+    "industry": null
+  },
+  "CCCL": {
+    "sector": null,
+    "industry": null
+  },
+  "DENORA": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWMC150": {
+    "sector": null,
+    "industry": null
+  },
+  "M&M": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWMETAL": {
+    "sector": null,
+    "industry": null
+  },
+  "ASHOKLEY": {
+    "sector": null,
+    "industry": null
+  },
+  "MATRIMONY": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWCAPM": {
+    "sector": null,
+    "industry": null
+  },
+  "PNGJL": {
+    "sector": null,
+    "industry": null
+  },
+  "EASEMYTRIP": {
+    "sector": null,
+    "industry": null
+  },
+  "SBC": {
+    "sector": null,
+    "industry": null
+  },
+  "HEXATRADEX": {
+    "sector": null,
+    "industry": null
+  },
+  "KAVDEFENCE": {
+    "sector": null,
+    "industry": null
+  },
+  "KALYANKJIL": {
+    "sector": null,
+    "industry": null
+  },
+  "CARRARO": {
+    "sector": null,
+    "industry": null
+  },
+  "DCXINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWSLVR": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWPSE": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWCHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWHOSPI": {
+    "sector": null,
+    "industry": null
+  },
+  "SIGMAADV": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "MANINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "ITDC": {
+    "sector": null,
+    "industry": null
+  },
+  "DELHIVERY": {
+    "sector": null,
+    "industry": null
+  },
+  "WINDMACHIN": {
+    "sector": null,
+    "industry": null
+  },
+  "SUBROS": {
+    "sector": null,
+    "industry": null
+  },
+  "RAMCOCEM": {
+    "sector": null,
+    "industry": null
+  },
+  "DEVIT": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWMOM50": {
+    "sector": null,
+    "industry": null
+  },
+  "UPL": {
+    "sector": null,
+    "industry": null
+  },
+  "DIFFNKG": {
+    "sector": null,
+    "industry": null
+  },
+  "BLUESTARCO": {
+    "sector": null,
+    "industry": null
+  },
+  "NDTV": {
+    "sector": null,
+    "industry": null
+  },
+  "KIRLFER": {
+    "sector": null,
+    "industry": null
+  },
+  "ICICIBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "CREST": {
+    "sector": null,
+    "industry": null
+  },
+  "MSPL": {
+    "sector": null,
+    "industry": null
+  },
+  "RMDRIP": {
+    "sector": null,
+    "industry": null
+  },
+  "SALASAR": {
+    "sector": null,
+    "industry": null
+  },
+  "BESTAGRO": {
+    "sector": null,
+    "industry": null
+  },
+  "LAMBODHARA": {
+    "sector": null,
+    "industry": null
+  },
+  "GLAXO": {
+    "sector": null,
+    "industry": null
+  },
+  "AERONEU": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWLOVOL": {
+    "sector": null,
+    "industry": null
+  },
+  "EUROPRATIK": {
+    "sector": null,
+    "industry": null
+  },
+  "3IINFOLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "STARCEMENT": {
+    "sector": null,
+    "industry": null
+  },
+  "MITTAL": {
+    "sector": null,
+    "industry": null
+  },
+  "IRMENERGY": {
+    "sector": null,
+    "industry": null
+  },
+  "MKPL": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWNXT50": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWNET": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWNIFTY": {
+    "sector": null,
+    "industry": null
+  },
+  "AJMERA": {
+    "sector": null,
+    "industry": null
+  },
+  "NATIONSTD": {
+    "sector": null,
+    "industry": null
+  },
+  "AKUMS": {
+    "sector": null,
+    "industry": null
+  },
+  "JAICORPLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "TGBHOTELS": {
+    "sector": null,
+    "industry": null
+  },
+  "SUZLON": {
+    "sector": null,
+    "industry": null
+  },
+  "JYOTISTRUC": {
+    "sector": null,
+    "industry": null
+  },
+  "BALKRISIND": {
+    "sector": null,
+    "industry": null
+  },
+  "GSEC10IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "LASA": {
+    "sector": null,
+    "industry": null
+  },
+  "OILIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "FINOPB": {
+    "sector": null,
+    "industry": null
+  },
+  "QUAL30IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "ORIENTELEC": {
+    "sector": null,
+    "industry": null
+  },
+  "REGENCERAM": {
+    "sector": null,
+    "industry": null
+  },
+  "SIRCA": {
+    "sector": null,
+    "industry": null
+  },
+  "PVTBANIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "LT": {
+    "sector": null,
+    "industry": null
+  },
+  "COMMOIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "TATSILV": {
+    "sector": null,
+    "industry": null
+  },
+  "STYL": {
+    "sector": null,
+    "industry": null
+  },
+  "DVL": {
+    "sector": null,
+    "industry": null
+  },
+  "STEELCAS": {
+    "sector": null,
+    "industry": null
+  },
+  "AEQUS": {
+    "sector": null,
+    "industry": null
+  },
+  "KSB": {
+    "sector": null,
+    "industry": null
+  },
+  "TATAGOLD": {
+    "sector": null,
+    "industry": null
+  },
+  "METALIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "FMCGIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "LOWVOLIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "MURUDCERA": {
+    "sector": null,
+    "industry": null
+  },
+  "JUBLPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWPSUBK": {
+    "sector": null,
+    "industry": null
+  },
+  "PANSARI": {
+    "sector": null,
+    "industry": null
+  },
+  "IDFCFIRSTB": {
+    "sector": null,
+    "industry": null
+  },
+  "KRBL": {
+    "sector": null,
+    "industry": null
+  },
+  "PTL": {
+    "sector": null,
+    "industry": null
+  },
+  "PVTBKGROWW": {
+    "sector": null,
+    "industry": null
+  },
+  "PETRONET": {
+    "sector": null,
+    "industry": null
+  },
+  "MRPL": {
+    "sector": null,
+    "industry": null
+  },
+  "AMBICAAGAR": {
+    "sector": null,
+    "industry": null
+  },
+  "CGPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "GPTHEALTH": {
+    "sector": null,
+    "industry": null
+  },
+  "SMALLGROWW": {
+    "sector": null,
+    "industry": null
+  },
+  "APOLLOTYRE": {
+    "sector": null,
+    "industry": null
+  },
+  "HPAL": {
+    "sector": null,
+    "industry": null
+  },
+  "TFL": {
+    "sector": null,
+    "industry": null
+  },
+  "ELIN": {
+    "sector": null,
+    "industry": null
+  },
+  "OLECTRA": {
+    "sector": null,
+    "industry": null
+  },
+  "DTIL": {
+    "sector": null,
+    "industry": null
+  },
+  "AVONMORE": {
+    "sector": null,
+    "industry": null
+  },
+  "SAPPL": {
+    "sector": null,
+    "industry": null
+  },
+  "MANORAMA": {
+    "sector": null,
+    "industry": null
+  },
+  "HEMIPROP": {
+    "sector": null,
+    "industry": null
+  },
+  "NAHARPOLY": {
+    "sector": null,
+    "industry": null
+  },
+  "JAYKAY": {
+    "sector": null,
+    "industry": null
+  },
+  "NEULANDLAB": {
+    "sector": null,
+    "industry": null
+  },
+  "POWERMECH": {
+    "sector": null,
+    "industry": null
+  },
+  "RELAXO": {
+    "sector": null,
+    "industry": null
+  },
+  "CELEBRITY": {
+    "sector": null,
+    "industry": null
+  },
+  "NIFTYIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "GANDHITUBE": {
+    "sector": null,
+    "industry": null
+  },
+  "ADANIENT": {
+    "sector": null,
+    "industry": null
+  },
+  "BALAJEE": {
+    "sector": null,
+    "industry": null
+  },
+  "NARMADA": {
+    "sector": null,
+    "industry": null
+  },
+  "AMNPLST": {
+    "sector": null,
+    "industry": null
+  },
+  "DIACABS": {
+    "sector": null,
+    "industry": null
+  },
+  "SRTL": {
+    "sector": null,
+    "industry": null
+  },
+  "TARSONS": {
+    "sector": null,
+    "industry": null
+  },
+  "BALPHARMA": {
+    "sector": null,
+    "industry": null
+  },
+  "KANANIIND": {
+    "sector": null,
+    "industry": null
+  },
+  "METROGLOBL": {
+    "sector": null,
+    "industry": null
+  },
+  "MSCI360": {
+    "sector": null,
+    "industry": null
+  },
+  "BI": {
+    "sector": null,
+    "industry": null
+  },
+  "ADFFOODS": {
+    "sector": null,
+    "industry": null
+  },
+  "EXICOM": {
+    "sector": null,
+    "industry": null
+  },
+  "ABLBL": {
+    "sector": null,
+    "industry": null
+  },
+  "SPENCERS": {
+    "sector": null,
+    "industry": null
+  },
+  "POWERINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "SAURASHCEM": {
+    "sector": null,
+    "industry": null
+  },
+  "LGEINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "COLPAL": {
+    "sector": null,
+    "industry": null
+  },
+  "KMEW": {
+    "sector": null,
+    "industry": null
+  },
+  "MARINE": {
+    "sector": null,
+    "industry": null
+  },
+  "ICICIGI": {
+    "sector": null,
+    "industry": null
+  },
+  "TEMBO": {
+    "sector": null,
+    "industry": null
+  },
+  "BHEL": {
+    "sector": null,
+    "industry": null
+  },
+  "EDELWEISS": {
+    "sector": null,
+    "industry": null
+  },
+  "DDEVPLSTIK": {
+    "sector": null,
+    "industry": null
+  },
+  "PRAENG": {
+    "sector": null,
+    "industry": null
+  },
+  "NESCO": {
+    "sector": null,
+    "industry": null
+  },
+  "DBL": {
+    "sector": null,
+    "industry": null
+  },
+  "CENTENKA": {
+    "sector": null,
+    "industry": null
+  },
+  "BEEKAY": {
+    "sector": null,
+    "industry": null
+  },
+  "STYRENIX": {
+    "sector": null,
+    "industry": null
+  },
+  "ESABINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "DLINKINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "CONFIPET": {
+    "sector": null,
+    "industry": null
+  },
+  "A2ZINFRA": {
+    "sector": null,
+    "industry": null
+  },
+  "RALLIS": {
+    "sector": null,
+    "industry": null
+  },
+  "VGL": {
+    "sector": null,
+    "industry": null
+  },
+  "GOLD360": {
+    "sector": null,
+    "industry": null
+  },
+  "AIROLAM": {
+    "sector": null,
+    "industry": null
+  },
+  "ROHLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "SILVER360": {
+    "sector": null,
+    "industry": null
+  },
+  "AYMSYNTEX": {
+    "sector": null,
+    "industry": null
+  },
+  "KALPATARU": {
+    "sector": null,
+    "industry": null
+  },
+  "M&MFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "GICHSGFIN": {
+    "sector": null,
+    "industry": null
+  },
+  "MANALIPETC": {
+    "sector": null,
+    "industry": null
+  },
+  "MAMATA": {
+    "sector": null,
+    "industry": null
+  },
+  "AIIL": {
+    "sector": null,
+    "industry": null
+  },
+  "CORDELIA": {
+    "sector": null,
+    "industry": null
+  },
+  "MACPOWER": {
+    "sector": null,
+    "industry": null
+  },
+  "BOROSCI": {
+    "sector": null,
+    "industry": null
+  },
+  "TRIGYN": {
+    "sector": null,
+    "industry": null
+  },
+  "PRINCEPIPE": {
+    "sector": null,
+    "industry": null
+  },
+  "BHAGCHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "SUNTV": {
+    "sector": null,
+    "industry": null
+  },
+  "TIL": {
+    "sector": null,
+    "industry": null
+  },
+  "E2E": {
+    "sector": null,
+    "industry": null
+  },
+  "SHILPAMED": {
+    "sector": null,
+    "industry": null
+  },
+  "GRINDWELL": {
+    "sector": null,
+    "industry": null
+  },
+  "RSL": {
+    "sector": null,
+    "industry": null
+  },
+  "HMVL": {
+    "sector": null,
+    "industry": null
+  },
+  "TAINWALCHM": {
+    "sector": null,
+    "industry": null
+  },
+  "ARVEE": {
+    "sector": null,
+    "industry": null
+  },
+  "INDRAMEDCO": {
+    "sector": null,
+    "industry": null
+  },
+  "UNIPARTS": {
+    "sector": null,
+    "industry": null
+  },
+  "TTKHLTCARE": {
+    "sector": null,
+    "industry": null
+  },
+  "MINDACORP": {
+    "sector": null,
+    "industry": null
+  },
+  "XCHANGING": {
+    "sector": null,
+    "industry": null
+  },
+  "MBEL": {
+    "sector": null,
+    "industry": null
+  },
+  "SBIETFPB": {
+    "sector": null,
+    "industry": null
+  },
+  "NEXT50IETF": {
+    "sector": null,
+    "industry": null
+  },
+  "LANDMARK": {
+    "sector": null,
+    "industry": null
+  },
+  "GOLDIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "SBIETFIT": {
+    "sector": null,
+    "industry": null
+  },
+  "GUJALKALI": {
+    "sector": null,
+    "industry": null
+  },
+  "NPBET": {
+    "sector": null,
+    "industry": null
+  },
+  "GAIL": {
+    "sector": null,
+    "industry": null
+  },
+  "ARIHANTSUP": {
+    "sector": null,
+    "industry": null
+  },
+  "VINDHYATEL": {
+    "sector": null,
+    "industry": null
+  },
+  "AWL": {
+    "sector": null,
+    "industry": null
+  },
+  "ABFRL": {
+    "sector": null,
+    "industry": null
+  },
+  "HSCL": {
+    "sector": null,
+    "industry": null
+  },
+  "PGIL": {
+    "sector": null,
+    "industry": null
+  },
+  "DIAMONDYD": {
+    "sector": null,
+    "industry": null
+  },
+  "MANYAVAR": {
+    "sector": null,
+    "industry": null
+  },
+  "IONEXCHANG": {
+    "sector": null,
+    "industry": null
+  },
+  "MARKOLINES": {
+    "sector": null,
+    "industry": null
+  },
+  "HEALTHIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "KIRLPNU": {
+    "sector": null,
+    "industry": null
+  },
+  "SHAH": {
+    "sector": null,
+    "industry": null
+  },
+  "BTTL": {
+    "sector": null,
+    "industry": null
+  },
+  "COMPUSOFT": {
+    "sector": null,
+    "industry": null
+  },
+  "SBFC": {
+    "sector": null,
+    "industry": null
+  },
+  "TCC": {
+    "sector": null,
+    "industry": null
+  },
+  "ACE": {
+    "sector": null,
+    "industry": null
+  },
+  "SUKHJITS": {
+    "sector": null,
+    "industry": null
+  },
+  "ULTRACEMCO": {
+    "sector": null,
+    "industry": null
+  },
+  "CUPID": {
+    "sector": null,
+    "industry": null
+  },
+  "PATELRMART": {
+    "sector": null,
+    "industry": null
+  },
+  "HCC": {
+    "sector": null,
+    "industry": null
+  },
+  "MEDICO": {
+    "sector": null,
+    "industry": null
+  },
+  "SELMC": {
+    "sector": null,
+    "industry": null
+  },
+  "PROSTARM": {
+    "sector": null,
+    "industry": null
+  },
+  "ATULAUTO": {
+    "sector": null,
+    "industry": null
+  },
+  "GODREJIND": {
+    "sector": null,
+    "industry": null
+  },
+  "LATENTVIEW": {
+    "sector": null,
+    "industry": null
+  },
+  "JBCHEPHARM": {
+    "sector": null,
+    "industry": null
+  },
+  "TIRUPATIFL": {
+    "sector": null,
+    "industry": null
+  },
+  "AJANTPHARM": {
+    "sector": null,
+    "industry": null
+  },
+  "SAIL": {
+    "sector": null,
+    "industry": null
+  },
+  "TIRUMALCHM": {
+    "sector": null,
+    "industry": null
+  },
+  "VLSFINANCE": {
+    "sector": null,
+    "industry": null
+  },
+  "RSYSTEMS": {
+    "sector": null,
+    "industry": null
+  },
+  "LIQUIDIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "CTE": {
+    "sector": null,
+    "industry": null
+  },
+  "VIKASLIFE": {
+    "sector": null,
+    "industry": null
+  },
+  "BTML": {
+    "sector": null,
+    "industry": null
+  },
+  "GLENMARK": {
+    "sector": null,
+    "industry": null
+  },
+  "AUTOAXLES": {
+    "sector": null,
+    "industry": null
+  },
+  "JSWDULUX": {
+    "sector": null,
+    "industry": null
+  },
+  "LOTUSEYE": {
+    "sector": null,
+    "industry": null
+  },
+  "CSBBANK": {
+    "sector": null,
+    "industry": null
+  },
+  "ASHOKAMET": {
+    "sector": null,
+    "industry": null
+  },
+  "INDOTHAI": {
+    "sector": null,
+    "industry": null
+  },
+  "GNRL": {
+    "sector": null,
+    "industry": null
+  },
+  "BELLACASA": {
+    "sector": null,
+    "industry": null
+  },
+  "GAYAHWS": {
+    "sector": null,
+    "industry": null
+  },
+  "ALLCARGO": {
+    "sector": null,
+    "industry": null
+  },
+  "BPCL": {
+    "sector": null,
+    "industry": null
+  },
+  "MADHAV": {
+    "sector": null,
+    "industry": null
+  },
+  "WALCHANNAG": {
+    "sector": null,
+    "industry": null
+  },
+  "SIEMENS": {
+    "sector": null,
+    "industry": null
+  },
+  "SOLARA": {
+    "sector": null,
+    "industry": null
+  },
+  "OMINFRAL": {
+    "sector": null,
+    "industry": null
+  },
+  "ABMINTLLTD": {
+    "sector": null,
+    "industry": null
+  },
+  "TATAELXSI": {
+    "sector": null,
+    "industry": null
+  },
+  "GOLDIAM": {
+    "sector": null,
+    "industry": null
+  },
+  "BEPL": {
+    "sector": null,
+    "industry": null
+  },
+  "EUROBOND": {
+    "sector": null,
+    "industry": null
+  },
+  "RNBDENIMS": {
+    "sector": null,
+    "industry": null
+  },
+  "SBIETFCON": {
+    "sector": null,
+    "industry": null
+  },
+  "WAAREERTL": {
+    "sector": null,
+    "industry": null
+  },
+  "TSFINV": {
+    "sector": null,
+    "industry": null
+  },
+  "XPROINDIA": {
+    "sector": null,
+    "industry": null
+  },
+  "RAJSREESUG": {
+    "sector": null,
+    "industry": null
+  },
+  "ANMOL": {
+    "sector": null,
+    "industry": null
+  },
+  "VGUARD": {
+    "sector": null,
+    "industry": null
+  },
+  "SBIETFQLTY": {
+    "sector": null,
+    "industry": null
+  },
+  "TIPSMUSIC": {
+    "sector": null,
+    "industry": null
+  },
+  "PARAGMILK": {
+    "sector": null,
+    "industry": null
+  },
+  "VBL": {
+    "sector": null,
+    "industry": null
+  },
+  "VIKRAN": {
+    "sector": null,
+    "industry": null
+  },
+  "SPCENET": {
+    "sector": null,
+    "industry": null
+  },
+  "APCOTEXIND": {
+    "sector": null,
+    "industry": null
+  },
+  "TATACHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "GANESHHOU": {
+    "sector": null,
+    "industry": null
+  },
+  "SILVERIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "PARAS": {
+    "sector": null,
+    "industry": null
+  },
+  "SYRMA": {
+    "sector": null,
+    "industry": null
+  },
+  "SOMANYCERA": {
+    "sector": null,
+    "industry": null
+  },
+  "TCIEXP": {
+    "sector": null,
+    "industry": null
+  },
+  "ARVINDFASN": {
+    "sector": null,
+    "industry": null
+  },
+  "ECLERX": {
+    "sector": null,
+    "industry": null
+  },
+  "DHARMAJ": {
+    "sector": null,
+    "industry": null
+  },
+  "FERMENTA": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWLIQID": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWDEFNC": {
+    "sector": null,
+    "industry": null
+  },
+  "LEMERITE": {
+    "sector": null,
+    "industry": null
+  },
+  "CRAFTSMAN": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWEV": {
+    "sector": null,
+    "industry": null
+  },
+  "OBCL": {
+    "sector": null,
+    "industry": null
+  },
+  "SIGMA": {
+    "sector": null,
+    "industry": null
+  },
+  "HONASA": {
+    "sector": null,
+    "industry": null
+  },
+  "ALLDIGI": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWRAIL": {
+    "sector": null,
+    "industry": null
+  },
+  "FEDFINA": {
+    "sector": null,
+    "industry": null
+  },
+  "FILATEX": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWWN200": {
+    "sector": null,
+    "industry": null
+  },
+  "IGIL": {
+    "sector": null,
+    "industry": null
+  },
+  "FLAIR": {
+    "sector": null,
+    "industry": null
+  },
+  "SMARTWORKS": {
+    "sector": null,
+    "industry": null
+  },
+  "ORIENTCER": {
+    "sector": null,
+    "industry": null
+  },
+  "GOCOLORS": {
+    "sector": null,
+    "industry": null
+  },
+  "DABUR": {
+    "sector": null,
+    "industry": null
+  },
+  "INTENTECH": {
+    "sector": null,
+    "industry": null
+  },
+  "NETF": {
+    "sector": null,
+    "industry": null
+  },
+  "GROWW": {
+    "sector": null,
+    "industry": null
+  },
+  "PGHL": {
+    "sector": null,
+    "industry": null
+  },
+  "BEARDSELL": {
+    "sector": null,
+    "industry": null
+  },
+  "RVHL": {
+    "sector": null,
+    "industry": null
+  },
+  "KCPSUGIND": {
+    "sector": null,
+    "industry": null
+  },
+  "CONSUMIETF": {
+    "sector": null,
+    "industry": null
+  },
+  "SHARDAMOTR": {
+    "sector": null,
+    "industry": null
+  },
+  "PTCIL": {
+    "sector": null,
+    "industry": null
+  },
+  "TECILCHEM": {
+    "sector": null,
+    "industry": null
+  },
+  "AURUM": {
+    "sector": null,
+    "industry": null
+  },
+  "FUSION": {
+    "sector": null,
+    "industry": null
+  },
+  "APOLLO": {
+    "sector": null,
+    "industry": null
+  },
+  "ANTELOPUS": {
+    "sector": null,
+    "industry": null
+  },
+  "BSE500IETF": {
+    "sector": null,
+    "industry": null
+  }
+}

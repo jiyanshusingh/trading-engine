@@ -1,0 +1,176 @@
+{
+  "strategy": "Combined Swing",
+  "timeframe": "15m",
+  "mode": "SWING",
+  "default_sl": 2.0,
+  "default_tp": 4.0,
+  "tuned_count": 13,
+  "total_symbols": 15,
+  "tunings": {
+    "ADANIPOWER": {
+      "sl": 2.0,
+      "tp": 6.0,
+      "trades": 69,
+      "pf": 1.83,
+      "avg_r": 0.449,
+      "pnl_pct": 36.41,
+      "wr": 36.2,
+      "dd": 12.4,
+      "changed": true
+    },
+    "BAJAJ-AUTO": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 37,
+      "pf": 1.81,
+      "avg_r": 0.486,
+      "pnl_pct": 11.29,
+      "wr": 29.7,
+      "dd": 5.97,
+      "changed": true
+    },
+    "BHEL": {
+      "sl": 2.5,
+      "tp": 6.0,
+      "trades": 75,
+      "pf": 2.61,
+      "avg_r": 0.73,
+      "pnl_pct": 66.47,
+      "wr": 50.7,
+      "dd": 8.37,
+      "changed": true
+    },
+    "BSE": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 86,
+      "pf": 2.19,
+      "avg_r": 0.686,
+      "pnl_pct": 52.7,
+      "wr": 33.7,
+      "dd": 8.53,
+      "changed": true
+    },
+    "CANBK": {
+      "sl": 3.0,
+      "tp": 4.0,
+      "trades": 61,
+      "pf": 1.92,
+      "avg_r": 0.356,
+      "pnl_pct": 25.23,
+      "wr": 59.0,
+      "dd": 4.79,
+      "changed": true
+    },
+    "FORTIS": {
+      "sl": 2.5,
+      "tp": 6.0,
+      "trades": 62,
+      "pf": 1.95,
+      "avg_r": 0.513,
+      "pnl_pct": 35.47,
+      "wr": 45.2,
+      "dd": 4.6,
+      "changed": true
+    },
+    "HINDUNILVR": {
+      "sl": 1.5,
+      "tp": 6.0,
+      "trades": 24,
+      "pf": 3.44,
+      "avg_r": 1.02,
+      "pnl_pct": 19.71,
+      "wr": 45.8,
+      "dd": 2.78,
+      "changed": true
+    },
+    "LAURUSLABS": {
+      "sl": 3.0,
+      "tp": 4.0,
+      "trades": 85,
+      "pf": 2.64,
+      "avg_r": 0.509,
+      "pnl_pct": 52.79,
+      "wr": 64.7,
+      "dd": 6.99,
+      "changed": true
+    },
+    "MAXHEALTH": {
+      "sl": 1.5,
+      "tp": 4.0,
+      "trades": 62,
+      "pf": 1.98,
+      "avg_r": 0.419,
+      "pnl_pct": 23.91,
+      "wr": 38.7,
+      "dd": 7.55,
+      "changed": true
+    },
+    "MOTHERSON": {
+      "sl": 2.0,
+      "tp": 4.0,
+      "trades": 69,
+      "pf": 1.98,
+      "avg_r": 0.478,
+      "pnl_pct": 34.94,
+      "wr": 49.3,
+      "dd": 3.99,
+      "changed": false
+    },
+    "NYKAA": {
+      "sl": 2.5,
+      "tp": 6.0,
+      "trades": 67,
+      "pf": 2.62,
+      "avg_r": 0.797,
+      "pnl_pct": 52.51,
+      "wr": 53.7,
+      "dd": 5.0,
+      "changed": true
+    },
+    "PAYTM": {
+      "sl": 1.5,
+      "tp": 3.0,
+      "trades": 77,
+      "pf": 2.35,
+      "avg_r": 0.558,
+      "pnl_pct": 40.43,
+      "wr": 51.9,
+      "dd": 4.19,
+      "changed": true
+    },
+    "SCHNEIDER": {
+      "sl": 3.0,
+      "tp": 6.0,
+      "trades": 94,
+      "pf": 1.9,
+      "avg_r": 0.431,
+      "pnl_pct": 38.34,
+      "wr": 47.9,
+      "dd": 14.88,
+      "changed": true
+    },
+    "SIGNATURE": {
+      "sl": 2.0,
+      "tp": 4.0,
+      "trades": 58,
+      "pf": 2.06,
+      "avg_r": 0.464,
+      "pnl_pct": 32.5,
+      "wr": 48.3,
+      "dd": 9.32,
+      "changed": false
+    },
+    "TRENT": {
+      "sl": 3.0,
+      "tp": 4.0,
+      "trades": 69,
+      "pf": 2.46,
+      "avg_r": 0.515,
+      "pnl_pct": 39.36,
+      "wr": 65.2,
+      "dd": 3.46,
+      "changed": true
+    }
+  }
+}

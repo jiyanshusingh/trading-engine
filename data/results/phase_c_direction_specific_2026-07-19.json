@@ -1,0 +1,81 @@
+{
+  "phase": "C - Direction-specific ML models (LONG-only + SHORT-only)",
+  "date": "2026-07-19",
+  "method": "Same 4-fold walk-forward (fixed thr 0.75 + regime gate) as the combined model; dataset split by direction.",
+  "combined_baseline": {
+    "net": 151630,
+    "trades": 359,
+    "net_per_trade": 422,
+    "wr": 28.1
+  },
+  "long_only": {
+    "net": 83747,
+    "trades": 442,
+    "net_per_trade": 189,
+    "wr": 19.5,
+    "folds": [
+      {
+        "fold": 1,
+        "net": 18950,
+        "trades": 74
+      },
+      {
+        "fold": 2,
+        "net": -9502,
+        "trades": 45
+      },
+      {
+        "fold": 3,
+        "net": 41773,
+        "trades": 193
+      },
+      {
+        "fold": 4,
+        "net": 32526,
+        "trades": 130
+      }
+    ]
+  },
+  "short_only": {
+    "net": 12819,
+    "trades": 2017,
+    "net_per_trade": 6,
+    "wr": 13.5,
+    "folds": [
+      {
+        "fold": 1,
+        "net": 23874,
+        "trades": 1422
+      },
+      {
+        "fold": 2,
+        "net": -51757,
+        "trades": 438
+      },
+      {
+        "fold": 3,
+        "net": 27212,
+        "trades": 66
+      },
+      {
+        "fold": 4,
+        "net": 13490,
+        "trades": 91
+      }
+    ]
+  },
+  "direction_specific_sum": {
+    "net": 96656,
+    "trades": 2459,
+    "net_per_trade": 39,
+    "wr": 14.0
+  },
+  "verdict": "REJECT - direction-specific models are WORSE than the combined model",
+  "analysis": [
+    "Combined net +\u20b9151,630 / 359 tr (+\u20b9422/tr) vs direction-specific sum +\u20b996,566 / 2,459 tr (+\u20b939/tr).",
+    "Splitting the 1.26M-row dataset in half removes the direction feature as a discriminator (now constant per model) and halves training data \u2192 worse generalization.",
+    "SHORT-only model fires 2,017 trades at thr 0.75 (vs 312 SHORT in combined) \u2014 far less selective, +\u20b96/tr is noise.",
+    "Combined model is both MORE net-positive AND higher-quality per trade (extreme selectivity beats costs).",
+    "Phase C would DECREASE ML Standalone net PnL by ~36% (\u20b9151,630 -> \u20b996,566)."
+  ]
+}

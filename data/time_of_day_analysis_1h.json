@@ -1,0 +1,62 @@
+{
+  "sessions": [
+    {
+      "session": "opening",
+      "count": 60,
+      "wins": 30,
+      "losses": 30,
+      "win_rate_pct": 50.0,
+      "profit_factor": 1.0,
+      "total_pnl": -1179.45
+    },
+    {
+      "session": "morning",
+      "count": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate_pct": 0,
+      "profit_factor": 0,
+      "total_pnl": 0
+    },
+    {
+      "session": "midday",
+      "count": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate_pct": 0,
+      "profit_factor": 0,
+      "total_pnl": 0
+    },
+    {
+      "session": "afternoon",
+      "count": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate_pct": 0,
+      "profit_factor": 0,
+      "total_pnl": 0
+    },
+    {
+      "session": "closing",
+      "count": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate_pct": 0,
+      "profit_factor": 0,
+      "total_pnl": 0
+    }
+  ],
+  "hours": [
+    {
+      "hour": 9,
+      "count": 60,
+      "wins": 30,
+      "losses": 30,
+      "win_rate_pct": 50.0,
+      "profit_factor": 1.0,
+      "total_pnl": -1179.45
+    }
+  ],
+  "best_session": "opening",
+  "best_hour": 9
+}

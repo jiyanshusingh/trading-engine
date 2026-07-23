@@ -1,0 +1,974 @@
+{
+  "generated": "2026-07-18",
+  "phase": "32-33: ML Universal Filter (Option A) + per-symbol thresholds",
+  "universe_symbols": 152,
+  "pooled_trades": 28215,
+  "strategies": [
+    "Combined Swing",
+    "Manual Institutional (time-gated)",
+    "Relative Strength Momentum"
+  ],
+  "data_period": {
+    "start": "2025-05-22",
+    "end": "2026-07-10"
+  },
+  "split": {
+    "train": 14107,
+    "val": 5643,
+    "test": 8465,
+    "scheme": "time 50/20/30"
+  },
+  "test_period": {
+    "start": "2026-03-11",
+    "end": "2026-07-10",
+    "trading_days": 81,
+    "weeks": 16.2
+  },
+  "global_threshold_sweep_test": [
+    {
+      "thr": "ALL",
+      "trades": 8465,
+      "kept_pct": 100.0,
+      "wr": 38.64146485528647,
+      "net": 43739.60039062508,
+      "net_per_trade": 5.1671116822947525
+    },
+    {
+      "thr": 0.5,
+      "trades": 3835,
+      "kept_pct": 45.30419373892499,
+      "wr": 46.64928292046936,
+      "net": 146515.65026855463,
+      "net_per_trade": 38.20486317302598
+    },
+    {
+      "thr": 0.55,
+      "trades": 2578,
+      "kept_pct": 30.45481393975192,
+      "wr": 48.60356865787432,
+      "net": 148895.48026855467,
+      "net_per_trade": 57.75619870774037
+    },
+    {
+      "thr": 0.6,
+      "trades": 1505,
+      "kept_pct": 17.779090372120496,
+      "wr": 53.2890365448505,
+      "net": 161763.77999999997,
+      "net_per_trade": 107.48423920265779
+    },
+    {
+      "thr": 0.65,
+      "trades": 795,
+      "kept_pct": 9.39161252215003,
+      "wr": 55.84905660377358,
+      "net": 108598.32999999999,
+      "net_per_trade": 136.60167295597483
+    },
+    {
+      "thr": 0.7,
+      "trades": 371,
+      "kept_pct": 4.3827525103366805,
+      "wr": 57.95148247978437,
+      "net": 62327.72999999997,
+      "net_per_trade": 167.99927223719666
+    },
+    {
+      "thr": 0.75,
+      "trades": 149,
+      "kept_pct": 1.7601890135853515,
+      "wr": 68.45637583892618,
+      "net": 36848.919999999984,
+      "net_per_trade": 247.30818791946297
+    },
+    {
+      "thr": 0.8,
+      "trades": 55,
+      "kept_pct": 0.6497341996455995,
+      "wr": 76.36363636363637,
+      "net": 16269.300000000001,
+      "net_per_trade": 295.80545454545455
+    },
+    {
+      "thr": 0.85,
+      "trades": 19,
+      "kept_pct": 0.22445363260484347,
+      "wr": 68.42105263157895,
+      "net": 3294.7700000000123,
+      "net_per_trade": 173.4089473684217
+    },
+    {
+      "thr": 0.9,
+      "trades": 5,
+      "kept_pct": 0.05906674542232723,
+      "wr": 100.0,
+      "net": 1570.8299999999977,
+      "net_per_trade": 314.16599999999954
+    },
+    {
+      "thr": 0.95,
+      "trades": 2,
+      "kept_pct": 0.02362669816893089,
+      "wr": 100.0,
+      "net": 253.0999999999991,
+      "net_per_trade": 126.54999999999956
+    }
+  ],
+  "weekly_estimates": [
+    {
+      "thr": 0.5,
+      "trades": 3835,
+      "per_week": 236.7,
+      "per_day": 47.35,
+      "net": 146515.65026855463,
+      "net_per_week": 9044
+    },
+    {
+      "thr": 0.55,
+      "trades": 2578,
+      "per_week": 159.1,
+      "per_day": 31.83,
+      "net": 148895.48026855467,
+      "net_per_week": 9191
+    },
+    {
+      "thr": 0.6,
+      "trades": 1505,
+      "per_week": 92.9,
+      "per_day": 18.58,
+      "net": 161763.77999999997,
+      "net_per_week": 9985
+    },
+    {
+      "thr": 0.65,
+      "trades": 795,
+      "per_week": 49.1,
+      "per_day": 9.81,
+      "net": 108598.32999999999,
+      "net_per_week": 6704
+    },
+    {
+      "thr": 0.7,
+      "trades": 371,
+      "per_week": 22.9,
+      "per_day": 4.58,
+      "net": 62327.72999999997,
+      "net_per_week": 3847
+    },
+    {
+      "thr": 0.75,
+      "trades": 149,
+      "per_week": 9.2,
+      "per_day": 1.84,
+      "net": 36848.919999999984,
+      "net_per_week": 2275
+    },
+    {
+      "thr": 0.8,
+      "trades": 55,
+      "per_week": 3.4,
+      "per_day": 0.68,
+      "net": 16269.300000000001,
+      "net_per_week": 1004
+    },
+    {
+      "thr": 0.85,
+      "trades": 19,
+      "per_week": 1.2,
+      "per_day": 0.23,
+      "net": 3294.7700000000123,
+      "net_per_week": 203
+    },
+    {
+      "thr": 0.9,
+      "trades": 5,
+      "per_week": 0.3,
+      "per_day": 0.06,
+      "net": 1570.8299999999977,
+      "net_per_week": 97
+    },
+    {
+      "thr": 0.95,
+      "trades": 2,
+      "per_week": 0.1,
+      "per_day": 0.02,
+      "net": 253.0999999999991,
+      "net_per_week": 16
+    }
+  ],
+  "global_threshold": 0.65,
+  "global_result": {
+    "net": 108598.32999999999,
+    "trades": 795,
+    "per_week": 49.1
+  },
+  "per_symbol_result": {
+    "net": 85729.42000000004,
+    "trades": 1699,
+    "wr": 47.321954090641555,
+    "per_week": 104.9,
+    "delta_vs_global": -22868.909999999945
+  },
+  "per_symbol_thresholds": {
+    "360ONE": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ABB": {
+      "thr": 0.6,
+      "val_net": 1411.2699999999954,
+      "val_trades": 14
+    },
+    "ACC": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ACUTAAS": {
+      "thr": 0.65,
+      "val_net": 1728.4499999999978,
+      "val_trades": 8
+    },
+    "ADANIENT": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ADANIGREEN": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ADANIPORTS": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ADANIPOWER": {
+      "thr": 0.65,
+      "val_net": 105.77999999999486,
+      "val_trades": 6
+    },
+    "AEGISLOG": {
+      "thr": 0.55,
+      "val_net": 364.38000000000505,
+      "val_trades": 6
+    },
+    "AEGISVOPAK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "AFFLE": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ALKEM": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "AMBUJACEM": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "APOLLOHOSP": {
+      "thr": 0.55,
+      "val_net": 706.5499999999981,
+      "val_trades": 7
+    },
+    "APTUS": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ASHOKLEY": {
+      "thr": 0.7,
+      "val_net": 43.279999999991446,
+      "val_trades": 6
+    },
+    "AUROPHARMA": {
+      "thr": 0.5,
+      "val_net": 5319.910000000027,
+      "val_trades": 20
+    },
+    "AXISBANK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "BAJAJ-AUTO": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "BAJAJFINSV": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "BAJFINANCE": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "BANKBARODA": {
+      "thr": 0.6,
+      "val_net": 224.6999999999938,
+      "val_trades": 7
+    },
+    "BEL": {
+      "thr": 0.55,
+      "val_net": 2248.690000000003,
+      "val_trades": 23
+    },
+    "BHARTIARTL": {
+      "thr": 0.5,
+      "val_net": 1523.0499999999854,
+      "val_trades": 6
+    },
+    "BHEL": {
+      "thr": 0.55,
+      "val_net": 1255.2100000000078,
+      "val_trades": 13
+    },
+    "BOSCHLTD": {
+      "thr": 0.7,
+      "val_net": 3312.360000000002,
+      "val_trades": 7
+    },
+    "BPCL": {
+      "thr": 0.55,
+      "val_net": 300.04999999999745,
+      "val_trades": 14
+    },
+    "BSE": {
+      "thr": 0.5,
+      "val_net": 7927.429999999973,
+      "val_trades": 30
+    },
+    "BSOFT": {
+      "thr": 0.6,
+      "val_net": 4165.000000000001,
+      "val_trades": 8
+    },
+    "CANBK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "CEMPRO": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "CGCL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "CIPLA": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "COALINDIA": {
+      "thr": 0.55,
+      "val_net": 5851.130000000006,
+      "val_trades": 16
+    },
+    "COCHINSHIP": {
+      "thr": 0.6,
+      "val_net": 682.710000000002,
+      "val_trades": 6
+    },
+    "COFORGE": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "CUMMINSIND": {
+      "thr": 0.55,
+      "val_net": 120.74000000001047,
+      "val_trades": 14
+    },
+    "CYIENT": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "DIVISLAB": {
+      "thr": 0.65,
+      "val_net": 2512.7899999999936,
+      "val_trades": 8
+    },
+    "DIXON": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "DMART": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "DRREDDY": {
+      "thr": 0.5,
+      "val_net": 169.42999999999859,
+      "val_trades": 6
+    },
+    "EICHERMOT": {
+      "thr": 0.5,
+      "val_net": 1366.3100000000004,
+      "val_trades": 13
+    },
+    "FEDERALBNK": {
+      "thr": 0.5,
+      "val_net": 888.0400000000284,
+      "val_trades": 15
+    },
+    "FORTIS": {
+      "thr": 0.5,
+      "val_net": 7342.86,
+      "val_trades": 19
+    },
+    "GAIL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "GODREJIND": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "GRASIM": {
+      "thr": 0.5,
+      "val_net": 549.9799999999941,
+      "val_trades": 14
+    },
+    "GROWW": {
+      "thr": 0.55,
+      "val_net": 1145.9900000000034,
+      "val_trades": 20
+    },
+    "GVT&D": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "HAL": {
+      "thr": 0.55,
+      "val_net": 2268.26000000002,
+      "val_trades": 11
+    },
+    "HAVELLS": {
+      "thr": 0.5,
+      "val_net": 3393.179999999997,
+      "val_trades": 15
+    },
+    "HCLTECH": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "HDFCBANK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "HEROMOTOCO": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "HFCL": {
+      "thr": 0.6,
+      "val_net": 681.9200000000054,
+      "val_trades": 12
+    },
+    "HINDALCO": {
+      "thr": 0.5,
+      "val_net": 7774.779999999997,
+      "val_trades": 24
+    },
+    "HINDUNILVR": {
+      "thr": 0.5,
+      "val_net": 1127.4799999999955,
+      "val_trades": 11
+    },
+    "ICICIAMC": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ICICIBANK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ICICIPRULI": {
+      "thr": 0.5,
+      "val_net": 1209.9600000000037,
+      "val_trades": 6
+    },
+    "IDEA": {
+      "thr": 0.5,
+      "val_net": 6641.799999999995,
+      "val_trades": 29
+    },
+    "IDFCFIRSTB": {
+      "thr": 0.55,
+      "val_net": 2064.260000000001,
+      "val_trades": 18
+    },
+    "INDUSINDBK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "INFY": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "IOC": {
+      "thr": 0.6,
+      "val_net": 2902.5499999999906,
+      "val_trades": 8
+    },
+    "IRCTC": {
+      "thr": 0.6,
+      "val_net": 530.6399999999787,
+      "val_trades": 10
+    },
+    "IRFC": {
+      "thr": 0.5,
+      "val_net": 9039.020000000008,
+      "val_trades": 31
+    },
+    "ITC": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "J&KBANK": {
+      "thr": 0.6,
+      "val_net": 369.52999999999,
+      "val_trades": 9
+    },
+    "JINDALSTEL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "JIOFIN": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "JSWINFRA": {
+      "thr": 0.55,
+      "val_net": 1383.8700000000003,
+      "val_trades": 9
+    },
+    "JSWSTEEL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "KALYANKJIL": {
+      "thr": 0.65,
+      "val_net": 2283.609999999984,
+      "val_trades": 11
+    },
+    "KIRLOSENG": {
+      "thr": 0.5,
+      "val_net": 5701.38999999999,
+      "val_trades": 31
+    },
+    "KOTAKBANK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "KPITTECH": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "LAURUSLABS": {
+      "thr": 0.5,
+      "val_net": 921.040000000012,
+      "val_trades": 22
+    },
+    "LODHA": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "LT": {
+      "thr": 0.55,
+      "val_net": 1358.3200000000056,
+      "val_trades": 6
+    },
+    "LTM": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "LTTS": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "LUPIN": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "M&M": {
+      "thr": 0.55,
+      "val_net": 1322.7200000000007,
+      "val_trades": 6
+    },
+    "M&MFIN": {
+      "thr": 0.55,
+      "val_net": 1705.6099999999944,
+      "val_trades": 10
+    },
+    "MANAPPURAM": {
+      "thr": 0.65,
+      "val_net": 139.06999999999715,
+      "val_trades": 9
+    },
+    "MAPMYINDIA": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "MARUTI": {
+      "thr": 0.5,
+      "val_net": 532.8199999999986,
+      "val_trades": 9
+    },
+    "MAXHEALTH": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "MAZDOCK": {
+      "thr": 0.5,
+      "val_net": 6255.359999999988,
+      "val_trades": 25
+    },
+    "METROPOLIS": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "MOTHERSON": {
+      "thr": 0.55,
+      "val_net": 3615.45999999999,
+      "val_trades": 11
+    },
+    "MPHASIS": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "NATIONALUM": {
+      "thr": 0.5,
+      "val_net": 21539.15,
+      "val_trades": 46
+    },
+    "NAUKRI": {
+      "thr": 0.55,
+      "val_net": 695.1000000000059,
+      "val_trades": 7
+    },
+    "NESTLEIND": {
+      "thr": 0.55,
+      "val_net": 736.8100000000022,
+      "val_trades": 6
+    },
+    "NETWEB": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "NEWGEN": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "NHPC": {
+      "thr": 0.6,
+      "val_net": 2660.950000000003,
+      "val_trades": 9
+    },
+    "NLCINDIA": {
+      "thr": 0.5,
+      "val_net": 3515.7499999999754,
+      "val_trades": 28
+    },
+    "NTPC": {
+      "thr": 0.55,
+      "val_net": 1740.7800000000134,
+      "val_trades": 12
+    },
+    "NUVAMA": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "NYKAA": {
+      "thr": 0.6,
+      "val_net": 1404.7599999999968,
+      "val_trades": 9
+    },
+    "OFSS": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "OIL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ONGC": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "PAYTM": {
+      "thr": 0.5,
+      "val_net": 1808.8500000000013,
+      "val_trades": 13
+    },
+    "PERSISTENT": {
+      "thr": 0.55,
+      "val_net": 66.36000000000604,
+      "val_trades": 9
+    },
+    "PFC": {
+      "thr": 0.55,
+      "val_net": 2244.780000000007,
+      "val_trades": 31
+    },
+    "PIDILITIND": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "PNB": {
+      "thr": 0.5,
+      "val_net": 3527.9399999999914,
+      "val_trades": 30
+    },
+    "POLICYBZR": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "POWERGRID": {
+      "thr": 0.5,
+      "val_net": 1662.8200000000131,
+      "val_trades": 7
+    },
+    "PWL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "RBLBANK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "RECLTD": {
+      "thr": 0.55,
+      "val_net": 1978.3499999999917,
+      "val_trades": 23
+    },
+    "RELIANCE": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "RRKABEL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "RVNL": {
+      "thr": 0.5,
+      "val_net": 6731.200000000003,
+      "val_trades": 35
+    },
+    "SAIL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "SAREGAMA": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "SBIN": {
+      "thr": 0.5,
+      "val_net": 4050.6999999999966,
+      "val_trades": 11
+    },
+    "SCHNEIDER": {
+      "thr": 0.55,
+      "val_net": 2216.4500000000016,
+      "val_trades": 16
+    },
+    "SHREECEM": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "SIEMENS": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "SIGNATURE": {
+      "thr": 0.5,
+      "val_net": 9197.919999999998,
+      "val_trades": 24
+    },
+    "SONATSOFTW": {
+      "thr": 0.5,
+      "val_net": 496.59000000000776,
+      "val_trades": 14
+    },
+    "SUMICHEM": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "SUNPHARMA": {
+      "thr": 0.55,
+      "val_net": 365.890000000009,
+      "val_trades": 6
+    },
+    "SYRMA": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "TATACONSUM": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "TATAELXSI": {
+      "thr": 0.5,
+      "val_net": 8877.790000000008,
+      "val_trades": 24
+    },
+    "TATASTEEL": {
+      "thr": 0.5,
+      "val_net": 3991.6999999999666,
+      "val_trades": 31
+    },
+    "TATATECH": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "TCS": {
+      "thr": 0.5,
+      "val_net": 313.5200000000035,
+      "val_trades": 7
+    },
+    "TECHM": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "THERMAX": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "TITAGARH": {
+      "thr": 0.55,
+      "val_net": 4991.079999999996,
+      "val_trades": 15
+    },
+    "TITAN": {
+      "thr": 0.55,
+      "val_net": 402.96000000000527,
+      "val_trades": 15
+    },
+    "TORNTPHARM": {
+      "thr": 0.6,
+      "val_net": 385.50000000001023,
+      "val_trades": 8
+    },
+    "TRENT": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ULTRACEMCO": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "UNIONBANK": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "VBL": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "VEDL": {
+      "thr": 0.5,
+      "val_net": 12607.799999999992,
+      "val_trades": 44
+    },
+    "VOLTAS": {
+      "thr": 0.5,
+      "val_net": 7317.000000000002,
+      "val_trades": 35
+    },
+    "WELSPUNLIV": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "WIPRO": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "YESBANK": {
+      "thr": 0.5,
+      "val_net": 2440.470000000007,
+      "val_trades": 25
+    },
+    "ZENSARTECH": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    },
+    "ZYDUSLIFE": {
+      "thr": 0.99,
+      "val_net": 0.0,
+      "val_trades": 0
+    }
+  }
+}

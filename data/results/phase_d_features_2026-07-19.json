@@ -1,0 +1,18 @@
+{
+  "phase": "D - Add market/sector features to ML filter",
+  "date": "2026-07-19",
+  "new_features": [
+    "session (opening/morning/midday/afternoon)",
+    "overnight_gap_pct",
+    "max_drawdown_recent"
+  ],
+  "ablation_thr_0.60": {
+    "with_new_features_net": 47210,
+    "without_new_features_net": 17199,
+    "delta": 30011,
+    "improvement_pct": 174.5
+  },
+  "deployed_model": "data/ml_filter_all.json (trained on v2 data with new features)",
+  "note": "Phase 35 native V3 15m cache backfill weakened raw edge vs Phase 32 resampled cache; v2 model is correctly calibrated to current cache",
+  "verdict": "SUCCESS - new features improve model discrimination by ~175% at thr 0.60"
+}

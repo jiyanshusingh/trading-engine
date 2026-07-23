@@ -1,0 +1,105 @@
+{
+  "phase": "B - ML probability-based position sizing",
+  "date": "2026-07-19",
+  "deploy_threshold": 0.75,
+  "gated_trades": 359,
+  "baseline_net": 151630.3418997,
+  "baseline_worst_fold": 19254.832244053578,
+  "baseline_per_fold": {
+    "1": 62144.932564148694,
+    "2": 19254.832244053578,
+    "3": 29030.492553969198,
+    "4": 41200.084537528535
+  },
+  "recommended_config_maximin": "0.75-0.82:1.5x | 0.82-0.90:0.5x | 0.90-0.96:0.5x",
+  "recommended_net_maximin": 198323.23626322113,
+  "recommended_worst_fold_maximin": 29552.769563570557,
+  "recommended_per_fold_maximin": {
+    "1": 78596.89064578562,
+    "2": 29552.769563570557,
+    "3": 43545.7388309538,
+    "4": 46627.83722291116
+  },
+  "improvement_net_maximin": 46692.89436352113,
+  "improvement_pct_maximin": 30.79389901686525,
+  "proba_aligned_config": "0.75-0.80:1.0x | 0.80-0.85:1.5x | 0.85+:1.5x",
+  "proba_aligned_net": 176583.69141291003,
+  "proba_aligned_worst_fold": 19626.02538570739,
+  "improvement_net_aligned": 24953.349513210036,
+  "improvement_pct_aligned": 16.456699365431824,
+  "top_configs": [
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.5x | 0.90-0.96:0.5x",
+      "total_net": 198323.23626322113,
+      "worst_fold": 29552.769563570557,
+      "avg_mult": 1.424791086350975
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.5x | 0.90-0.96:0.8x",
+      "total_net": 200129.80479772564,
+      "worst_fold": 29552.769563570557,
+      "avg_mult": 1.4268802228412256
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.5x | 0.90-0.96:1.0x",
+      "total_net": 201936.37333223014,
+      "worst_fold": 29552.769563570557,
+      "avg_mult": 1.4289693593314763
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.5x | 0.90-0.96:1.5x",
+      "total_net": 205549.51040123915,
+      "worst_fold": 29552.769563570557,
+      "avg_mult": 1.4331476323119776
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.8x | 0.90-0.96:0.5x",
+      "total_net": 203797.23687529887,
+      "worst_fold": 29385.13926419801,
+      "avg_mult": 1.4415041782729805
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.8x | 0.90-0.96:0.8x",
+      "total_net": 205603.80540980335,
+      "worst_fold": 29385.13926419801,
+      "avg_mult": 1.4435933147632312
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.8x | 0.90-0.96:1.0x",
+      "total_net": 207410.37394430785,
+      "worst_fold": 29385.13926419801,
+      "avg_mult": 1.4456824512534818
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:0.8x | 0.90-0.96:1.5x",
+      "total_net": 211023.51101331686,
+      "worst_fold": 29385.13926419801,
+      "avg_mult": 1.4498607242339834
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:1.0x | 0.90-0.96:0.5x",
+      "total_net": 209271.23748737658,
+      "worst_fold": 29217.50896482546,
+      "avg_mult": 1.458217270194986
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:1.0x | 0.90-0.96:0.8x",
+      "total_net": 211077.80602188106,
+      "worst_fold": 29217.50896482546,
+      "avg_mult": 1.4603064066852367
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:1.0x | 0.90-0.96:1.0x",
+      "total_net": 212884.37455638556,
+      "worst_fold": 29217.50896482546,
+      "avg_mult": 1.4623955431754874
+    },
+    {
+      "config": "0.75-0.82:1.5x | 0.82-0.90:1.0x | 0.90-0.96:1.5x",
+      "total_net": 216497.51162539457,
+      "worst_fold": 29217.50896482546,
+      "avg_mult": 1.466573816155989
+    }
+  ],
+  "note": "proba->pnl correlation is weak (+0.15-0.20); proba-based sizing is a modest, not transformative, improvement. Maximin config leverages the low-proba bulk (aggressive); proba-aligned is the conservative deploy."
+}

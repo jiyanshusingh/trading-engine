@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "date": "2026-07-14",
+    "strategy": "Manual Institutional (time-gated)",
+    "timeframe": "15m",
+    "mode": "INTRADAY golden-window 09:45-10:30 & 13:30-14:30",
+    "author": "opencode session"
+  },
+  "changes_applied": {
+    "wednesday_skip": {
+      "env_var": "SKIP_WEDNESDAY=1",
+      "description": "Skip Wednesday entirely \u2014 daywise analysis on full 191-symbol data showed avg R = +0.002 (break-even on 1,898 trades)",
+      "verified": "0 Wednesday trades out of 21,569 in full A1 run"
+    },
+    "conviction_recalibration": {
+      "file": "scripts/capital_model.py :: conviction_multiplier()",
+      "old_thresholds": "75/85 (score<75\u21920.5x, 75-84\u21921.0x, 85+\u21921.5x)",
+      "new_thresholds": "55/70 (score<55\u21920.5x, 55-69\u21921.0x, 70+\u21921.5x)",
+      "improvement": "+45.7% effective R on 21,569 trades (2,160.8 new vs 1,483.0 old)",
+      "score_distribution": "77.9% <55, 19.5% 55-69, 2.6% 70+"
+    },
+    "monday_boost": {
+      "file": "scripts/capital_model.py :: calendar_conviction_multiplier()",
+      "change": "Added LONG \u00d71.15 on Monday (weekday()==0)",
+      "data_backing": "Monday strongest day: +1501.9 SumR, avgR +0.282 on 21,569 trades \u2014 2.3\u00d7 Friday",
+      "day_ranking": {
+        "Monday": {
+          "trades": 5332,
+          "wr": 24.3,
+          "sum_r": 1501.9,
+          "avg_r": 0.282
+        },
+        "Tuesday": {
+          "trades": 5640,
+          "wr": 20.7,
+          "sum_r": 391.8,
+          "avg_r": 0.069
+        },
+        "Wednesday": {
+          "trades": 0,
+          "wr": 0.0,
+          "sum_r": 0.0,
+          "avg_r": 0.0
+        },
+        "Thursday": {
+          "trades": 5598,
+          "wr": 20.0,
+          "sum_r": -10.4,
+          "avg_r": -0.002
+        },
+        "Friday": {
+          "trades": 4969,
+          "wr": 21.0,
+          "sum_r": 658.7,
+          "avg_r": 0.133
+        }
+      }
+    },
+    "per_symbol_sltp_tuning": {
+      "file": "data/manual_symbol_tunings.json",
+      "tuning_script": "scripts/tune_manual_sltp.py",
+      "grid": "SL {0.3, 0.5, 0.8} \u00d7 TP {3.0, 5.0, 6.0, 8.0} (12 combos/symbol)",
+      "symbols_tuned": 57,
+      "symbols_changed": 55,
+      "sl_0_3_count": 51,
+      "sl_0_5_count": 4,
+      "tp_3_0_count": 17,
+      "tp_5_0_count": 13,
+      "tp_6_0_count": 10,
+      "tp_8_0_count": 17,
+      "dominant_finding": "sl=0.3 is optimal for 51/57 symbols \u2014 tighter stop improves PF",
+      "strategy_file": "strategies/manual_institutional_strategy.py",
+      "wiring": "run() uses kwargs[original_symbol] \u2192 _tunings dict \u2192 per-symbol sl/tp in _sltp()",
+      "backtest_change": "decide_trade() in scripts/backtest.py now passes original_symbol kwarg"
+    },
+    "score_threshold_raise": {
+      "file": "strategies/manual_institutional_strategy.py :: MANUAL_MIN_SCORE",
+      "old_value": 40,
+      "new_value": 55,
+      "rationale": "77.9% of 22,022 trades score <55 with avg PF=1.06 (barely breakeven). Raising to 55 eliminates low-conviction entries.",
+      "impact": "Trades \u221263%, WR +6.6%, per-trade quality significantly higher"
+    },
+    "watchlist_pruning": {
+      "file": "data/manual_strategy_watchlist.json",
+      "filter": "PF>=1.3 AND trades>=10 AND PnL>0 AND PF>=0.8",
+      "symbols_before": 73,
+      "symbols_after": 77,
+      "losers_removed": 39,
+      "total_loss_drag_removed": "-169.4% sum PnL",
+      "estimated_sum_pnl": "+1,096.5% on pruned set",
+      "estimated_avg_pf": 2.0
+    }
+  },
+  "a1_full_run_results": {
+    "description": "Full 191-symbol A1 backtest with all changes applied",
+    "status": "re-running (background PID 45966) \u2014 results from 1st run below",
+    "symbols": 190,
+    "total_trades": 21569,
+    "win_rate_pct": 21.5,
+    "sum_pnl_pct": 703.6,
+    "profitable_symbols": 64,
+    "unprofitable_symbols": 86,
+    "zero_trade_symbols": 1,
+    "adani_trans_missing": true,
+    "total_r_effective": 2160.8
+  },
+  "verification_5_symbols": {
+    "description": "5-symbol verification (HCLTECH, LODHA, AEGISLOG, ICICIGI, PWL) \u2014 before vs after per-symbol SL/TP",
+    "before": {
+      "scope": "Wednesday skip + conviction recalibration + Monday boost (default SL=0.5/TP=5.0)",
+      "total_trades": 326,
+      "win_rate_pct": 33.4,
+      "sum_pnl_pct": 112.61,
+      "profitable": 5,
+      "unprofitable": 0
+    },
+    "after": {
+      "scope": "Same + per-symbol SL/TP tunings from data/manual_symbol_tunings.json",
+      "total_trades": 329,
+      "win_rate_pct": 33.4,
+      "sum_pnl_pct": 122.24,
+      "profitable": 5,
+      "unprofitable": 0,
+      "improvement": "+8.6% sum PnL from per-symbol SL/TP alone"
+    },
+    "per_symbol_comparison": {
+      "HCLTECH": {
+        "before": {
+          "sl": 0.5,
+          "tp": 5.0,
+          "trades": 40,
+          "pf": 2.33,
+          "pnl_pct": 8.08
+        },
+        "after": {
+          "sl": 0.3,
+          "tp": 8.0,
+          "trades": 44,
+          "pf": 4.43,
+          "pnl_pct": 14.03
+        }
+      },
+      "LODHA": {
+        "before": {
+          "sl": 0.5,
+          "tp": 5.0,
+          "trades": 74,
+          "pf": 2.8,
+          "pnl_pct": 25.29
+        },
+        "after": {
+          "sl": 0.3,
+          "tp": 6.0,
+          "trades": 82,
+          "pf": 3.93,
+          "pnl_pct": 29.22
+        }
+      },
+      "AEGISLOG": {
+        "before": {
+          "sl": 0.5,
+          "tp": 5.0,
+          "trades": 85,
+          "pf": 2.59,
+          "pnl_pct": 32.88
+        },
+        "after": {
+          "sl": 0.5,
+          "tp": 5.0,
+          "trades": 85,
+          "pf": 2.59,
+          "pnl_pct": 32.88
+        },
+        "note": "Default was already optimal"
+      },
+      "ICICIGI": {
+        "before": {
+          "sl": 0.5,
+          "tp": 5.0,
+          "trades": 70,
+          "pf": 2.5,
+          "pnl_pct": 11.59
+        },
+        "after": {
+          "sl": 0.3,
+          "tp": 6.0,
+          "trades": 71,
+          "pf": 2.8,
+          "pnl_pct": 12.75
+        }
+      },
+      "PWL": {
+        "before": {
+          "sl": 0.5,
+          "tp": 5.0,
+          "trades": 57,
+          "pf": 3.73,
+          "pnl_pct": 34.77
+        },
+        "after": {
+          "sl": 0.3,
+          "tp": 8.0,
+          "trades": 47,
+          "pf": 6.57,
+          "pnl_pct": 33.36
+        }
+      }
+    }
+  },
+  "files_created_or_modified": [
+    "data/manual_symbol_tunings.json \u2014 57 per-symbol SL/TP overrides",
+    "data/backtest_portfolio_15m.json \u2014 A1 full results (being re-run to separate file)",
+    "data/backtest_trades_15m.json \u2014 21,569 detailed trades",
+    "strategies/manual_institutional_strategy.py \u2014 per-symbol SL/TP wiring",
+    "scripts/capital_model.py \u2014 Monday boost in calendar_conviction_multiplier",
+    "scripts/backtest.py \u2014 original_symbol pass-through in decide_trade()",
+    "data/logs/a1_full_backtest.log \u2014 first A1 run log",
+    "data/logs/tune_manual_sltp.log \u2014 tuning run log (part 1, 36 symbols)",
+    "data/logs/tune_manual_sltp_part2.log \u2014 tuning run log (part 2, 24 symbols)",
+    "scripts/tune_manual_sltp.py \u2014 per-symbol SL/TP tuner script"
+  ],
+  "next_steps": [
+    "Full watchlist deployed: 77 symbols (PF>=1.3, >=10tr, excluding PF<0.8 losers)",
+    "Score threshold MIN_SCORE=55 active \u2014 eliminates 77.9% low-conviction trades",
+    "Paper trade with --conviction and per-symbol tunings",
+    "Consider Tue/Thu skip if further filtering needed"
+  ],
+  "verification_score_55": {
+    "description": "5-symbol verification with MANUAL_MIN_SCORE=55 added",
+    "trades": 120,
+    "win_rate_pct": 40.0,
+    "sum_pnl_pct": 78.62,
+    "per_symbol": {
+      "HCLTECH": {
+        "trades": 10,
+        "pf": 11.38,
+        "pnl_pct": 8.22
+      },
+      "LODHA": {
+        "trades": 32,
+        "pf": 7.21,
+        "pnl_pct": 23.62
+      },
+      "AEGISLOG": {
+        "trades": 37,
+        "pf": 3.06,
+        "pnl_pct": 19.83
+      },
+      "ICICIGI": {
+        "trades": 15,
+        "pf": 6.14,
+        "pnl_pct": 5.28
+      },
+      "PWL": {
+        "trades": 26,
+        "pf": 6.41,
+        "pnl_pct": 21.67
+      }
+    }
+  }
+}

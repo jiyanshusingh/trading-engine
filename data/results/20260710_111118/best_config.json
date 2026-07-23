@@ -1,0 +1,23 @@
+{
+  "strategy": "Institutional Probability",
+  "sl_mult": 0.5,
+  "tp_mult": 5.0,
+  "atr_period": 14,
+  "score_threshold": 70,
+  "multi_tf_bonus": true,
+  "tuning_date": "2026-07-10",
+  "top_result": {
+    "profit_factor": 2.30,
+    "total_trades": 70,
+    "win_rate_pct": 24.3,
+    "total_pnl_pct": 3.09,
+    "max_drawdown_pct": 0.18,
+    "best_timeframe": "15m",
+    "top_symbols": ["TORNTPHARM", "ONGC", "ADANIENT", "KOTAKBANK", "ICICIPRULI"]
+  },
+  "swing_result": {
+    "total_trades": 111,
+    "win_rate_pct": 20.7,
+    "top_symbols": ["TORNTPHARM", "ONGC", "EICHERMOT", "BEL", "ICICIBANK"]
+  }
+}
