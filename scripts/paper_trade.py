@@ -2003,12 +2003,14 @@ def run_cycle(state: dict, symbols: list[str],
         if TRADING_MODE in ("swing", "both"):
             modes_to_evaluate.append("swing")
 
-        # Track already-open symbols per mode so the same symbol can hold both
-        # an intraday and a swing position at the same time.
-        open_by_mode: dict[str, set] = {"intraday": set(), "swing": set()}
-        for p in strat_state["positions"]:
-            m = p.get("mode", "intraday")
-            open_by_mode.setdefault(m, set()).add(p["symbol"])
+        # Track already-open symbols per mode ACROSS ALL strategies so the
+        # same symbol cannot be held by two strategies in the same mode (Phase
+        # 38: prevents cross-strategy duplicates like COALINDIA RSM + Combined).
+        open_by_mode: dict[str, set] = {"intraday": set(), "swing": set(), "daily": set()}
+        for sn in active_strategies:
+            for p in state["strategies"].get(sn, {}).get("positions", []):
+                m = p.get("mode", "intraday")
+                open_by_mode.setdefault(m, set()).add(p["symbol"])
 
         for sym in strat_symbols:
             if strat_state["day_entries"] >= MAX_TRADES_PER_DAY:
@@ -2141,7 +2143,8 @@ def run_cycle(state: dict, symbols: list[str],
                     risk_pct *= dd_scaler
                 risk_pct = min(risk_pct, MAX_RISK_PCT)
                 strat_capital = strategy_capitals.get(strat_name, INITIAL_CAPITAL)
-                notional = position_size_for(decision.entry_price, decision.stop_loss, risk_pct=risk_pct)
+                notional = position_size_for(decision.entry_price, decision.stop_loss, risk_pct=risk_pct,
+                                             capital=strat_capital)
                 if notional <= 0:
                     continue
                 notional = min(notional, strat_state["cash"])

@@ -52,8 +52,8 @@ echo "Starting paper trader..."
 nohup venv/bin/python -u scripts/paper_trade.py \
   --strategies "Relative Strength Momentum,Combined Swing,Manual Institutional (time-gated),ML Standalone,Daily Trend Breakout,ML Opening Breakout" \
   --alloc 18,22,18,14,18,10 \
-  --sl 1.0,2.0,0.5,0.5,4.0,0.5 \
-  --tp 2.5,4.0,5.0,5.0,5.0,5.0 \
+  --sl 2.0,2.0,0.5,0.5,4.0,0.5 \
+  --tp 4.0,4.0,5.0,5.0,5.0,5.0 \
   --mode both \
   --ml-filter --ml-filter-thr 0.60 \
   --upstox $REAL_FLAG $RESET_FLAG --loop --interval 5 \
