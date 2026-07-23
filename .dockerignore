@@ -18,3 +18,5 @@ data/trade_state.json
 data/pending_orders.jsonl
 data/*.log
 data/*.bak
+data/*.parquet
+data/exports/

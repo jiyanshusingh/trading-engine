@@ -1,2 +1,0 @@
-{"_wal_id": "AEGISLOG:LONG:20260717100444", "side": "ENTRY", "symbol": "AEGISLOG", "direction": "LONG", "strategy": "Relative Strength Momentum", "mode": "swing", "instrument_key": "NSE_EQ|INE208C01025", "requested_qty": 12, "entry_price": 1311.0, "stop_loss": 1290.21, "take_profit": 1344.26, "score": 72, "_wal_ts": "2026-07-17T10:04:57.419236+05:30", "_wal_status": "placed"}
-{"_wal_id": "AEGISLOG:LONG:20260717100444", "_wal_status": "resolved", "_wal_ts": "2026-07-17T10:04:57.606916+05:30"}
