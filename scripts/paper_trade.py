@@ -84,6 +84,7 @@ from scripts.live_institutional_scan import (
 )
 from scripts.live_scanner import classify_today_day_type
 from scripts.ml_filter_gate import passes_ml_filter
+from utils.telegram_notifier import format_signal_alert, send_telegram
 
 # ── Capital model ──
 # Pulled from scripts/capital_model (shared with the backtest engine) so the
@@ -126,6 +127,44 @@ ML_FILTER = False       # set True via --ml-filter: gate entries on P(net-positi
 ML_FILTER_THR = 0.65    # global filter threshold (val-max-net, OOS +₹108,598); --ml-filter-thr
 COOLDOWNS: dict[tuple[str, str, str], float] = {}  # (symbol, direction, strategy) -> expiry epoch; set after a stop-loss exit
 LAST_ENTRY_BAR: dict[tuple[str, str, str], str] = {}  # (symbol, direction, strategy) -> last_ts string; dedup same-bar re-entries
+
+# ── Telegram notification helpers ─────────────────────────────────────
+
+def _notify_entry(pos: dict, strat_name: str):
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        return
+    try:
+        msg = format_signal_alert(
+            symbol=pos["symbol"], name=strat_name,
+            timeframe=pos.get("mode", "intraday"),
+            direction=pos["direction"], entry=pos["entry_price"],
+            stop=pos.get("stop_loss"), target=pos.get("take_profit"),
+            rr=None, regime=""
+        )
+        send_telegram(msg, token, chat_id)
+    except Exception:
+        pass
+
+def _notify_exit(fill: dict):
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        return
+    try:
+        dir_emoji = "🟢" if fill["pnl"] >= 0 else "🔴"
+        msg = (
+            f"{dir_emoji} <b>TRADE CLOSED</b>\n"
+            f"<b>{fill['symbol']}</b> ({fill['strategy']})\n"
+            f"{'📈' if fill['direction']=='LONG' else '📉'} {fill['direction']}\n"
+            f"Entry: ₹{fill['entry_price']:.2f} → Exit: ₹{fill['exit_price']:.2f}\n"
+            f"PnL: <b>₹{fill['pnl']:+.0f}</b> ({fill['reason']})\n"
+            f"Shares: {fill['shares']}"
+        )
+        send_telegram(msg, token, chat_id)
+    except Exception:
+        pass
 
 # Runtime globals for strategy dispatch (set by run_cycle entry loop)
 PAPER_STRATEGY: str = "Institutional Probability"
@@ -1057,6 +1096,7 @@ def _record_exit(state: dict, p: dict, exit_price: float, now, result: str, reas
     record_trade_exit(p["symbol"], direction, round(exit_price, 2),
                       reason, round(net_pnl, 2), now.strftime("%Y-%m-%d %H:%M"),
                       mode=p.get("mode"), strategy=p.get("strategy"))
+    _notify_exit(fill)
     return fill
 
 
@@ -1812,6 +1852,7 @@ def run_cycle(state: dict, symbols: list[str],
                 record_trade_entry(sym, direction, entry_px, entry_shares,
                                    now.strftime("%Y-%m-%d %H:%M"), mode="daily",
                                    strategy=strat_name)
+                _notify_entry(pos, strat_name)
                 print(f"  ENTRY {sym:10s} LONG  @₹{entry_px:.2f}  "
                        f"SL=₹{actual_stop:.2f} trail×{decision.trail_atr_mult:.1f}ATR  "
                       f"shares={entry_shares} (₹{entry_shares*entry_px:,.0f})  "
@@ -1933,6 +1974,7 @@ def run_cycle(state: dict, symbols: list[str],
                 record_trade_entry(sym, direction, entry_px, entry_shares,
                                    now.strftime("%Y-%m-%d %H:%M"), mode="intraday",
                                    strategy=strat_name)
+                _notify_entry(pos, strat_name)
                 print(f"  ENTRY {sym:10s} {direction:5s} @₹{entry_px:.2f}  "
                       f"SL=₹{tc.stop_loss:.2f} TP=₹{tc.take_profit:.2f}  "
                       f"shares={entry_shares} (₹{entry_shares*entry_px:,.0f})  "
@@ -2191,6 +2233,7 @@ def run_cycle(state: dict, symbols: list[str],
                 record_trade_entry(sym, direction, entry_px,
                                    entry_shares, now.strftime("%Y-%m-%d %H:%M"), mode=mode,
                                    strategy=strat_name)
+                _notify_entry(pos, strat_name)
                 LAST_ENTRY_BAR[bar_key] = bar_ts
                 print(f"  ENTRY {sym:10s} {direction:5s} @₹{entry_px:.2f}  "
                       f"SL=₹{decision.stop_loss:.2f} TP=₹{decision.take_profit:.2f}  "
