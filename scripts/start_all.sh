@@ -45,17 +45,17 @@ fi
 RESET_FLAG=""
 if [ "${RESET:-0}" = "1" ]; then
   RESET_FLAG="--reset"
-  echo "  RESET=1 → paper portfolio will be wiped (fresh ₹50k allocations)"
+  echo "  RESET=1 → paper portfolio will be wiped (fresh allocations)"
 fi
 
 echo "Starting paper trader..."
 nohup venv/bin/python -u scripts/paper_trade.py \
   --strategies "Relative Strength Momentum,Combined Swing,Manual Institutional (time-gated),ML Standalone,Daily Trend Breakout,ML Opening Breakout" \
-  --alloc 18,22,18,14,18,10 \
+  --alloc 17,17,17,17,16,16 --strat-capital 100000 \
   --sl 2.0,2.0,0.5,0.5,4.0,0.5 \
   --tp 4.0,4.0,5.0,5.0,5.0,5.0 \
   --mode both \
-  --ml-filter --ml-filter-thr 0.60 \
+  --ml-filter --ml-filter-thr 0.65 \
   --upstox $REAL_FLAG $RESET_FLAG --loop --interval 5 \
   > "$LOG_DIR/paper_trade.log" 2>&1 &
 PAPER_PID=$!

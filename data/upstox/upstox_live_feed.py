@@ -35,6 +35,7 @@ class UpstoxLiveFeed:
     MAX_RECONNECT_ATTEMPTS = 10
     RECONNECT_BASE = 2.0   # seconds; doubled each attempt
     RECONNECT_MAX = 60.0   # cap on backoff
+    RATE_LIMIT_BACKOFF = 60.0  # fixed delay when Upstox returns 429
 
     def __init__(self, access_token: str):
         self._access_token = access_token
@@ -47,6 +48,8 @@ class UpstoxLiveFeed:
         self._instrument_keys: list[str] = []
         self._mode = "full"
         self._on_update: Any = None
+        self._persistent_attempt = 0   # total consecutive failures across cycles
+        self._last_429_time = 0.0      # timestamp of most recent 429 error
 
     # ── Batch ──────────────────────────────────────────────────────────
 
@@ -164,6 +167,10 @@ class UpstoxLiveFeed:
             feeds = data.get("feeds") or {}
             if not feeds:
                 return
+            # First successful data receipt — reset 429/persistent counters.
+            if self._persistent_attempt:
+                self._persistent_attempt = 0
+                self._last_429_time = 0.0
             for key, feed in feeds.items():
                 intervals = self._extract_all_intervals(feed, mode)
                 if intervals:
@@ -173,12 +180,24 @@ class UpstoxLiveFeed:
                         on_update(key, intervals)
 
         def on_error(err: Any) -> None:
-            _log.error("WS error: %s", err)
-            self._schedule_reconnect(0)
+            err_str = str(err)
+            if "429" in err_str:
+                self._last_429_time = time.time()
+                _log.error("WS rate-limited (429) — will back off %.0fs",
+                           self.RATE_LIMIT_BACKOFF)
+            else:
+                _log.error("WS error: %s", err_str)
+            self._schedule_reconnect(self._persistent_attempt)
 
         def on_close(code: Any = None, reason: Any = None) -> None:
-            _log.warning("WS closed (code=%s reason=%s)", code, reason)
-            self._schedule_reconnect(0)
+            reason_str = str(reason or "")
+            if "429" in reason_str:
+                self._last_429_time = time.time()
+                _log.error("WS closed with 429 — will back off %.0fs",
+                           self.RATE_LIMIT_BACKOFF)
+            else:
+                _log.warning("WS closed (code=%s reason=%s)", code, reason)
+            self._schedule_reconnect(self._persistent_attempt)
 
         streamer.on("message", on_message)
         streamer.on("error", on_error)
@@ -201,8 +220,17 @@ class UpstoxLiveFeed:
             _log.error("WS reconnect aborted after %d attempts", attempt)
             return
         self._reconnecting = True
-        wait = min(self.RECONNECT_BASE * (2 ** attempt), self.RECONNECT_MAX)
-        _log.info("WS reconnect attempt %d in %.1fs", attempt + 1, wait)
+        self._persistent_attempt = attempt + 1
+        # If we've been rate-limited recently, use a fixed long delay
+        # regardless of the exponential backoff stage.
+        since_429 = time.time() - self._last_429_time
+        if since_429 < self.RATE_LIMIT_BACKOFF:
+            wait = self.RATE_LIMIT_BACKOFF - since_429
+            _log.info("WS 429 cooldown — reconnecting in %.0fs (attempt %d)",
+                      wait, attempt + 1)
+        else:
+            wait = min(self.RECONNECT_BASE * (2 ** attempt), self.RECONNECT_MAX)
+            _log.info("WS reconnect attempt %d in %.1fs", attempt + 1, wait)
 
         def _do_reconnect() -> None:
             time.sleep(wait)

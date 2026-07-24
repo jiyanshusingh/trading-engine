@@ -1778,8 +1778,10 @@ def run_cycle(state: dict, symbols: list[str],
                 # based distance the strategy computed; only the base price shifts.
                 sl_distance = round(decision.entry_price - decision.stop_loss, 2)
                 actual_stop = round(entry_px - sl_distance, 2)
+                strat_capital = strategy_capitals.get(strat_name, INITIAL_CAPITAL)
                 notional = position_size_for(entry_px, actual_stop,
-                                             risk_pct=risk_pct)
+                                             risk_pct=risk_pct,
+                                             capital=strat_capital)
                 if notional <= 0:
                     continue
                 notional = min(notional, strat_state["cash"])
@@ -1899,7 +1901,10 @@ def run_cycle(state: dict, symbols: list[str],
                 if dd_scaler < 1.0:
                     risk_pct *= dd_scaler
                 risk_pct = min(risk_pct, MAX_RISK_PCT)
-                notional = position_size_for(tc.entry_price, tc.stop_loss, risk_pct=risk_pct)
+                strat_capital = strategy_capitals.get(strat_name, INITIAL_CAPITAL)
+                notional = position_size_for(tc.entry_price, tc.stop_loss,
+                                             risk_pct=risk_pct,
+                                             capital=strat_capital)
                 if notional <= 0:
                     continue
                 notional = min(notional, strat_state["cash"])
@@ -2248,6 +2253,21 @@ def run_cycle(state: dict, symbols: list[str],
     if do_daily_pass:
         # Mark the once-per-day daily pass complete so it doesn't re-run today.
         state["daily_pass_date"] = now_date
+    # Fill in any prices missing from the prices dict (positions not
+    # re-evaluated this cycle). Without this, open positions whose symbol
+    # wasn't scanned contribute zero to equity, making the equity curve
+    # look like a large drawdown even when the portfolio is flat.
+    for sname in active_strategies:
+        for p in state.get("strategies", {}).get(sname, {}).get("positions", []):
+            sym = p["symbol"]
+            if sym in prices:
+                continue
+            if USE_UPSTOX:
+                px = _upstox_live_price(sym)
+                if px is not None:
+                    prices[sym] = px
+                    continue
+            prices[sym] = p["entry_price"]
     equity = _equity(state, prices)
     for sname in active_strategies:
         s_equity = _strategy_equity(state, sname, prices)
@@ -2346,6 +2366,9 @@ def main() -> None:
                     help="Gate entries on the ML universal filter P(net-positive) (Phase 32/33)")
     ap.add_argument("--ml-filter-thr", type=float, default=0.65,
                     help="ML filter threshold (default 0.65 = val-max-net OOS)")
+    ap.add_argument("--strat-capital", type=float, default=None,
+                    help="Per-strategy capital (₹). Overrides alloc-based splitting. "
+                         "E.g. --strat-capital 100000 gives each strategy ₹100k.")
     args = ap.parse_args()
 
     if args.list_watchlists:
@@ -2402,6 +2425,9 @@ def main() -> None:
     strategy_allocs = dict(zip(strat_names, allocs))
     strategy_capitals = {name: round(INITIAL_CAPITAL * allocs[i] / 100.0, 2)
                          for i, name in enumerate(strat_names)}
+    if args.strat_capital is not None:
+        strategy_capitals = {name: round(args.strat_capital, 2) for name in strat_names}
+        print(f"  [strat-capital] overridden: each strategy gets ₹{args.strat_capital:,.0f}")
     strategy_tunings = {}
     for i, name in enumerate(strat_names):
         tuning = {}
