@@ -7,7 +7,7 @@ set -e
 
 ZONE="asia-south1-a"
 VM="trading-engine"
-REMOTE_DIR="/app"
+REMOTE_DIR="/home/jiyanshusingh1/trading-engine"
 
 echo "=== Deploying to GCP: $VM ==="
 echo ""

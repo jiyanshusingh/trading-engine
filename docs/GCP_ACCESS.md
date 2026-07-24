@@ -104,14 +104,14 @@ gcloud auth login
 gcloud config set project project-7b13e461-f96b-4c6f-84e
 
 # 3. SCP changed files to VM and rebuild
-gcloud compute scp scripts/paper_trade.py trading-engine:/app/scripts/paper_trade.py --zone asia-south1-a
-gcloud compute scp scripts/start_all.sh trading-engine:/app/scripts/start_all.sh --zone asia-south1-a
-gcloud compute scp data/upstox/upstox_live_feed.py trading-engine:/app/data/upstox/upstox_live_feed.py --zone asia-south1-a
-gcloud compute scp docker-compose.yml trading-engine:/app/docker-compose.yml --zone asia-south1-a
+gcloud compute scp scripts/paper_trade.py trading-engine:/home/jiyanshusingh1/trading-engine/scripts/paper_trade.py --zone asia-south1-a
+gcloud compute scp scripts/start_all.sh trading-engine:/home/jiyanshusingh1/trading-engine/scripts/start_all.sh --zone asia-south1-a
+gcloud compute scp data/upstox/upstox_live_feed.py trading-engine:/home/jiyanshusingh1/trading-engine/data/upstox/upstox_live_feed.py --zone asia-south1-a
+gcloud compute scp docker-compose.yml trading-engine:/home/jiyanshusingh1/trading-engine/docker-compose.yml --zone asia-south1-a
 
 # 4. SSH, rebuild image, restart containers
 gcloud compute ssh trading-engine --zone asia-south1-a --command "
-  cd /app
+  cd /home/jiyanshusingh1/trading-engine
   sudo docker compose down --timeout 30
   sudo docker compose build
   sudo docker compose up -d
