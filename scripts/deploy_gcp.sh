@@ -37,21 +37,24 @@ echo ""
 gcloud compute ssh "$VM" --zone "$ZONE" $IAP --command "
   set -e
   for f in paper_trade.py market_scan.py upstox_live_feed.py deploy_gcp.sh; do
-    sudo cp /tmp/\$f $REMOTE_DIR/scripts/\$f 2>/dev/null && echo \"  Moved scripts/\$f\" \
-      || sudo cp /tmp/\$f $REMOTE_DIR/data/upstox/\$f 2>/dev/null && echo \"  Moved data/upstox/\$f\" \
-      || sudo cp /tmp/\$f $REMOTE_DIR/\$f 2>/dev/null && echo \"  Moved \$f\" \
-      || echo \"  WARN: could not find destination for \$f\"
+    if sudo cp /tmp/\$f $REMOTE_DIR/scripts/\$f 2>/dev/null; then
+      echo \"  Moved scripts/\$f\"
+    elif sudo cp /tmp/\$f $REMOTE_DIR/data/upstox/\$f 2>/dev/null; then
+      echo \"  Moved data/upstox/\$f\"
+    elif sudo cp /tmp/\$f $REMOTE_DIR/\$f 2>/dev/null; then
+      echo \"  Moved root/\$f\"
+    else
+      echo \"  WARN: could not find destination for \$f\"
+    fi
   done
   sudo chown -R jiyanshusingh1:jiyanshusingh1 $REMOTE_DIR/scripts/ $REMOTE_DIR/data/upstox/ 2>/dev/null || true
-  cd $REMOTE_DIR
-  echo ''
-  echo '  Stopping containers...'
-  sudo docker compose down --timeout 30 2>/dev/null || true
-  echo '  Rebuilding image...'
-  sudo docker compose build
-  echo '  Starting containers...'
-  sudo docker compose up -d
-  echo '  Done.'
+  sudo bash -c \"cd $REMOTE_DIR && echo '  Stopping containers...' && \
+    docker compose down --timeout 30 2>/dev/null || true && \
+    echo '  Rebuilding image...' && \
+    docker compose build && \
+    echo '  Starting containers...' && \
+    docker compose up -d && \
+    echo '  Done.'\"
 "
 
 echo ""
