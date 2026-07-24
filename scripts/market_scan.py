@@ -44,6 +44,7 @@ _sys.path.insert(0, ".")
 # force_short), so this does not leak SHORT into LONG-only runs.
 os.environ.setdefault("INST_SHORT_MIN_SCORE", "40")
 
+import atexit
 import http.server
 import pandas as pd
 
@@ -464,6 +465,52 @@ _server_start = time.time()
 _daily_scan_date: str = ""
 _daily_scan_lock = threading.Lock()
 
+# Persistent WebSocket feed for live prices (started once, read by _fetch_live_prices
+# instead of opening a new batch WS connection per ticker cycle).
+_WS_FEED: Any = None
+_WS_MAX_SYMBOLS = int(os.environ.get("INST_WS_MAX_SYMBOLS", "9999"))
+
+
+def _start_ws_feed() -> None:
+    """Start a persistent WebSocket feed for the scanner.
+
+    Subscribes all symbols across every SCAN_TIERS watchlist plus NSEI, BANKNIFTY,
+    and INDIAVIX so the dashboard price ticker reads from the buffer in real-time.
+    """
+    global _WS_FEED
+    from config.daemon_config import UPSTOX
+    from data.upstox.upstox_live_feed import UpstoxLiveFeed
+    token = UPSTOX.get("access_token", "")
+    if not token:
+        _log.warning("ws-feed: no Upstox token — persistent WS disabled")
+        return
+    try:
+        data = _load_watchlists()
+    except SystemExit:
+        _log.warning("ws-feed: no watchlists — persistent WS disabled")
+        return
+    syms: set[str] = {"^NSEI", "^NSEBANK", "^INDIAVIX"}
+    for _, wl_key, _, _ in SCAN_TIERS:
+        syms.update(data.get(wl_key, []))
+    keys: list[str] = []
+    for sym in sorted(syms):
+        k = _pt._instrument_key_for(sym)
+        if k:
+            keys.append(k)
+    if len(keys) > _WS_MAX_SYMBOLS:
+        _log.info("ws-feed: %d symbols exceeds cap of %d; subscribing first %d",
+                  len(keys), _WS_MAX_SYMBOLS, _WS_MAX_SYMBOLS)
+        keys = keys[:_WS_MAX_SYMBOLS]
+    if not keys:
+        return
+    try:
+        feed = UpstoxLiveFeed(access_token=token)
+        feed.start(keys, mode="full")
+        _WS_FEED = feed
+        _log.info("ws-feed: persistent stream started (%d keys, mode=full)", len(keys))
+    except Exception as e:
+        _log.warning("ws-feed: could not start persistent stream: %s", e)
+
 
 def _get_lan_ip() -> str:
     """Get the primary LAN IP address."""
@@ -690,36 +737,48 @@ def _yf_live_price(symbol: str) -> float | None:
 
 
 def _fetch_live_prices(symbols: list[str], upstox: bool) -> dict[str, float]:
-    """Fetch live prices for a list of symbols; returns {symbol: price}."""
+    """Fetch live prices for a list of symbols; returns {symbol: price}.
+
+    With ``--upstox`` reads from the persistent WS stream buffer first
+    (real-time, zero connect overhead), then falls back to a one-shot
+    batch WS call for any symbol not yet in the buffer.
+    """
     result: dict[str, float] = {}
     if not symbols:
         return result
     if upstox:
-        from config.daemon_config import UPSTOX
-        token = UPSTOX.get("access_token", "")
-        if not token:
-            return result
-        try:
-            keys: list[tuple[str, str]] = []  # (symbol, instrument_key)
-            for sym in symbols:
-                k = _pt._instrument_key_for(sym)
-                if k:
-                    keys.append((sym, k))
-            if keys:
-                from data.upstox.upstox_live_feed import UpstoxLiveFeed
-                feed = UpstoxLiveFeed(access_token=token)
-                batch = feed.get_live_batch(
-                    [k for _, k in keys], mode="full", timeout=10
-                )
-                for sym, key in keys:
-                    item = batch.get(key)
-                    close = None
-                    if item:
-                        close = item.get("close")
-                    if close:
-                        result[sym] = round(float(close), 2)
-        except Exception as e:
-            _log.warning("price_ticker WS failed: %s", e)
+        missing: list[tuple[str, str]] = []  # (symbol, instrument_key)
+        for sym in symbols:
+            k = _pt._instrument_key_for(sym)
+            if not k:
+                continue
+            if _WS_FEED is not None:
+                try:
+                    px = _WS_FEED.get_latest_price(k)
+                    if px and px.get("close"):
+                        result[sym] = round(float(px["close"]), 2)
+                        continue
+                except Exception:
+                    pass
+            missing.append((sym, k))
+        # Fallback: one-shot batch WS for symbols not in the persistent stream
+        if missing:
+            from config.daemon_config import UPSTOX
+            token = UPSTOX.get("access_token", "")
+            if token:
+                try:
+                    from data.upstox.upstox_live_feed import UpstoxLiveFeed
+                    feed = UpstoxLiveFeed(access_token=token)
+                    batch = feed.get_live_batch(
+                        [k for _, k in missing], mode="full", timeout=10
+                    )
+                    for sym, key in missing:
+                        item = batch.get(key)
+                        close = item.get("close") if item else None
+                        if close:
+                            result[sym] = round(float(close), 2)
+                except Exception as e:
+                    _log.warning("price_ticker WS fallback failed: %s", e)
     else:
         for sym in symbols:
             try:
@@ -1056,6 +1115,20 @@ def main() -> None:
     # configure data source for the shared fetchers
     _pt.USE_UPSTOX = args.upstox
     source = "upstox" if args.upstox else "yfinance"
+
+    # Start persistent WebSocket feed for live price streaming (dashboard ticker).
+    if args.upstox:
+        _start_ws_feed()
+
+    def _ws_cleanup():
+        global _WS_FEED
+        if _WS_FEED is not None:
+            try:
+                _WS_FEED.stop()
+                _log.info("ws-feed: persistent stream stopped")
+            except Exception:
+                pass
+    atexit.register(_ws_cleanup)
 
     if args.serve:
         # Seed initial context immediately so dashboard shows data on first load

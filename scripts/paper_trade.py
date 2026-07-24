@@ -125,6 +125,8 @@ SWING_EXIT_MODE = "next_close"  # "next_open" or "next_close"
 SWING_ALLOW_SHORTS = False  # set True via --swing-shorts
 ML_FILTER = False       # set True via --ml-filter: gate entries on P(net-positive) (Phase 32/33)
 ML_FILTER_THR = 0.65    # global filter threshold (val-max-net, OOS +₹108,598); --ml-filter-thr
+_WS_FEED: Any = None     # persistent WebSocket feed (UpstoxLiveFeed), started once, read by _upstox_live_price
+_WS_MAX_SYMBOLS = int(os.environ.get("INST_WS_MAX_SYMBOLS", "9999"))  # cap on symbols in persistent WS
 COOLDOWNS: dict[tuple[str, str, str], float] = {}  # (symbol, direction, strategy) -> expiry epoch; set after a stop-loss exit
 LAST_ENTRY_BAR: dict[tuple[str, str, str], str] = {}  # (symbol, direction, strategy) -> last_ts string; dedup same-bar re-entries
 
@@ -322,8 +324,52 @@ def _upstox_live(symbol: str, timeframe: str):
         return None
 
 
+def _start_ws_feed(symbols: list[str]) -> None:
+    """Start a persistent WebSocket feed subscribing the given symbols.
+
+    Wires ``_WS_FEED`` so ``_upstox_live_price`` reads from the streaming
+    buffer instead of opening a new batch WS connection per call. If the
+    symbol count exceeds INST_WS_MAX_SYMBOLS (default 200), only the first
+    N are subscribed; the rest fall back to batch.
+    """
+    global _WS_FEED
+    from config.daemon_config import UPSTOX
+    from data.upstox.upstox_live_feed import UpstoxLiveFeed
+    token = UPSTOX.get("access_token", "")
+    if not token:
+        print("  [ws-feed] WARN no Upstox token — persistent WS disabled")
+        return
+    keys: list[str] = []
+    for sym in symbols:
+        k = _instrument_key_for(sym)
+        if k:
+            keys.append(k)
+    if len(keys) > _WS_MAX_SYMBOLS:
+        print(f"  [ws-feed] {len(keys)} symbols exceeds cap of {_WS_MAX_SYMBOLS}; "
+              f"subscribing first {_WS_MAX_SYMBOLS}")
+        keys = keys[:_WS_MAX_SYMBOLS]
+    if not keys:
+        return
+    try:
+        feed = UpstoxLiveFeed(access_token=token)
+        feed.start(keys, mode="full")
+        _WS_FEED = feed
+        print(f"  [ws-feed] persistent stream started ({len(keys)} keys, mode=full)")
+    except Exception as e:
+        print(f"  [ws-feed] WARN could not start persistent stream: {e}")
+
+
 def _upstox_live_price(symbol: str):
-    """Latest tradable price for a held stock via Upstox WebSocket batch."""
+    """Latest tradable price via persistent WS stream, falling back to batch."""
+    if _WS_FEED is not None:
+        key = _instrument_key_for(symbol)
+        if key:
+            try:
+                px = _WS_FEED.get_latest_price(key)
+                if px and px.get("close"):
+                    return float(px["close"])
+            except Exception:
+                pass
     from data.downloader.data_registry import get_live_price
     try:
         px = get_live_price(symbol)
@@ -2528,9 +2574,17 @@ def main() -> None:
         reconcile_state_with_broker(state)
         _save_state(state)
 
+    # Start persistent WebSocket feed for live price streaming.
+    # Subscribes the full symbol universe so every live price check reads
+    # from the buffer instead of a new batch WS connection per call.
+    if USE_UPSTOX and symbols:
+        _start_ws_feed(symbols)
+
     if not args.loop:
         state = run_cycle(state, symbols, strategy_symbols)
         _save_state(state)
+        if _WS_FEED is not None:
+            _WS_FEED.stop()
         return
 
     print(f"  Paper-trading loop started (interval={args.interval}m, "
@@ -2567,6 +2621,11 @@ def main() -> None:
     except KeyboardInterrupt:
         print("\n  [stop] loop interrupted; state saved.")
         _save_state(state)
+
+    finally:
+        if _WS_FEED is not None:
+            _WS_FEED.stop()
+            print("  [ws-feed] persistent stream stopped")
 
 
 if __name__ == "__main__":

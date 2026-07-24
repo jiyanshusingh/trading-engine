@@ -6,10 +6,19 @@
 
 ---
 
-## SSH into the VM
+## Auth (one-time on a new machine)
 
 ```bash
-gcloud compute ssh trading-engine --zone asia-south1-a
+gcloud auth login
+gcloud config set project project-7b13e461-f96b-4c6f-84e
+```
+
+## SSH into the VM
+
+Direct SSH (port 22) is blocked by firewall from outside GCP. Use **IAP tunnel**:
+
+```bash
+gcloud compute ssh trading-engine --zone asia-south1-a --tunnel-through-iap
 ```
 
 ## List running containers
@@ -18,32 +27,32 @@ gcloud compute ssh trading-engine --zone asia-south1-a
 sudo docker ps
 ```
 
-| Container ID   | Image               | Service                              |
-|----------------|---------------------|--------------------------------------|
-| `e27b1eb51c0f` | `trading-engine:latest` | `trading-engine-paper-trader-1`  |
-| `ec769eeba4c8` | `trading-engine:latest` | scanner (market_scan.py --serve) |
-| `a53c6e04a56c` | `trading-engine:latest` | refresher (refresh_data_cache.py) |
+| Container Name                        | Image               | Service                              |
+|---------------------------------------|---------------------|--------------------------------------|
+| `trading-engine-paper-trader-1`       | `trading-engine:latest` | paper trader (paper_trade.py)    |
+| `trading-engine-scanner-1`            | `trading-engine:latest` | scanner (market_scan.py --serve) |
+| `trading-engine-refresher-1`          | `trading-engine:latest` | refresher (refresh_data_cache.py) |
 
 ## Common tasks
 
 ### Read the paper portfolio state
 
 ```bash
-sudo docker exec e27b1eb51c0f cat /app/data/paper_portfolio.json
+sudo docker exec trading-engine-paper-trader-1 cat /app/data/paper_portfolio.json
 ```
 
 ### View container logs (last 100 lines)
 
 ```bash
-sudo docker logs e27b1eb51c0f --tail 100
-sudo docker logs ec769eeba4c8 --tail 100
-sudo docker logs a53c6e04a56c --tail 100
+sudo docker logs trading-engine-paper-trader-1 --tail 100
+sudo docker logs trading-engine-scanner-1 --tail 100
+sudo docker logs trading-engine-refresher-1 --tail 100
 ```
 
 ### List files in the shared data volume
 
 ```bash
-sudo docker exec e27b1eb51c0f ls /app/data/
+sudo docker exec trading-engine-paper-trader-1 ls /app/data/
 ```
 
 The `trading_data` volume is mounted at `/app/data` in all containers.
@@ -52,44 +61,45 @@ The `trading_data` volume is mounted at `/app/data` in all containers.
 
 Inside a container:
 ```bash
-sudo docker exec e27b1eb51c0f ps aux
-```
-
-On the host:
-```bash
-ps aux | grep paper_trade
+sudo docker exec trading-engine-paper-trader-1 sh -c 'ps aux'
 ```
 
 ### Restart a service
 
 ```bash
-cd /app && sudo docker compose restart trading-engine-paper-trader-1
-cd /app && sudo docker compose restart scanner
-cd /app && sudo docker compose restart refresher
+sudo docker compose restart trading-engine-paper-trader-1
+sudo docker compose restart scanner
+sudo docker compose restart refresher
 ```
 
 ### Check how a container was started (flags / Cmd)
 
 ```bash
-sudo docker inspect e27b1eb51c0f | jq '.[0].Config.Cmd'
+sudo docker inspect trading-engine-paper-trader-1 --format='{{.Config.Cmd}}'
 ```
 
-### Quick trade check (one-liner)
+### Quick trade check (per-strategy cash + recent trades)
 
 ```bash
-sudo docker exec e27b1eb51c0f python3 -c "
+sudo docker exec trading-engine-paper-trader-1 python3 -c "
 import json
 d = json.load(open('/app/data/paper_portfolio.json'))
-print(json.dumps(d, indent=2))
+for k, v in d.get('strategies', {}).items():
+    print(f'  {k:35s} cash=₹{v.get(\"cash\",0):>8,.0f}  entries={v.get(\"day_entries\",0)}')
+trades = d.get('trades', [])
+print(f'  Total trades: {len(trades)}  Last 5:')
+for t in trades[-5:]:
+    print(f'    {t.get(\"ts\",\"\")}  {t.get(\"symbol\",\"\"):12s}  {t.get(\"side\",\"\"):6s}  PnL={t.get(\"pnl_net\",0):>+8,.0f}')
+print(f'  Equity: {d.get(\"equity\",[])}')
 "
 ```
 
 ### View all three logs simultaneously
 
 ```bash
-sudo docker logs e27b1eb51c0f --tail 50
-sudo docker logs ec769eeba4c8 --tail 50
-sudo docker logs a53c6e04a56c --tail 50
+sudo docker logs trading-engine-paper-trader-1 --tail 50
+sudo docker logs trading-engine-scanner-1 --tail 50
+sudo docker logs trading-engine-refresher-1 --tail 50
 ```
 
 ## Deploy changes to GCP
@@ -97,20 +107,23 @@ sudo docker logs a53c6e04a56c --tail 50
 After modifying source files locally, deploy to GCP with:
 
 ```bash
-# 1. Authenticate (one-time, opens browser)
-gcloud auth login
+# 1. SCP changed files to VM (use --tunnel-through-iap — port 22 is blocked)
+#    The remote directory is owned by jiyanshusingh1, so scp to /tmp then sudo mv:
+gcloud compute scp scripts/paper_trade.py trading-engine:/tmp/paper_trade.py --zone asia-south1-a --tunnel-through-iap
+gcloud compute scp scripts/start_all.sh trading-engine:/tmp/start_all.sh --zone asia-south1-a --tunnel-through-iap
+gcloud compute scp docker-compose.yml trading-engine:/tmp/docker-compose.yml --zone asia-south1-a --tunnel-through-iap
 
-# 2. Set project (one-time)
-gcloud config set project project-7b13e461-f96b-4c6f-84e
+gcloud compute ssh trading-engine --zone asia-south1-a --tunnel-through-iap --command "
+  sudo cp /tmp/paper_trade.py /home/jiyanshusingh1/trading-engine/scripts/paper_trade.py
+  sudo cp /tmp/start_all.sh /home/jiyanshusingh1/trading-engine/scripts/start_all.sh
+  sudo cp /tmp/docker-compose.yml /home/jiyanshusingh1/trading-engine/docker-compose.yml
+  sudo chown jiyanshusingh1:jiyanshusingh1 /home/jiyanshusingh1/trading-engine/scripts/paper_trade.py
+  sudo chown jiyanshusingh1:jiyanshusingh1 /home/jiyanshusingh1/trading-engine/scripts/start_all.sh
+  sudo chown jiyanshusingh1:jiyanshusingh1 /home/jiyanshusingh1/trading-engine/docker-compose.yml
+"
 
-# 3. SCP changed files to VM and rebuild
-gcloud compute scp scripts/paper_trade.py trading-engine:/home/jiyanshusingh1/trading-engine/scripts/paper_trade.py --zone asia-south1-a
-gcloud compute scp scripts/start_all.sh trading-engine:/home/jiyanshusingh1/trading-engine/scripts/start_all.sh --zone asia-south1-a
-gcloud compute scp data/upstox/upstox_live_feed.py trading-engine:/home/jiyanshusingh1/trading-engine/data/upstox/upstox_live_feed.py --zone asia-south1-a
-gcloud compute scp docker-compose.yml trading-engine:/home/jiyanshusingh1/trading-engine/docker-compose.yml --zone asia-south1-a
-
-# 4. SSH, rebuild image, restart containers
-gcloud compute ssh trading-engine --zone asia-south1-a --command "
+# 2. SSH, rebuild image, restart containers
+gcloud compute ssh trading-engine --zone asia-south1-a --tunnel-through-iap --command "
   cd /home/jiyanshusingh1/trading-engine
   sudo docker compose down --timeout 30
   sudo docker compose build
@@ -121,6 +134,18 @@ gcloud compute ssh trading-engine --zone asia-south1-a --command "
 Or use the automated script:
 ```bash
 bash scripts/deploy_gcp.sh
+```
+
+## .env file
+
+The `.env` file is in `.gitignore` and must be deployed separately. It needs the IAP tunnel too:
+
+```bash
+gcloud compute scp .env trading-engine:/tmp/.env --zone asia-south1-a --tunnel-through-iap
+gcloud compute ssh trading-engine --zone asia-south1-a --tunnel-through-iap --command "
+  sudo cp /tmp/.env /home/jiyanshusingh1/trading-engine/.env
+  sudo chown jiyanshusingh1:jiyanshusingh1 /home/jiyanshusingh1/trading-engine/.env
+"
 ```
 
 ## Volume

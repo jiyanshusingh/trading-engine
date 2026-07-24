@@ -284,6 +284,28 @@ class UpstoxLiveFeed:
         ohlc_list = market_ohlc.get("ohlc") or []
         return {o["interval"]: o for o in ohlc_list}
 
+    def get_latest_price(self, instrument_key: str) -> dict | None:
+        """Return the latest OHLC snapshot for a key from the streaming buffer.
+
+        Returns ``{ltp, open, high, low, close, volume}`` or *None* if the
+        key has no data yet (stream not connected / key not subscribed).
+        Only available after ``start()`` has been called.
+        """
+        intervals = self.get_latest(instrument_key)
+        if not intervals:
+            return None
+        daily = intervals.get("1d") or next(iter(intervals.values()))
+        if not daily:
+            return None
+        return {
+            "ltp": float(daily.get("close", 0)),
+            "open": float(daily.get("open", 0)),
+            "high": float(daily.get("high", 0)),
+            "low": float(daily.get("low", 0)),
+            "close": float(daily.get("close", 0)),
+            "volume": int(daily.get("vol", 0)),
+        }
+
     # ── Today candle fetch ────────────────────────────────────────────
 
     def fetch_today_data(
@@ -326,27 +348,4 @@ class UpstoxLiveFeed:
             _log.debug("fetch_today_data failed for %s: %s", instrument_key, e)
             return None
 
-    # ── Live price fetch ──────────────────────────────────────────────
 
-    def fetch_live_price(
-        self,
-        instrument_key: str,
-    ) -> dict | None:
-        """
-        Connect → get LTPC → disconnect.  Returns
-        ``{ltp, ltt, ltq, cp}`` or *None*.
-        """
-        try:
-            batch = self.get_live_batch([instrument_key], mode="ltpc", timeout=10)
-            feed = batch.get(instrument_key)
-            if feed:
-                return {
-                    "ltp": float(feed.get("ltp", 0)),
-                    "ltt": int(feed.get("ltt", 0)),
-                    "ltq": int(feed.get("ltq", 0)),
-                    "cp": float(feed.get("cp", 0)),
-                }
-            return None
-        except Exception as e:
-            _log.debug("fetch_live_price failed for %s: %s", instrument_key, e)
-            return None
